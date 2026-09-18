@@ -1,0 +1,17 @@
+name: Mesquite
+slug: mesquite
+version_used: '3.10'
+edam_topics: []
+evidence_spans:
+- These primers were aligned against the Drosophila yakuba CO1 region obtained from Gen Bank accession X03240 using Mesquite v 3.10
+derived_from:
+- doi: 10.1038/s41598-018-22505-4
+  title: Automated high throughput animal CO1 metabarcode classification
+source_repos:
+- https://github.com/terrimporter/CO1Classifier
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/terrimporter/CO1Classifier

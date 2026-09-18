@@ -1,0 +1,25 @@
+name: Silva
+slug: silva
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Two versions of Silva are included in PEMA: 128 (29 September 2016) and 132 (13 December 2017)'
+- 'The SILVA ribosomal RNA gene database project: improved data processing and web-based tools'
+- 'The SILVA ribosomal RNA gene database project: Improved data processing and web-based tools'
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+- doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/vsbuffalo/scythe
+- https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

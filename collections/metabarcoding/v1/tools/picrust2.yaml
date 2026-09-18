@@ -1,0 +1,19 @@
+name: PICRUSt2
+slug: picrust2
+version_used: null
+edam_topics: []
+evidence_spans:
+- picrust/picrust2
+- The newly developed PICRUSt2 software package (https://github.com/picrust/picrust2) can directly predict metagenomic functions
+derived_from:
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+source_repos:
+- https://github.com/picrust/picrust2
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/picrust/picrust2

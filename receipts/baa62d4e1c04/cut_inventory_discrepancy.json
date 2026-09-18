@@ -1,0 +1,11 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "caller_stated_outputs": 958,
+  "observed_outputs": 954,
+  "observed_members": 958,
+  "existing_semantic_auto_outputs": 4,
+  "new_merges_applied": 0,
+  "explanation": "The touched cut has 950 single outputs and four two-member semantic_auto outputs. The collector preserves every existing output ID; 958 is the source-member count."
+}

@@ -1,0 +1,42 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "status": "passed",
+  "exit_code": 0,
+  "assertions": 24924,
+  "errors": [],
+  "counts": {
+    "skills": 954,
+    "tools": 203,
+    "exact_tool_links": 3821
+  },
+  "triage": {
+    "total": 954,
+    "triage_counts": {
+      "promoted": 653,
+      "critique": 265,
+      "validation_error": 28,
+      "thin": 8
+    },
+    "would_withhold": 151
+  },
+  "gates": {
+    "gate_report.json": {
+      "release_verified": true,
+      "exit_code": 0,
+      "overall_status": "pass"
+    },
+    "gate_report.patched_regex.json": {
+      "release_verified": true,
+      "exit_code": 0,
+      "overall_status": "pass"
+    }
+  },
+  "capped_dois": 2,
+  "leaf_evidence_spans": 3058,
+  "capped_characters_by_doi": {
+    "10.1016/j.csbj.2023.01.034": 1495,
+    "10.1093/bioinformatics/bty560": 1370
+  }
+}

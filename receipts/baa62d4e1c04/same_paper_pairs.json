@@ -1,0 +1,3903 @@
+{
+  "auto_merges_applied": false,
+  "component_details": {
+    "ge_0_90": {
+      "bundles_in_a_pair": 183,
+      "components": 65,
+      "largest_component": 11,
+      "pairs": 140,
+      "runs_with_a_pair": 26,
+      "surplus_leaves": 118
+    },
+    "ge_0_95": {
+      "bundles_in_a_pair": 12,
+      "components": 6,
+      "largest_component": 2,
+      "pairs": 6,
+      "runs_with_a_pair": 5,
+      "surplus_leaves": 6
+    }
+  },
+  "components_ge_0_90": 65,
+  "components_ge_0_95": 6,
+  "embedding_diagnostics": {
+    "attempts": [
+      {
+        "model": "BAAI/bge-small-en-v1.5",
+        "status": "ok",
+        "tier": "local"
+      }
+    ],
+    "local_fallback": "BAAI/bge-small-en-v1.5",
+    "model_used": "BAAI/bge-small-en-v1.5",
+    "requested_model": "bge-small-en-v1.5"
+  },
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "input_digests": {
+    "algorithm": "sha256",
+    "candidate_manifest_fields": [
+      "source_bundle",
+      "member_id",
+      "skill_md_sha256",
+      "tools_json_sha256"
+    ],
+    "candidate_manifest_rows": 958,
+    "candidate_manifest_sha256": "33c1957d2d1806e0d0aa1480fde18064cadbb66b2770483804383f9857030d72",
+    "consolidation_report_sha256": "5c2311dd5c3aeaab6805cc1d2910b51d891e8f4cffba2f021872952ec63dc6f4",
+    "coverage_summary_sha256": "baa62d4e1c0498c654537ee555ff68d723c4db5e3c084d1b73d41eef65735806"
+  },
+  "layout": "multi_run",
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "member_ids": {
+        "a": "edeab1164e006387",
+        "b": "752b7b454ac16409"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.94991189,
+      "slugs": {
+        "a": "rrna-amplicon-taxonomic-classification",
+        "b": "rrna-read-taxonomic-mapping"
+      },
+      "tools": {
+        "a": [
+          "MAPseq",
+          "autoconf",
+          "GNU make",
+          "gcc"
+        ],
+        "b": [
+          "MAPseq",
+          "autoconf",
+          "GNU make"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f8b1e82eccff9c18",
+        "b": "b666171efc5eb289"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.94859847,
+      "slugs": {
+        "a": "structural-zero-detection",
+        "b": "structural-zero-masking"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "ANCOM-BC",
+          "dplyr",
+          "nloptr"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "fa357066f82e6670",
+        "b": "d1cbdc14da618213"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.94745061,
+      "slugs": {
+        "a": "alignment-identity-distribution-analysis",
+        "b": "alignment-identity-estimation"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps"
+        ],
+        "b": [
+          "MetaMaps",
+          "MashMap"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "cab0bb07ebe0d1f5",
+        "b": "408de92d0b5fb7ef"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.94603859,
+      "slugs": {
+        "a": "minimizer-based-approximate-mapping",
+        "b": "minimizer-index-construction"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "MashMap"
+        ],
+        "b": [
+          "MetaMaps",
+          "MashMap"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9c4b2d65fed827fb",
+        "b": "e243764d40fb61f0"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.9455671,
+      "slugs": {
+        "a": "precision-recall-f1-benchmark-scoring",
+        "b": "precision-recall-metric-computation"
+      },
+      "tools": {
+        "a": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CREST LCAClassifier"
+        ],
+        "b": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CREST LCAClassifier"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9201e87fc135787a",
+        "b": "a29ee5a29f729e68"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.9447798,
+      "slugs": {
+        "a": "post-clustering-curation-comparison",
+        "b": "post-clustering-otu-table-curation"
+      },
+      "tools": {
+        "a": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ],
+        "b": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "408de92d0b5fb7ef",
+        "b": "2f210a04bda3ac54"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.94334287,
+      "slugs": {
+        "a": "minimizer-index-construction",
+        "b": "reference-database-minimizer-scoring"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "MashMap"
+        ],
+        "b": [
+          "MetaMaps",
+          "MashMap"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "37d37f0f04ff4922",
+        "b": "056f6e9f1d7a0ff3"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.94195874,
+      "slugs": {
+        "a": "amplicon-primer-sequence-trimming",
+        "b": "amplicon-sequence-dereplication"
+      },
+      "tools": {
+        "a": [
+          "EasyAmplicon"
+        ],
+        "b": [
+          "EasyAmplicon"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "bb74b7e41127b7d1",
+        "b": "d9eda3769c293491"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq",
+      "score": 0.93974778,
+      "slugs": {
+        "a": "fastq-duplication-rate-evaluation",
+        "b": "fastqc-duplication-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "fastp",
+          "Python"
+        ],
+        "b": [
+          "fastp",
+          "FASTQC",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "11881294d803522e",
+        "b": "827287d7b465d3b0"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_communal_catalogue_reveals_earth_s_multiscale_microbial_diversity_cq",
+      "score": 0.9392299,
+      "slugs": {
+        "a": "biom-table-merging-across-studies",
+        "b": "biom-table-metadata-merging"
+      },
+      "tools": {
+        "a": [
+          "QIIME1",
+          "QIIME2",
+          "Python"
+        ],
+        "b": [
+          "Python",
+          "Pandas",
+          "QIIME1"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "24721bc7b141d5c1",
+        "b": "15408ecb2f289928"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.93877065,
+      "slugs": {
+        "a": "species-level-classification-accuracy-evaluation",
+        "b": "species-level-error-rate-evaluation"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e9c5d9b32f261eac",
+        "b": "ca0b8723f8027f54"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.93795666,
+      "slugs": {
+        "a": "naive-bayes-taxonomic-classification",
+        "b": "taxonomic-classification-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0ade4e94a43a7457",
+        "b": "cbc5ed23846e51fb"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.93793552,
+      "slugs": {
+        "a": "amplicon-alpha-diversity-metric-computation",
+        "b": "beta-diversity-computation"
+      },
+      "tools": {
+        "a": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ],
+        "b": [
+          "LULU",
+          "R",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f822397beb9442e4",
+        "b": "f92e8ad0ebe77d45"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.93672501,
+      "slugs": {
+        "a": "metagenomic-marker-consensus-sequencing",
+        "b": "metagenomic-marker-database-construction"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4",
+          "StrainPhlAn",
+          "MetaPhlAn"
+        ],
+        "b": [
+          "MetaPhlAn 4"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1955ca55cb1c7fec",
+        "b": "39fc063d0a6cd9df"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.93666547,
+      "slugs": {
+        "a": "alpha-diversity-deviation-analysis",
+        "b": "alpha-diversity-index-computation"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ],
+        "b": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2",
+          "vegan"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "827287d7b465d3b0",
+        "b": "d0419ba4cc7a7848"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_communal_catalogue_reveals_earth_s_multiscale_microbial_diversity_cq",
+      "score": 0.93558205,
+      "slugs": {
+        "a": "biom-table-metadata-merging",
+        "b": "biom-table-processing"
+      },
+      "tools": {
+        "a": [
+          "Python",
+          "Pandas",
+          "QIIME1"
+        ],
+        "b": [
+          "Python",
+          "Pandas",
+          "QIIME1"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "99cd78705ea17b79",
+        "b": "52a01826584075cb"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.93346886,
+      "slugs": {
+        "a": "maximum-likelihood-read-assignment",
+        "b": "read-assignment-accuracy-evaluation"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps"
+        ],
+        "b": [
+          "MetaMaps"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1a09f5b54cd53e13",
+        "b": "5fa4d3e2e742dc6f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.93313766,
+      "slugs": {
+        "a": "interactive-qiime2-visualization-inspection",
+        "b": "qiime2-artifact-visualization-interpretation"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer",
+          "Python"
+        ],
+        "b": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "13ad13a8fd7ecbaf",
+        "b": "5fa4d3e2e742dc6f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.93298352,
+      "slugs": {
+        "a": "qiime2-artifact-generation",
+        "b": "qiime2-artifact-visualization-interpretation"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Tourmaline",
+          "Python",
+          "QIIME 2 viewer"
+        ],
+        "b": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "58bf18f45a5c546b",
+        "b": "f78726eaaf8a76e5"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_perspective_on_16s_rrna_operational_taxonomic_unit_clustering_using_sequence_similarity_cq",
+      "score": 0.93293402,
+      "slugs": {
+        "a": "16s-rrna-multiple-sequence-alignment",
+        "b": "16s-rrna-reference-alignment-construction"
+      },
+      "tools": {
+        "a": [
+          "SEPP",
+          "PASTA"
+        ],
+        "b": [
+          "PASTA"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1088a4f62d3b9385",
+        "b": "cc339945970993c8"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.93106809,
+      "slugs": {
+        "a": "amplicon-dada2-truncation-parameter-optimization",
+        "b": "dada2-truncation-parameter-selection"
+      },
+      "tools": {
+        "a": [
+          "Tourmaline",
+          "QIIME 2",
+          "DADA2"
+        ],
+        "b": [
+          "Tourmaline",
+          "QIIME 2",
+          "DADA2",
+          "Cutadapt",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "24ae2e0b51c346c2",
+        "b": "603830f05cc06b26"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.93080703,
+      "slugs": {
+        "a": "bray-curtis-dissimilarity-comparison",
+        "b": "kmer-bray-curtis-dissimilarity-sampling"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "61a3dde20b348776",
+        "b": "09761ffb04c259ea"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.93054933,
+      "slugs": {
+        "a": "dual-barcode-sequence-design",
+        "b": "sample-barcode-assignment"
+      },
+      "tools": {
+        "a": [
+          "Python",
+          "MHASS"
+        ],
+        "b": [
+          "Python",
+          "MHASS"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9491b29835e31da3",
+        "b": "992f9c6ebdf1b920"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq",
+      "score": 0.92983593,
+      "slugs": {
+        "a": "preprocessing-tool-benchmark-comparison",
+        "b": "preprocessor-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "fastp",
+          "Trimmomatic",
+          "Cutadapt",
+          "BWA"
+        ],
+        "b": [
+          "fastp",
+          "Trimmomatic",
+          "Cutadapt",
+          "SOAPnuke",
+          "SpeedSeq"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9c850b6149d39797",
+        "b": "b053223c030270af"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.92913374,
+      "slugs": {
+        "a": "qiime2-artifact-workflow",
+        "b": "qiime2-classifier-workflow-execution"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-feature-classifier",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "5c1e107624dea17b",
+        "b": "23bbbc321227cdcc"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.92895897,
+      "slugs": {
+        "a": "microbiome-compositional-data-analysis",
+        "b": "microbiome-differential-abundance-analysis"
+      },
+      "tools": {
+        "a": [
+          "metagenomeSeq",
+          "R",
+          "ANCOM-BC",
+          "ANCOM",
+          "dplyr",
+          "nloptr"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "24721bc7b141d5c1",
+        "b": "ca0b8723f8027f54"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.92781418,
+      "slugs": {
+        "a": "species-level-classification-accuracy-evaluation",
+        "b": "taxonomic-classification-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3c9e6e848aef92b7",
+        "b": "85129fd93d83383c"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.92772605,
+      "slugs": {
+        "a": "its-mock-community-metabarcoding-analysis",
+        "b": "metabarcoding-parameter-tuning-and-fp-evaluation"
+      },
+      "tools": {
+        "a": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "Cutadapt",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CROP",
+          "CREST LCAClassifier"
+        ],
+        "b": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "Cutadapt",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CROP",
+          "CREST LCAClassifier"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "bbd208768bbcb5b5",
+        "b": "23bbbc321227cdcc"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.92627935,
+      "slugs": {
+        "a": "differential-abundance-method-benchmarking",
+        "b": "microbiome-differential-abundance-analysis"
+      },
+      "tools": {
+        "a": [
+          "metagenomeSeq",
+          "R",
+          "ANCOM-BC",
+          "ANCOM",
+          "dplyr",
+          "nloptr"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "cda331b16300e803",
+        "b": "24721bc7b141d5c1"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.9259935,
+      "slugs": {
+        "a": "class-weighted-species-level-error-rate-comparison",
+        "b": "species-level-classification-accuracy-evaluation"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "23bbbc321227cdcc",
+        "b": "1e2ed90c089b891d"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.92426351,
+      "slugs": {
+        "a": "microbiome-differential-abundance-analysis",
+        "b": "microbiome-taxa-abundance-difference-modeling"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "8bf1e7a4870fcb52",
+        "b": "bbd208768bbcb5b5"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.92414879,
+      "slugs": {
+        "a": "differential-abundance-bias-correction",
+        "b": "differential-abundance-method-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ],
+        "b": [
+          "metagenomeSeq",
+          "R",
+          "ANCOM-BC",
+          "ANCOM",
+          "dplyr",
+          "nloptr"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ca0b8723f8027f54",
+        "b": "22c6ea4f85ac8d12"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.92399374,
+      "slugs": {
+        "a": "taxonomic-classification-benchmarking",
+        "b": "taxonomic-distance-computation"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a0f839b572fad625",
+        "b": "621fe272164ec000"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.92382148,
+      "slugs": {
+        "a": "compositional-data-bias-correction",
+        "b": "compositional-data-preprocessing"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "ANCOM-BC",
+          "dplyr",
+          "nloptr",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0460c9c4aebb2cf9",
+        "b": "2df2cce7bb50ff3a"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.92170172,
+      "slugs": {
+        "a": "em-based-composition-estimation",
+        "b": "em-based-sample-composition-inference"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "Kraken",
+          "Kraken 2",
+          "MEGAN"
+        ],
+        "b": [
+          "MetaMaps",
+          "MEGAN",
+          "Centrifuge",
+          "Bracken",
+          "LAST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ca0b8723f8027f54",
+        "b": "5fa719311d236281"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.92160361,
+      "slugs": {
+        "a": "taxonomic-classification-benchmarking",
+        "b": "taxonomic-weights-evaluation-across-habitats"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "118b3519f88fde37",
+        "b": "2f3ce31c63dc9d0a"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.92148724,
+      "slugs": {
+        "a": "16s-amplicon-taxonomic-profiling",
+        "b": "genus-species-taxonomic-profiling-comparison"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ],
+        "b": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "6a6b16fa8c162e12",
+        "b": "deb4872eabc1c6e8"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_30764_z_cq",
+      "score": 0.9206421,
+      "slugs": {
+        "a": "beta-diversity-analysis-of-16s-microbiome-data",
+        "b": "microbiome-diversity-statistics"
+      },
+      "tools": {
+        "a": [
+          "ggplot2"
+        ],
+        "b": [
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "752b7b454ac16409",
+        "b": "6987c116ce614773"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.92044178,
+      "slugs": {
+        "a": "rrna-read-taxonomic-mapping",
+        "b": "rrna-reference-database-redundancy-reduction"
+      },
+      "tools": {
+        "a": [
+          "MAPseq",
+          "autoconf",
+          "GNU make"
+        ],
+        "b": [
+          "MAPseq",
+          "autoconf",
+          "GNU make"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "43f8b8b5426ad802",
+        "b": "d9d4e746b764e9ec"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.92027678,
+      "slugs": {
+        "a": "16s-amplicon-taxonomy-assignment",
+        "b": "taxonomic-classification-assignment"
+      },
+      "tools": {
+        "a": [
+          "Tourmaline",
+          "QIIME 2"
+        ],
+        "b": [
+          "QIIME 2",
+          "Tourmaline",
+          "Python",
+          "QIIME 2 viewer"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "2f3ce31c63dc9d0a",
+        "b": "6771cd22ba4c9203"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.92009857,
+      "slugs": {
+        "a": "genus-species-taxonomic-profiling-comparison",
+        "b": "taxonomic-profiler-benchmark-visualization"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ],
+        "b": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "24721bc7b141d5c1",
+        "b": "5fa719311d236281"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.9199879,
+      "slugs": {
+        "a": "species-level-classification-accuracy-evaluation",
+        "b": "taxonomic-weights-evaluation-across-habitats"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "8cac1f976023bb1c",
+        "b": "056f6e9f1d7a0ff3"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.91968499,
+      "slugs": {
+        "a": "amplicon-reference-sequence-handling",
+        "b": "amplicon-sequence-dereplication"
+      },
+      "tools": {
+        "a": [
+          "EasyAmplicon",
+          "QIIME 2"
+        ],
+        "b": [
+          "EasyAmplicon"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "92f667b812b1df16",
+        "b": "9b43d3c6189c03a5"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.91919884,
+      "slugs": {
+        "a": "de-novo-metagenome-assembly",
+        "b": "metagenome-contig-binning"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Binning_refiner"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "365e32e899ef5fba",
+        "b": "e809bf1aa1be3627"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.91891082,
+      "slugs": {
+        "a": "microbiome-community-composition-validation",
+        "b": "microbiome-sample-metadata-stratification"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer",
+          "Python"
+        ],
+        "b": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1e7a615855c0c338",
+        "b": "ecbe2f7a780fa5a2"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq",
+      "score": 0.9184726,
+      "slugs": {
+        "a": "fastq-quality-control-reporting",
+        "b": "paired-end-fastq-quality-control"
+      },
+      "tools": {
+        "a": [
+          "fastp",
+          "Python",
+          "Trimmomatic",
+          "Cutadapt",
+          "SOAPnuke",
+          "SpeedSeq"
+        ],
+        "b": [
+          "fastp",
+          "Cutadapt",
+          "SOAPnuke",
+          "AfterQC",
+          "Trimmomatic",
+          "Java",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3be3cf489dfa3435",
+        "b": "b30c8f9c1569586b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.91809591,
+      "slugs": {
+        "a": "metagenomic-workflow-curation",
+        "b": "shotgun-metagenomics-annotation-tool-selection"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Prokka",
+          "Prodigal",
+          "mothur",
+          "DADA2"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Prokka",
+          "Prodigal",
+          "mothur",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0a2e13ddbd157d01",
+        "b": "a29ee5a29f729e68"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.91790235,
+      "slugs": {
+        "a": "otu-table-curation",
+        "b": "post-clustering-otu-table-curation"
+      },
+      "tools": {
+        "a": [
+          "LULU",
+          "BLASTn",
+          "VSEARCH",
+          "R",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ],
+        "b": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0d3d4562129d6532",
+        "b": "cf8225358c797908"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.91788315,
+      "slugs": {
+        "a": "amplicon-benchmark-dataset-generation",
+        "b": "reference-amplicon-dataset-acquisition"
+      },
+      "tools": {
+        "a": [
+          "MHASS",
+          "Python",
+          "git"
+        ],
+        "b": [
+          "MHASS",
+          "Python",
+          "git"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "371d41d4af6bd0c7",
+        "b": "365e32e899ef5fba"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.91746997,
+      "slugs": {
+        "a": "microbial-community-richness-analysis",
+        "b": "microbiome-community-composition-validation"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Python",
+          "Jupyter notebooks",
+          "Tourmaline"
+        ],
+        "b": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "db2432cf5ef171b9",
+        "b": "4ae234535fdd5a5f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq",
+      "score": 0.9169933,
+      "slugs": {
+        "a": "edna-amplicon-read-processing",
+        "b": "edna-metabarcoding-pipeline-preprocessing"
+      },
+      "tools": {
+        "a": [
+          "obiuniq"
+        ],
+        "b": [
+          "obiuniq"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9b43d3c6189c03a5",
+        "b": "3be3cf489dfa3435"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.91671976,
+      "slugs": {
+        "a": "metagenome-contig-binning",
+        "b": "metagenomic-workflow-curation"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Binning_refiner"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Prokka",
+          "Prodigal",
+          "mothur",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1a09f5b54cd53e13",
+        "b": "13ad13a8fd7ecbaf"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.91648082,
+      "slugs": {
+        "a": "interactive-qiime2-visualization-inspection",
+        "b": "qiime2-artifact-generation"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer",
+          "Python"
+        ],
+        "b": [
+          "QIIME 2",
+          "Tourmaline",
+          "Python",
+          "QIIME 2 viewer"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "8bf1e7a4870fcb52",
+        "b": "23bbbc321227cdcc"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.91612812,
+      "slugs": {
+        "a": "differential-abundance-bias-correction",
+        "b": "microbiome-differential-abundance-analysis"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0808fb9e0d01dd71",
+        "b": "6f542139694c81a6"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.9160031,
+      "slugs": {
+        "a": "microbiome-count-normalization",
+        "b": "synthetic-microbiome-abundance-generation"
+      },
+      "tools": {
+        "a": [
+          "anaconda"
+        ],
+        "b": [
+          "anaconda"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "781af144a6cbdc4b",
+        "b": "bec149fdaccdc8ca"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.91509038,
+      "slugs": {
+        "a": "mock-community-benchmark-evaluation",
+        "b": "mock-community-sensitivity-calculation"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2",
+          "vegan"
+        ],
+        "b": [
+          "PathoScope 2",
+          "Kraken 2",
+          "DADA2",
+          "QIIME 2",
+          "Mothur"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "92f667b812b1df16",
+        "b": "3be3cf489dfa3435"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.91437457,
+      "slugs": {
+        "a": "de-novo-metagenome-assembly",
+        "b": "metagenomic-workflow-curation"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Prokka",
+          "Prodigal",
+          "mothur",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1955ca55cb1c7fec",
+        "b": "6a033b3586b2b346"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.91394541,
+      "slugs": {
+        "a": "alpha-diversity-deviation-analysis",
+        "b": "alpha-diversity-metric-comparison"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ],
+        "b": [
+          "DADA2",
+          "lme4",
+          "lsmeans"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ab30e4edc8f3a59b",
+        "b": "8da03d4309073372"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.91393681,
+      "slugs": {
+        "a": "metagenomic-taxonomic-profiling",
+        "b": "synthetic-metagenome-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4",
+          "conda",
+          "MetaPhlAn",
+          "bioBakery"
+        ],
+        "b": [
+          "MetaPhlAn 4",
+          "MetaPhlAn",
+          "OPAL"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "fccf506755822c17",
+        "b": "6fe87a0573aa74b8"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.91384938,
+      "slugs": {
+        "a": "habitat-specific-naive-bayes-classification",
+        "b": "per-habitat-classified-abundance-profiling"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "cab0bb07ebe0d1f5",
+        "b": "6cd0edf7a213e7ee"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.91377221,
+      "slugs": {
+        "a": "minimizer-based-approximate-mapping",
+        "b": "winnowed-minhash-approximate-mapping"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "MashMap"
+        ],
+        "b": [
+          "MetaMaps",
+          "MashMap"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "39fc063d0a6cd9df",
+        "b": "f74d1f1d5005eb05"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.9135796,
+      "slugs": {
+        "a": "alpha-diversity-index-computation",
+        "b": "rarefied-count-table-diversity-analysis"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2",
+          "vegan"
+        ],
+        "b": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2",
+          "vegan"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3ac8ea3a928846db",
+        "b": "007dc4b831df4440"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.91265327,
+      "slugs": {
+        "a": "snakemake-workflow-execution",
+        "b": "snakemake-workflow-parameter-sweep"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Tourmaline",
+          "Snakemake",
+          "Python",
+          "QIIME 2 viewer"
+        ],
+        "b": [
+          "Tourmaline",
+          "QIIME 2",
+          "Snakemake"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "dae53ac969329553",
+        "b": "def4306295bd4034"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.91258464,
+      "slugs": {
+        "a": "18s-rrna-mock-community-benchmarking",
+        "b": "mock-community-benchmark-evaluation"
+      },
+      "tools": {
+        "a": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CREST LCAClassifier"
+        ],
+        "b": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CREST LCAClassifier"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "cab0bb07ebe0d1f5",
+        "b": "2f210a04bda3ac54"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.91254263,
+      "slugs": {
+        "a": "minimizer-based-approximate-mapping",
+        "b": "reference-database-minimizer-scoring"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "MashMap"
+        ],
+        "b": [
+          "MetaMaps",
+          "MashMap"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "997c91165bc78087",
+        "b": "02ab8350cac6de67"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.91246715,
+      "slugs": {
+        "a": "alpha-beta-diversity-analysis",
+        "b": "alpha-diversity-group-significance-comparison"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Tourmaline",
+          "Python",
+          "QIIME 2 viewer"
+        ],
+        "b": [
+          "QIIME 2",
+          "Python",
+          "Jupyter notebooks",
+          "Tourmaline"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "22c6ea4f85ac8d12",
+        "b": "f7ba710d7ab58646"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.91236017,
+      "slugs": {
+        "a": "taxonomic-distance-computation",
+        "b": "taxonomic-weight-normalization"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d6210b581f851c42",
+        "b": "3c09e9e9dc148408"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.91232794,
+      "slugs": {
+        "a": "alpha-diversity-preprocessing",
+        "b": "non-rarefied-diversity-calculation"
+      },
+      "tools": {
+        "a": [
+          "anaconda"
+        ],
+        "b": [
+          "anaconda"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "184619d0473aaa2f",
+        "b": "a7b0f7b811df816d"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.91215513,
+      "slugs": {
+        "a": "qiime2-alpha-diversity-table-handling",
+        "b": "qiime2-diversity-module-execution"
+      },
+      "tools": {
+        "a": [
+          "QIIME2",
+          "Jupyter",
+          "anaconda"
+        ],
+        "b": [
+          "QIIME2",
+          "anaconda",
+          "Jupyter"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "47170380def1684f",
+        "b": "f7ba710d7ab58646"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.91199947,
+      "slugs": {
+        "a": "taxonomic-class-weight-assembly",
+        "b": "taxonomic-weight-normalization"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9c1ce45b8aec3a85",
+        "b": "6bb8aea4c7b51a31"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.91139642,
+      "slugs": {
+        "a": "sgb-abundance-prevalence-filtering",
+        "b": "sgb-prevalence-estimation"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4"
+        ],
+        "b": [
+          "MetaPhlAn 4",
+          "conda",
+          "bioBakery"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f793b5b8bcc83d6c",
+        "b": "23bbbc321227cdcc"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.91137418,
+      "slugs": {
+        "a": "microbiome-count-normalization",
+        "b": "microbiome-differential-abundance-analysis"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "11881294d803522e",
+        "b": "d0419ba4cc7a7848"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_communal_catalogue_reveals_earth_s_multiscale_microbial_diversity_cq",
+      "score": 0.91116335,
+      "slugs": {
+        "a": "biom-table-merging-across-studies",
+        "b": "biom-table-processing"
+      },
+      "tools": {
+        "a": [
+          "QIIME1",
+          "QIIME2",
+          "Python"
+        ],
+        "b": [
+          "Python",
+          "Pandas",
+          "QIIME1"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "4d9cbc570e40051b",
+        "b": "6f7a64b484053286"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giaa135_cq",
+      "score": 0.91098205,
+      "slugs": {
+        "a": "snakemake-pipeline-configuration",
+        "b": "snakemake-workflow-execution"
+      },
+      "tools": {
+        "a": [
+          "dadasnake",
+          "conda",
+          "Snakemake",
+          "cutadapt",
+          "mothur",
+          "BLAST"
+        ],
+        "b": [
+          "dadasnake",
+          "Snakemake",
+          "conda",
+          "cutadapt",
+          "mothur",
+          "BLAST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ef1a43544616f5d9",
+        "b": "36af19b39cfb860c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metabarcoding_profiling_of_microbial_diversity_associated_with_trout_fish_farming_cq",
+      "score": 0.91092058,
+      "slugs": {
+        "a": "metabarcoding-diversity-data-reproduction",
+        "b": "metabarcoding-diversity-table-construction"
+      },
+      "tools": {
+        "a": [],
+        "b": []
+      }
+    },
+    {
+      "member_ids": {
+        "a": "558a556d67d8caff",
+        "b": "0ade4e94a43a7457"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.91091475,
+      "slugs": {
+        "a": "alpha-diversity-correlation-against-field-survey",
+        "b": "amplicon-alpha-diversity-metric-computation"
+      },
+      "tools": {
+        "a": [
+          "LULU",
+          "R",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ],
+        "b": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f92e8ad0ebe77d45",
+        "b": "ab30e4edc8f3a59b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.91084003,
+      "slugs": {
+        "a": "metagenomic-marker-database-construction",
+        "b": "metagenomic-taxonomic-profiling"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4"
+        ],
+        "b": [
+          "MetaPhlAn 4",
+          "conda",
+          "MetaPhlAn",
+          "bioBakery"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1b8286ec22e58025",
+        "b": "3728e0d3abe13bd7"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq",
+      "score": 0.91072468,
+      "slugs": {
+        "a": "cross-release-reference-database-comparison",
+        "b": "fasta-reference-database-curation"
+      },
+      "tools": {
+        "a": [
+          "ecoPCR"
+        ],
+        "b": [
+          "ecoPCR"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "6f542139694c81a6",
+        "b": "c8a30ad1e11eadfc"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.91005311,
+      "slugs": {
+        "a": "synthetic-microbiome-abundance-generation",
+        "b": "synthetic-microbiome-feature-table-processing"
+      },
+      "tools": {
+        "a": [
+          "anaconda"
+        ],
+        "b": [
+          "anaconda"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a22554dbde524565",
+        "b": "f7059d4cf7ef38d5"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_practical_guide_to_amplicon_and_metagenomic_analysis_of_microbiome_data_cq",
+      "score": 0.90993136,
+      "slugs": {
+        "a": "alpha-diversity-group-comparison",
+        "b": "beta-diversity-ordination-pcoa"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "vegan"
+        ],
+        "b": [
+          "QIIME 2",
+          "vegan"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "47170380def1684f",
+        "b": "ca0b8723f8027f54"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.90984361,
+      "slugs": {
+        "a": "taxonomic-class-weight-assembly",
+        "b": "taxonomic-classification-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1f43f9e21b60309a",
+        "b": "26c8c227be411e11"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.90946601,
+      "slugs": {
+        "a": "between-run-correlation-analysis",
+        "b": "cross-run-abundance-correlation-analysis"
+      },
+      "tools": {
+        "a": [
+          "MAPseq"
+        ],
+        "b": [
+          "MAPseq"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3241795d73ad3661",
+        "b": "b30c8f9c1569586b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.90939969,
+      "slugs": {
+        "a": "functional-annotation-of-metagenomic-contigs",
+        "b": "shotgun-metagenomics-annotation-tool-selection"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Prokka",
+          "Prodigal",
+          "mothur",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "56446780d8550ff9",
+        "b": "5fa4d3e2e742dc6f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.90891244,
+      "slugs": {
+        "a": "qiime2-artifact-qc-summary-extraction",
+        "b": "qiime2-artifact-visualization-interpretation"
+      },
+      "tools": {
+        "a": [
+          "Tourmaline",
+          "QIIME 2"
+        ],
+        "b": [
+          "QIIME 2",
+          "Tourmaline",
+          "QIIME 2 viewer"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9b43d3c6189c03a5",
+        "b": "e3ebd2f3e8007710"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.90879471,
+      "slugs": {
+        "a": "metagenome-contig-binning",
+        "b": "metagenomic-read-quality-control"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Binning_refiner"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "4572ee4916e3bb6d",
+        "b": "ae442e9cb6035ca5"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.90878188,
+      "slugs": {
+        "a": "error-rate-by-position-visualization",
+        "b": "per-position-indel-error-rate-quantification"
+      },
+      "tools": {
+        "a": [
+          "MHASS",
+          "Python"
+        ],
+        "b": [
+          "MHASS",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "db2432cf5ef171b9",
+        "b": "8446f830ec57f8f1"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq",
+      "score": 0.90857627,
+      "slugs": {
+        "a": "edna-amplicon-read-processing",
+        "b": "edna-read-count-aggregation"
+      },
+      "tools": {
+        "a": [
+          "obiuniq"
+        ],
+        "b": [
+          "sumaclust",
+          "obiuniq"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "37d37f0f04ff4922",
+        "b": "8cac1f976023bb1c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.90828197,
+      "slugs": {
+        "a": "amplicon-primer-sequence-trimming",
+        "b": "amplicon-reference-sequence-handling"
+      },
+      "tools": {
+        "a": [
+          "EasyAmplicon"
+        ],
+        "b": [
+          "EasyAmplicon",
+          "QIIME 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "bb74b7e41127b7d1",
+        "b": "bf80e1392e4e028d"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq",
+      "score": 0.90827427,
+      "slugs": {
+        "a": "fastq-duplication-rate-evaluation",
+        "b": "paired-end-duplication-rate-evaluation"
+      },
+      "tools": {
+        "a": [
+          "fastp",
+          "Python"
+        ],
+        "b": [
+          "fastp",
+          "Python",
+          "C++"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "fccf506755822c17",
+        "b": "e9c5d9b32f261eac"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.90783662,
+      "slugs": {
+        "a": "habitat-specific-naive-bayes-classification",
+        "b": "naive-bayes-taxonomic-classification"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e3ebd2f3e8007710",
+        "b": "3be3cf489dfa3435"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.9075019,
+      "slugs": {
+        "a": "metagenomic-read-quality-control",
+        "b": "metagenomic-workflow-curation"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM",
+          "Prokka",
+          "Prodigal",
+          "mothur",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ab30e4edc8f3a59b",
+        "b": "3fa7cabc225d2388"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.90735762,
+      "slugs": {
+        "a": "metagenomic-taxonomic-profiling",
+        "b": "species-level-taxonomic-profiling"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4",
+          "conda",
+          "MetaPhlAn",
+          "bioBakery"
+        ],
+        "b": [
+          "MetaPhlAn 4",
+          "MetaPhlAn",
+          "OPAL"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "eecb992bc306215e",
+        "b": "251236ccd6683dde"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1016_j_csbj_2023_01_034_cq",
+      "score": 0.90734553,
+      "slugs": {
+        "a": "metabarcoding-filter-parameterization",
+        "b": "metabarcoding-pipeline-execution"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "OBITools3",
+          "metabaR",
+          "LULU",
+          "Python"
+        ],
+        "b": [
+          "DADA2",
+          "OBITools3",
+          "metabaR",
+          "LULU",
+          "Python",
+          "vsearch",
+          "cutadapt",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a1f55ddad0267ea8",
+        "b": "faac240770bb701d"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq",
+      "score": 0.90703498,
+      "slugs": {
+        "a": "asv-prevalence-filtering",
+        "b": "prevalence-filtering-16s-count-tables"
+      },
+      "tools": {
+        "a": [
+          "phyloseq",
+          "ALDEx2",
+          "ANCOM-II",
+          "ANCOM",
+          "LEfSe",
+          "DESeq2",
+          "edgeR",
+          "corncob",
+          "metagenomeSeq",
+          "limma voom"
+        ],
+        "b": [
+          "ALDEx2",
+          "ANCOM-II",
+          "LEfSe",
+          "DESeq2",
+          "edgeR",
+          "corncob",
+          "metagenomeSeq",
+          "Maaslin2",
+          "limma voom"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ab08624405bb5bb6",
+        "b": "47974a5eeeeda3ae"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_environmental_dna_reveals_seasonal_shifts_and_potential_interactions_in_a_marine_community_cq",
+      "score": 0.90698186,
+      "slugs": {
+        "a": "spearman-correlation-verification",
+        "b": "spearman-rank-correlation-statistics"
+      },
+      "tools": {
+        "a": [
+          "pandas"
+        ],
+        "b": [
+          "scipy",
+          "pandas"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ab30e4edc8f3a59b",
+        "b": "f80fd425d9dac426"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.90674221,
+      "slugs": {
+        "a": "metagenomic-taxonomic-profiling",
+        "b": "uncharacterized-species-strain-profiling"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4",
+          "conda",
+          "MetaPhlAn",
+          "bioBakery"
+        ],
+        "b": [
+          "MetaPhlAn 4",
+          "StrainPhlAn",
+          "MetaPhlAn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f044bd6fa0e7b61b",
+        "b": "3c09e9e9dc148408"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.90668221,
+      "slugs": {
+        "a": "alpha-diversity-metric-computation",
+        "b": "non-rarefied-diversity-calculation"
+      },
+      "tools": {
+        "a": [
+          "anaconda",
+          "Jupyter",
+          "sra-tools",
+          "DEBLUR",
+          "QIIME 2"
+        ],
+        "b": [
+          "anaconda"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3c9e6e848aef92b7",
+        "b": "def4306295bd4034"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.9066404,
+      "slugs": {
+        "a": "its-mock-community-metabarcoding-analysis",
+        "b": "mock-community-benchmark-evaluation"
+      },
+      "tools": {
+        "a": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "Cutadapt",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CROP",
+          "CREST LCAClassifier"
+        ],
+        "b": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CREST LCAClassifier"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "6a6b16fa8c162e12",
+        "b": "534e51c17f0d181a"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_30764_z_cq",
+      "score": 0.90661534,
+      "slugs": {
+        "a": "beta-diversity-analysis-of-16s-microbiome-data",
+        "b": "microbiome-sample-grouping-by-hypervariable-region"
+      },
+      "tools": {
+        "a": [
+          "ggplot2"
+        ],
+        "b": [
+          "ggplot2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "20d4bbb68227a27d",
+        "b": "efeef50b658abf14"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.90642771,
+      "slugs": {
+        "a": "closely-related-genome-disambiguation",
+        "b": "reference-database-gene-annotation-intersection"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps"
+        ],
+        "b": [
+          "MetaMaps"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "808cb513a13ce650",
+        "b": "55c75a3f81e412e5"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.90600955,
+      "slugs": {
+        "a": "benchmark-runtime-reporting",
+        "b": "sequencing-runtime-profiling"
+      },
+      "tools": {
+        "a": [
+          "MHASS",
+          "Python",
+          "git"
+        ],
+        "b": [
+          "MHASS",
+          "Python",
+          "git"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a1f55ddad0267ea8",
+        "b": "2ed4ea9a19994c5c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq",
+      "score": 0.90555437,
+      "slugs": {
+        "a": "asv-prevalence-filtering",
+        "b": "rarefaction-and-prevalence-filtering-preprocessing"
+      },
+      "tools": {
+        "a": [
+          "phyloseq",
+          "ALDEx2",
+          "ANCOM-II",
+          "ANCOM",
+          "LEfSe",
+          "DESeq2",
+          "edgeR",
+          "corncob",
+          "metagenomeSeq",
+          "limma voom"
+        ],
+        "b": [
+          "ALDEx2",
+          "ANCOM-II",
+          "ANCOM",
+          "LEfSe",
+          "DESeq2",
+          "edgeR",
+          "corncob",
+          "metagenomeSeq",
+          "limma voom"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "6194f8c7f56bec55",
+        "b": "44f1d77ee0417dc8"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.90547948,
+      "slugs": {
+        "a": "alpha-diversity-index-computation",
+        "b": "beta-diversity-distance-matrix-computation"
+      },
+      "tools": {
+        "a": [
+          "EasyAmplicon"
+        ],
+        "b": [
+          "EasyAmplicon"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "bff93a47dab7cfbb",
+        "b": "8bf1e7a4870fcb52"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.90529563,
+      "slugs": {
+        "a": "compositional-data-differential-abundance-analysis",
+        "b": "differential-abundance-bias-correction"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "ANCOM"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "c761f2b68f148bd9",
+        "b": "d7b4600da553c575"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.90512734,
+      "slugs": {
+        "a": "paired-hypothesis-testing-of-classifier-performance",
+        "b": "paired-t-test-statistical-testing"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-feature-classifier",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "315cf31335d6c178",
+        "b": "1e2ed90c089b891d"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.90510363,
+      "slugs": {
+        "a": "microbiome-simulation-data-generation",
+        "b": "microbiome-taxa-abundance-difference-modeling"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR",
+          "ANCOM"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "bff93a47dab7cfbb",
+        "b": "23bbbc321227cdcc"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.90494574,
+      "slugs": {
+        "a": "compositional-data-differential-abundance-analysis",
+        "b": "microbiome-differential-abundance-analysis"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "ANCOM"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "5c1e107624dea17b",
+        "b": "315cf31335d6c178"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.90448418,
+      "slugs": {
+        "a": "microbiome-compositional-data-analysis",
+        "b": "microbiome-simulation-data-generation"
+      },
+      "tools": {
+        "a": [
+          "metagenomeSeq",
+          "R",
+          "ANCOM-BC",
+          "ANCOM",
+          "dplyr",
+          "nloptr"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR",
+          "ANCOM"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "def4306295bd4034",
+        "b": "7454ad13fc93f676"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.90447709,
+      "slugs": {
+        "a": "mock-community-benchmark-evaluation",
+        "b": "mock-community-species-recovery-evaluation"
+      },
+      "tools": {
+        "a": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CREST LCAClassifier"
+        ],
+        "b": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "RDPClassifier"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "060125d92cda6991",
+        "b": "81831c69a84d90c6"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_perspective_on_16s_rrna_operational_taxonomic_unit_clustering_using_sequence_similarity_cq",
+      "score": 0.9041696,
+      "slugs": {
+        "a": "phylogenetic-placement-into-reference-alignment",
+        "b": "phylogenetic-sequence-placement"
+      },
+      "tools": {
+        "a": [
+          "SEPP",
+          "PASTA"
+        ],
+        "b": [
+          "SEPP",
+          "pplacer",
+          "QIIME",
+          "RAxML version 8",
+          "PASTA"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d1cbdc14da618213",
+        "b": "ca6e34add2b84938"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.90399735,
+      "slugs": {
+        "a": "alignment-identity-estimation",
+        "b": "binomial-probabilistic-alignment-scoring"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "MashMap"
+        ],
+        "b": [
+          "MetaMaps",
+          "MashMap"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "edeab1164e006387",
+        "b": "6987c116ce614773"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.90377482,
+      "slugs": {
+        "a": "rrna-amplicon-taxonomic-classification",
+        "b": "rrna-reference-database-redundancy-reduction"
+      },
+      "tools": {
+        "a": [
+          "MAPseq",
+          "autoconf",
+          "GNU make",
+          "gcc"
+        ],
+        "b": [
+          "MAPseq",
+          "autoconf",
+          "GNU make"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "50034416e3b6e848",
+        "b": "3abc52af4f7f4a15"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.90305917,
+      "slugs": {
+        "a": "reference-sensitivity-benchmarking",
+        "b": "reference-set-sensitivity-comparison"
+      },
+      "tools": {
+        "a": [
+          "MAPseq",
+          "autoconf",
+          "GNU make"
+        ],
+        "b": [
+          "MAPseq"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "558a556d67d8caff",
+        "b": "a03c9d9cdb3dc7af"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.90303635,
+      "slugs": {
+        "a": "alpha-diversity-correlation-against-field-survey",
+        "b": "biodiversity-metric-validation-against-field-survey"
+      },
+      "tools": {
+        "a": [
+          "LULU",
+          "R",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ],
+        "b": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ca0b8723f8027f54",
+        "b": "f7ba710d7ab58646"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.90294836,
+      "slugs": {
+        "a": "taxonomic-classification-benchmarking",
+        "b": "taxonomic-weight-normalization"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "cb6c3ef17c3c060d",
+        "b": "687334b6813b493c"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.90265055,
+      "slugs": {
+        "a": "reference-database-indexing",
+        "b": "reference-database-mapping"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "MashMap"
+        ],
+        "b": [
+          "MetaMaps",
+          "Kraken",
+          "Kraken 2",
+          "MEGAN"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "215f93cb856abd44",
+        "b": "e3ebd2f3e8007710"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.90252797,
+      "slugs": {
+        "a": "genome-bin-quality-assessment",
+        "b": "metagenomic-read-quality-control"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e753bf86e0b1e561",
+        "b": "832e7952a0cf2d92"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.90252349,
+      "slugs": {
+        "a": "amplicon-metabarcoding-data-processing",
+        "b": "metabarcoding-field-survey-validation"
+      },
+      "tools": {
+        "a": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ],
+        "b": [
+          "LULU",
+          "VSEARCH",
+          "SWARM",
+          "CROP",
+          "DADA2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "30dce3d5e172bbef",
+        "b": "12a847597db60f38"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metabarcoding_profiling_of_microbial_diversity_associated_with_trout_fish_farming_cq",
+      "score": 0.90220088,
+      "slugs": {
+        "a": "silva-taxonomic-classification-interpretation",
+        "b": "taxonomic-composition-data-extraction"
+      },
+      "tools": {
+        "a": [
+          "SILVAngs",
+          "SINA",
+          "cd-hit-est",
+          "BLASTn"
+        ],
+        "b": [
+          "SILVAngs",
+          "SINA",
+          "cd-hit-est",
+          "BLASTn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "5c1e107624dea17b",
+        "b": "f793b5b8bcc83d6c"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.90211092,
+      "slugs": {
+        "a": "microbiome-compositional-data-analysis",
+        "b": "microbiome-count-normalization"
+      },
+      "tools": {
+        "a": [
+          "metagenomeSeq",
+          "R",
+          "ANCOM-BC",
+          "ANCOM",
+          "dplyr",
+          "nloptr"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "17ab8c75680d81df",
+        "b": "af09fde2d9d83bc1"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1002_ece3_4809_cq",
+      "score": 0.90177692,
+      "slugs": {
+        "a": "dna-metabarcoding-taxonomic-assignment",
+        "b": "metabarcoding-family-assignment-aggregation"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "tobiasgf/Bioinformatic-tools"
+        ],
+        "b": [
+          "Bioinformatic-tools (tobiasgf/Bioinformatic-tools)",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0ad47a96de170958",
+        "b": "921b71c7db47f627"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.90171237,
+      "slugs": {
+        "a": "per-read-taxonomic-assignment-aggregation",
+        "b": "taxonomic-profile-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "MetaMaps",
+          "MEGAN",
+          "Centrifuge",
+          "Bracken",
+          "LAST"
+        ],
+        "b": [
+          "MetaMaps",
+          "MEGAN",
+          "Centrifuge",
+          "Bracken",
+          "LAST",
+          "Kraken",
+          "Kraken 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "39fc063d0a6cd9df",
+        "b": "6a033b3586b2b346"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.90162508,
+      "slugs": {
+        "a": "alpha-diversity-index-computation",
+        "b": "alpha-diversity-metric-comparison"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2",
+          "vegan"
+        ],
+        "b": [
+          "DADA2",
+          "lme4",
+          "lsmeans"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "20ef248a776962d4",
+        "b": "333556e162fdb34f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.90132876,
+      "slugs": {
+        "a": "16s-amplicon-error-benchmarking",
+        "b": "long-read-amplicon-error-profiling"
+      },
+      "tools": {
+        "a": [
+          "MHASS",
+          "Python",
+          "git"
+        ],
+        "b": [
+          "MHASS",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "bc068e74ba45abaf",
+        "b": "bbe0bf4e570df2ad"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1002_ece3_6594_cq",
+      "score": 0.90126428,
+      "slugs": {
+        "a": "vsearch-dereplication-and-clustering",
+        "b": "vsearch-otu-clustering-execution"
+      },
+      "tools": {
+        "a": [
+          "seqkit",
+          "QIIME1 pick_otus.py",
+          "VSEARCH",
+          "QIIME 2"
+        ],
+        "b": [
+          "QIIME 2",
+          "Cutadapt",
+          "DADA2",
+          "Deblur",
+          "VSEARCH"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "92f667b812b1df16",
+        "b": "e3ebd2f3e8007710"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.90103809,
+      "slugs": {
+        "a": "de-novo-metagenome-assembly",
+        "b": "metagenomic-read-quality-control"
+      },
+      "tools": {
+        "a": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ],
+        "b": [
+          "FastQC",
+          "Trimmomatic",
+          "Sickle",
+          "BBMap",
+          "MEGAHIT",
+          "SPAdes",
+          "IDBA",
+          "kraken2",
+          "MetaPhlAn2",
+          "DIAMOND",
+          "MEGAN",
+          "HUMAnN2",
+          "Prokka",
+          "MetaBAT",
+          "MaxBin",
+          "CheckM"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b62bee6444687720",
+        "b": "5c3f5beccd685de3"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq",
+      "score": 0.90097935,
+      "slugs": {
+        "a": "microbiome-dataset-characteristic-computation",
+        "b": "microbiome-differential-abundance-results-aggregation"
+      },
+      "tools": {
+        "a": [
+          "vegan",
+          "dplyr",
+          "tidyverse"
+        ],
+        "b": [
+          "vegan",
+          "parallelDist",
+          "ggplot2",
+          "dplyr"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e9c5d9b32f261eac",
+        "b": "22c6ea4f85ac8d12"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.90079963,
+      "slugs": {
+        "a": "naive-bayes-taxonomic-classification",
+        "b": "taxonomic-distance-computation"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f822397beb9442e4",
+        "b": "ab30e4edc8f3a59b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.90045646,
+      "slugs": {
+        "a": "metagenomic-marker-consensus-sequencing",
+        "b": "metagenomic-taxonomic-profiling"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4",
+          "StrainPhlAn",
+          "MetaPhlAn"
+        ],
+        "b": [
+          "MetaPhlAn 4",
+          "conda",
+          "MetaPhlAn",
+          "bioBakery"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "13ad13a8fd7ecbaf",
+        "b": "56446780d8550ff9"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.90039146,
+      "slugs": {
+        "a": "qiime2-artifact-generation",
+        "b": "qiime2-artifact-qc-summary-extraction"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "Tourmaline",
+          "Python",
+          "QIIME 2 viewer"
+        ],
+        "b": [
+          "Tourmaline",
+          "QIIME 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ae2eb4d68defd704",
+        "b": "edeab1164e006387"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.90025857,
+      "slugs": {
+        "a": "multi-level-taxonomic-abundance-aggregation",
+        "b": "rrna-amplicon-taxonomic-classification"
+      },
+      "tools": {
+        "a": [
+          "MAPseq",
+          "autoconf",
+          "GNU make",
+          "gcc"
+        ],
+        "b": [
+          "MAPseq",
+          "autoconf",
+          "GNU make",
+          "gcc"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "118b3519f88fde37",
+        "b": "6771cd22ba4c9203"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.90023032,
+      "slugs": {
+        "a": "16s-amplicon-taxonomic-profiling",
+        "b": "taxonomic-profiler-benchmark-visualization"
+      },
+      "tools": {
+        "a": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ],
+        "b": [
+          "DADA2",
+          "QIIME 2",
+          "Mothur",
+          "PathoScope 2",
+          "Kraken 2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f793b5b8bcc83d6c",
+        "b": "1e2ed90c089b891d"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.90022961,
+      "slugs": {
+        "a": "microbiome-count-normalization",
+        "b": "microbiome-taxa-abundance-difference-modeling"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f92e8ad0ebe77d45",
+        "b": "ffabcc4b61335722"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.9000429,
+      "slugs": {
+        "a": "metagenomic-marker-database-construction",
+        "b": "unique-marker-gene-screening"
+      },
+      "tools": {
+        "a": [
+          "MetaPhlAn 4"
+        ],
+        "b": [
+          "MetaPhlAn 4"
+        ]
+      }
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "member_ids": {
+        "a": "510b850df99a90cf",
+        "b": "fe09521ed4520c64"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.96258243,
+      "slugs": {
+        "a": "autotools-software-build",
+        "b": "gnu-autotools-source-build"
+      },
+      "tools": {
+        "a": [
+          "MAPseq",
+          "autoconf",
+          "GNU make"
+        ],
+        "b": [
+          "MAPseq",
+          "autoconf",
+          "GNU make",
+          "gcc"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "cda331b16300e803",
+        "b": "15408ecb2f289928"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.96223604,
+      "slugs": {
+        "a": "class-weighted-species-level-error-rate-comparison",
+        "b": "species-level-error-rate-evaluation"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn",
+          "imbalanced-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "c2b0c52780c964da",
+        "b": "d7b4600da553c575"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.9578597,
+      "slugs": {
+        "a": "paired-t-test-error-comparison",
+        "b": "paired-t-test-statistical-testing"
+      },
+      "tools": {
+        "a": [
+          "q2-clawback",
+          "QIIME 2",
+          "scikit-learn"
+        ],
+        "b": [
+          "QIIME 2",
+          "q2-clawback",
+          "scikit-learn",
+          "imbalanced-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a0f839b572fad625",
+        "b": "8bf1e7a4870fcb52"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.95665843,
+      "slugs": {
+        "a": "compositional-data-bias-correction",
+        "b": "differential-abundance-bias-correction"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "ANCOM-BC",
+          "dplyr",
+          "nloptr",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ],
+        "b": [
+          "R",
+          "dplyr",
+          "nloptr",
+          "ANCOM-BC",
+          "metagenomeSeq",
+          "DESeq2",
+          "edgeR"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "941f7a695d8c20df",
+        "b": "40a28400dc779a7d"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.95414244,
+      "slugs": {
+        "a": "asv-inference-with-swarm",
+        "b": "swarm-v2-asv-inference-parameter-tuning"
+      },
+      "tools": {
+        "a": [
+          "PEMA",
+          "Swarm v2",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "CREST LCAClassifier",
+          "Cutadapt",
+          "CROP"
+        ],
+        "b": [
+          "PEMA",
+          "FastQC",
+          "Trimmomatic",
+          "BayesHammer",
+          "PANDAseq",
+          "OBITools",
+          "Swarm v2",
+          "CREST LCAClassifier"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b6b0126d43f54653",
+        "b": "3d6fe1ae234e120b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.95104868,
+      "slugs": {
+        "a": "vsearch-global-alignment-otu-mapping",
+        "b": "vsearch-global-alignment-parameterization"
+      },
+      "tools": {
+        "a": [
+          "VSEARCH",
+          "EasyAmplicon"
+        ],
+        "b": [
+          "VSEARCH",
+          "EasyAmplicon"
+        ]
+      }
+    }
+  ],
+  "rehearsal": true,
+  "runs": 29,
+  "seconds": 8.11,
+  "skills": 958,
+  "source_provenance": {
+    "asb_commit": "379a3c688706a4e83edd23cc4b268ebf0e46ce80",
+    "pinned_worktree": "/Users/nothiasl/git/asb-wt-second-cut",
+    "source_files": {
+      "consolidate_skills": {
+        "path": "/Users/nothiasl/git/asb-wt-second-cut/src/agentic_science_builder/consolidate_skills.py",
+        "sha256": "6019f5a43333b55ae6292727dfd98153d8ec6c315b46204d561c13fbf5120cb6"
+      },
+      "embeddings": {
+        "path": "/Users/nothiasl/git/asb-wt-second-cut/src/agentic_science_builder/embeddings.py",
+        "sha256": "e7fd71800db85ac780332dc583330469a540654af172fa2157dd28743d94bbca"
+      }
+    }
+  },
+  "surplus_leaves": {
+    "ge_0_90": 118,
+    "ge_0_95": 6
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/metabarcoding"
+}

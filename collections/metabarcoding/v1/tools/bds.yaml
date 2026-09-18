@@ -1,0 +1,18 @@
+name: BDS
+slug: bds
+version_used: null
+edam_topics: []
+evidence_spans:
+- PEMA, given the BDS intrinsic parallelization [11], operated with up to the maximum number of node cores (in this case 20)
+- It is designed for paired-end sequencing studies and is implemented in the BDS [11] programming language
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+source_repos:
+- https://github.com/hariszaf/pema
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

@@ -1,0 +1,49 @@
+name: Cutadapt
+slug: cutadapt
+version_used: '1.10'
+edam_topics: []
+evidence_spans:
+- Cutadapt [31] is used additionally for the case of ITS to address the variability in length of this marker gene
+- trimmed with Cutadapt (Martin, 2011), retaining all paired‐end reads (not merged) with a minimum length of 175 bp
+- We used the QIIME 2 v2018.11 (Bolyen et al., 2019) environment to import raw reads and trimmed with Cutadapt (Martin, 2011)
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+- doi: 10.1038/s41467-019-13036-1
+  title: Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis
+- doi: 10.1038/s41598-018-22505-4
+  title: Automated high throughput animal CO1 metabarcode classification
+- doi: 10.1093/bioinformatics/btab493
+  title: 'Swarm v3: towards tera-scale amplicon clustering'
+- doi: 10.1093/bioinformatics/bty560
+  title: 'fastp: an ultra-fast all-in-one FASTQ preprocessor'
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+- doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/devonorourke/tidybug
+- https://github.com/aitgon/vtam_benchmark
+- https://github.com/TheJacksonLaboratory/weinstock_full_length_16s
+- https://github.com/terrimporter/CO1Classifier
+- https://github.com/torognes/swarm
+- https://github.com/OpenGene/fastp
+- https://github.com/a-h-b/dadasnake
+- https://github.com/aomlomics/tourmaline
+- https://github.com/marinebon/eDNA_microbes_whales
+- https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

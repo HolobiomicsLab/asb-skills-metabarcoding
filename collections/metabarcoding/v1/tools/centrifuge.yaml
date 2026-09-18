@@ -1,0 +1,18 @@
+name: Centrifuge
+slug: centrifuge
+version_used: null
+edam_topics: []
+evidence_spans:
+- From the per-read assignments of MetaMaps, Centrifuge, Bracken, LAST+MEGAN-LR on i100, p25, CAMI, HMP7, and Zymo
+- methods that directly employ the Burrows-Wheeler transform23, for example Centrifuge24
+derived_from:
+- doi: 10.1038/s41467-019-10934-2
+  title: Strain-level metagenomic assignment and compositional estimation for long reads with MetaMaps
+source_repos:
+- https://github.com/DiltheyLab/MetaMaps
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DiltheyLab/MetaMaps

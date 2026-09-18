@@ -1,0 +1,17 @@
+name: csvtk
+slug: csvtk
+version_used: null
+edam_topics: []
+evidence_spans:
+- csvtk -H -t grep -f 4 -r -i -p "[^ACGT]"
+derived_from:
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+source_repos:
+- https://github.com/devonorourke/tidybug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/devonorourke/tidybug

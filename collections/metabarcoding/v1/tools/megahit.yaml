@@ -1,0 +1,22 @@
+name: MEGAHIT
+slug: megahit
+version_used: null
+edam_topics: []
+evidence_spans:
+- MEGAHIT is used to assemble large, complex metagenome datasets quickly using little computer memory (Li et al., 2015)
+- Three assemblers (Megahit,SPAdes and IDBA) are integrated in this step
+- Three assemblers (Megahit,SPAdes and IDBA) are integrated in this step.
+derived_from:
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YongxinLiu/Liu2020ProteinCell

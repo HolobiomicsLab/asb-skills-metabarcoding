@@ -1,0 +1,17 @@
+name: PacBio
+slug: pacbio
+version_used: null
+edam_topics: []
+evidence_spans:
+- The advent of long-read approaches on Nanopore4 and PacBio3 platforms has changed this.
+derived_from:
+- doi: 10.1038/s41467-019-13036-1
+  title: Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis
+source_repos:
+- https://github.com/TheJacksonLaboratory/weinstock_full_length_16s
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TheJacksonLaboratory/weinstock_full_length_16s

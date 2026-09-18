@@ -1,0 +1,17 @@
+name: OPAL
+slug: opal
+version_used: null
+edam_topics: []
+evidence_spans:
+- proves more accurate than available alternatives on synthetic evaluations while also reliably quantifying organisms
+derived_from:
+- doi: 10.1038/s41587-023-01688-w
+  title: Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4
+source_repos:
+- https://github.com/biobakery/MetaPhlAn
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biobakery/MetaPhlAn

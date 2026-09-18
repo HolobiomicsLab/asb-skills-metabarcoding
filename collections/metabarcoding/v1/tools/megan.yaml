@@ -1,0 +1,25 @@
+name: MEGAN
+slug: megan
+version_used: null
+edam_topics: []
+evidence_spans:
+- This category includes tools like Megan7,8, MetaPhlan9, GASiC10, and MG-RAST11.
+- MEGAN-LR26 aligns long reads to protein databases and then carries out a lowest-common-ancestor-based analysis.
+- MEGAN (Huson et al., 2016) is a cross-platform graphical user interface (GUI) software that performs taxonomic and functional analyses
+derived_from:
+- doi: 10.1038/s41467-019-10934-2
+  title: Strain-level metagenomic assignment and compositional estimation for long reads with MetaMaps
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/DiltheyLab/MetaMaps
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DiltheyLab/MetaMaps

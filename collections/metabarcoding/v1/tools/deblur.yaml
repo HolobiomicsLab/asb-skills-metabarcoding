@@ -1,0 +1,29 @@
+name: Deblur
+slug: deblur
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'For the Deblur pipeline, we altered two parameters from their default: ‘‐‐p‐min‐reads 2’ and ‘‐‐p‐min‐size 1’'
+- For the Deblur pipeline, we altered two parameters from their default
+- Sequence denoising was performed with the Deblur pipeline, which is intended for paired-end data, and the non-redundant reads were deleted
+derived_from:
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1038/s41598-023-30764-z
+  title: Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+- doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+- doi: 10.1038/s41598-024-77864-y
+  title: Key features and guidelines for the application of microbial alpha diversity metrics
+source_repos:
+- https://github.com/devonorourke/tidybug
+- https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification
+- https://github.com/cuttlefishh/deblur
+- https://github.com/biocore/emp
+- https://github.com/mauroibz/alpha-diversities
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/devonorourke/tidybug

@@ -1,0 +1,18 @@
+name: redbiom
+slug: redbiom
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'redbiom: a rapid sample discovery and feature characterization system'
+derived_from:
+- doi: 10.1038/s41467-019-12669-6
+  title: Species abundance information improves sequence taxonomy classification accuracy
+source_repos:
+- https://github.com/biocore/redbiom
+- https://github.com/BenKaehler/q2-clawback
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biocore/redbiom

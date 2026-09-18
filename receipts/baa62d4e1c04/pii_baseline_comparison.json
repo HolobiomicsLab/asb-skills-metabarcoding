@@ -1,0 +1,40 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "baseline_authority": "caller task: gate baseline false-positive on git@github.com in runtime-memory-profiling",
+  "current_gate_failure_reproduced": false,
+  "reason": "The quoted clone URL is removed by the ordinary Decision 7 P3 cumulative cap for DOI 10.1016/j.csbj.2023.01.034 before the gate runs. No PII exception or override was applied.",
+  "matching_trim_entries": [
+    {
+      "leaf": "runtime-memory-profiling",
+      "doi": "10.1016/j.csbj.2023.01.034",
+      "body_line": 65,
+      "kind": "leaf",
+      "text": "git clone git@github.com:aitgon/vtam_benchmark.git",
+      "kept_text": "",
+      "dropped_text": "git clone git@github.com:aitgon/vtam_benchmark.git",
+      "reason": "cumulative_budget_exhausted"
+    },
+    {
+      "leaf": "singularity-containerized-benchmarking",
+      "doi": "10.1016/j.csbj.2023.01.034",
+      "body_line": 73,
+      "kind": "leaf",
+      "text": "git clone git@github.com:aitgon/vtam_benchmark.git",
+      "kept_text": "",
+      "dropped_text": "git clone git@github.com:aitgon/vtam_benchmark.git",
+      "reason": "cumulative_budget_exhausted"
+    },
+    {
+      "leaf": "snakemake-workflow-execution--a90a8fe3f7320b41",
+      "doi": "10.1016/j.csbj.2023.01.034",
+      "body_line": 69,
+      "kind": "leaf",
+      "text": "git clone git@github.com:aitgon/vtam_benchmark.git",
+      "kept_text": "",
+      "dropped_text": "git clone git@github.com:aitgon/vtam_benchmark.git",
+      "reason": "cumulative_budget_exhausted"
+    }
+  ]
+}

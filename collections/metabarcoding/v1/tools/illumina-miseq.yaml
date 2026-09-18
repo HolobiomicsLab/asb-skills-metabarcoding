@@ -1,0 +1,17 @@
+name: Illumina MiSeq
+slug: illumina-miseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- the 300 bp length limit of the Illumna MiSeq platform limits 16S rRNA profiling
+derived_from:
+- doi: 10.1038/s41598-023-30764-z
+  title: Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+source_repos:
+- https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification

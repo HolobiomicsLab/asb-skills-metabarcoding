@@ -1,0 +1,22 @@
+name: Tidyverse
+slug: tidyverse
+version_used: 1.3.0
+edam_topics: []
+evidence_spans:
+- and processed with Tidyverse (Wickham, 2017)
+- imported with the QIIME2R package (Bisanz, 2018) and processed with Tidyverse (Wickham, 2017)
+- '"tidyverse" Version: 1.3.0'
+derived_from:
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+source_repos:
+- https://github.com/devonorourke/tidybug
+- https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/devonorourke/tidybug

@@ -1,0 +1,19 @@
+name: MetaPhlAn
+slug: metaphlan
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaPhlAn is a computational tool for species-level microbial profiling (bacteria, archaea, eukaryotes, and viruses) from metagenomic shotgun sequencing data.
+- MetaPhlAn and StrainPhlAn are part of the bioBakery suite.
+- 'If you use StrainPhlAn, please cite the MetaPhlAn paper and the StrainPhlAn paper:'
+derived_from:
+- doi: 10.1038/s41587-023-01688-w
+  title: Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4
+source_repos:
+- https://github.com/biobakery/MetaPhlAn
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biobakery/MetaPhlAn

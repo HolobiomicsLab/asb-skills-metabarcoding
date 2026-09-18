@@ -1,0 +1,37 @@
+name: mothur
+slug: mothur
+version_used: null
+edam_topics: []
+evidence_spans:
+- a comparative analysis of the Pavloudi et al. [49] dataset with mothur [4], QIIME 2 [5], LotuS [6], and PEMA was conducted
+- Well-established pipelines are available to process metabarcoding data ... (e.g., mothur [4], QIIME 2 [5], LotuS [6])
+- Mothur SILVA indices were obtained from the [Mothur website.]
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+- doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1038/npjbiofilms.2016.4
+  title: A perspective on 16S rRNA operational taxonomic unit clustering using sequence similarity
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/aubreyodom/16SBenchmarking
+- https://github.com/jfmrod/mapseq
+- https://github.com/a-h-b/dadasnake
+- https://github.com/aomlomics/tourmaline
+- https://github.com/namphuon/phylo
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

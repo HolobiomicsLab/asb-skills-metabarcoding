@@ -1,0 +1,17 @@
+name: MultiQC
+slug: multiqc
+version_used: null
+edam_topics: []
+evidence_spans:
+- The helper script fastqc_per_base_sequence_quality_dropoff.py can be run on the output of FastQC and MultiQC to estimate and set DADA2 or Deblur truncation lengths
+derived_from:
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+source_repos:
+- https://github.com/aomlomics/tourmaline
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aomlomics/tourmaline

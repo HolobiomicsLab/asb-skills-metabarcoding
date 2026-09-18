@@ -1,0 +1,19 @@
+name: MAPseq
+slug: mapseq
+version_used: 1.2.6
+edam_topics: []
+evidence_spans:
+- MAPseq v1.2.6 (24 Mar 2020)
+- Here we present MAPseq, a framework for reference-based rRNA sequence analysis
+- Here we present MAPseq, a framework for reference-based rRNA sequence analysis that is up to 30% more accurate (F½ score) and up to one hundred times faster than existing solutions
+derived_from:
+- doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+source_repos:
+- https://github.com/jfmrod/mapseq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jfmrod/mapseq

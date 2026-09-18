@@ -1,0 +1,17 @@
+name: lsmeans
+slug: lsmeans
+version_used: null
+edam_topics: []
+evidence_spans:
+- PathoScope 2 and Kraken 2, both tools designed for whole-genome metagenomics, outperformed DADA2, QIIME 2 using the DADA2 plugin, and Mothur
+derived_from:
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+source_repos:
+- https://github.com/aubreyodom/16SBenchmarking
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aubreyodom/16SBenchmarking

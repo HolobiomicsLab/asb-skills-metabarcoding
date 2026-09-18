@@ -1,0 +1,16 @@
+{
+  "name": "metabarcoding",
+  "description": "ASB Metabarcoding. Rehearsal collection from the unfiltered provisional cut; 954 paper-derived skills with local retrieval.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab"
+  },
+  "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabarcoding",
+  "repository": "https://github.com/HolobiomicsLab/asb-skills-metabarcoding",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "metabarcoding",
+    "scientific skills"
+  ]
+}

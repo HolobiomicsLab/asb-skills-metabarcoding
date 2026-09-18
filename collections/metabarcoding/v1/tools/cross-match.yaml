@@ -1,0 +1,19 @@
+name: Cross_match
+slug: cross-match
+version_used: null
+edam_topics: []
+evidence_spans:
+- Align mock community PacBio CCS reads to the mock reference 16S gene set with Cross_match (minscore 750, penalty -9, masklevel 0)
+- we chose to overcome such platform-specific errors by focusing on substitutions and ignoring the contribution of insertions and deletions to intragenomic 16S gene copy polymorphisms
+- phase full-length 16S reads per isolate against its most abundant unique sequence with Cross_match
+derived_from:
+- doi: 10.1038/s41467-019-13036-1
+  title: Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis
+source_repos:
+- https://github.com/TheJacksonLaboratory/weinstock_full_length_16s
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TheJacksonLaboratory/weinstock_full_length_16s

@@ -1,0 +1,18 @@
+name: Perl
+slug: perl
+version_used: null
+edam_topics: []
+evidence_spans:
+- using Perl with Bio Perl modules and the Ebot script37,38
+- 'Three sets of CO1 reference sequences were assembled: 1) Arthropoda, 2) Chordata, and 3) outgroup taxa as described below using Perl with Bio Perl modules'
+derived_from:
+- doi: 10.1038/s41598-018-22505-4
+  title: Automated high throughput animal CO1 metabarcode classification
+source_repos:
+- https://github.com/terrimporter/CO1Classifier
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/terrimporter/CO1Classifier

@@ -1,0 +1,28 @@
+name: RDP classifier
+slug: rdp-classifier
+version_used: '2.12'
+edam_topics: []
+evidence_spans:
+- we used a common classification approach (the Ribosome Database Project (RDP) classifier) to calculate the frequency
+- used with the RDP classifier v 2.12 for leave-one-out testing, cross-validation testing, and classifier training
+- The Ribosomal Database Project (RDP) classifier uses a naïve Bayesian approach to make taxonomic assignments
+derived_from:
+- doi: 10.1038/s41467-019-13036-1
+  title: Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis
+- doi: 10.1038/s41598-018-22505-4
+  title: Automated high throughput animal CO1 metabarcode classification
+- doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+- doi: 10.1038/npjbiofilms.2016.4
+  title: A perspective on 16S rRNA operational taxonomic unit clustering using sequence similarity
+source_repos:
+- https://github.com/TheJacksonLaboratory/weinstock_full_length_16s
+- https://github.com/terrimporter/CO1Classifier
+- https://github.com/jfmrod/mapseq
+- https://github.com/namphuon/phylo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TheJacksonLaboratory/weinstock_full_length_16s

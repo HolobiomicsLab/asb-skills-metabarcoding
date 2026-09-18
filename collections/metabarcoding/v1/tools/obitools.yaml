@@ -1,0 +1,25 @@
+name: OBITools
+slug: obitools
+version_used: null
+edam_topics: []
+evidence_spans:
+- the “obiuniq” program of OBITools [35] groups all the identical sequences in every sample
+- the “obiuniq” program of OBITools [35] groups all the identical sequences in every sample, keeping track of their abundances
+- the “obiuniq” program of OBITools [35] groups all the identical sequences in every sample, keeping track of their abundances.
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1038/s41598-017-17150-2
+  title: Environmental DNA reveals tropical shark diversity in contrasting levels of anthropogenic impact
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/aomlomics/tourmaline
+- https://github.com/metabarpark/Reference-databases
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema
