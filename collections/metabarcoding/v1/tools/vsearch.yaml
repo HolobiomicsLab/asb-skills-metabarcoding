@@ -1,0 +1,79 @@
+name: VSEARCH
+slug: vsearch
+version_used: 1.8.0
+edam_topics: []
+evidence_spans:
+- '**VSEARCH** - Alternatively, a matchlist can also be produced with **VSEARCH** with this command'
+- 'OTU tables were produced from the sequence data using a set of representative clustering methods: VSEARCH22, SWARM23, CROP24 and DADA213'
+- The initial clustering can be done in **UCLUST, VSEARCH, SWARM, QIIME, DADA2**, etc.
+- Alternatively, a matchlist can also be produced with **VSEARCH** with this command
+- 'OTU tables were produced from the sequence data using a set of representative clustering methods: VSEARCH22, SWARM23, CROP24 and DADA213.'
+- For the case of 16S and 18S rRNA marker genes, VSEARCH [17] is used for OTU clustering
+- The VSEARCH package [17] is then invoked for chimera removal
+- The OTU clustering approach with VSEARCH mirrored the parameters outlined at the VSEARCH Wiki GitHub page
+- --derep_fulllength tmp_nolabels.fasta
+- vsearch --derep_fulllength porter.arthCOI_notax.fasta.tmp --output porter.derep.fasta --relabel_keep --threads 4 --fasta_width 0 --notrunclabels
+- qiime feature-classifier classify-consensus-vsearch
+- We assume your SFF or FASTQ files have been properly pair-assembled (with vsearch for example), trimmed from adaptors and primers
+- and a hundred times faster than VSEARCH, on amplicon data
+- Feature classification (taxonomic assignment) with options of naive Bayes [47], consensus BLAST [48], and consensus VSEARCH [49]
+- Using VSEARCH in global alignment mode with 100% similarity
+- VSEARCHhttps://github.com/torognes/vsearchA free USEARCH-like software tool. We recommend using it alone or in addition to USEARCH.
+- Chimeras were removed with VSEARCH v1.8.0
+- a chimera removal step was performed using the uchime-denovo algorithm76 implemented in vsearch77
+- 'VSEARCH: a versatile open source tool for metagenomics'
+- 'VSEARCH: a versatile open source tool for metagenomics'
+- 使用 **vsearch** 的 `--fastq_mergepairs` 命令将每个样本的前后向序列合并，并用样本 ID 重命名序列名称。
+- vsearch --usearch_global temp/filtered.fa --db ${db}/gg/97_otus.fa --otutabout result/gg/otutab.txt --id 0.97 --threads 12
+- Use tools like **VSEARCH** to merge identical sequences into a single one to reduce redundant calculations
+- vsearch --usearch_global temp/filtered.fa --db result/raw/otus.fa \
+- integrates popular tools such as USEARCH and VSEARCH, offering a streamlined workflow from raw data to results
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+- doi: 10.1093/bioinformatics/btab493
+  title: 'Swarm v3: towards tera-scale amplicon clustering'
+- doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+- doi: 10.1038/s41598-017-17150-2
+  title: Environmental DNA reveals tropical shark diversity in contrasting levels of anthropogenic impact
+- doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+- doi: 10.1002/imo2.42
+  title: 'Unveiling microbial communities with EasyAmplicon: A user‐centric guide to perform amplicon sequencing data analysis'
+source_repos:
+- https://github.com/tobiasgf/lulu
+- https://github.com/hariszaf/pema
+- https://github.com/torognes/vsearch
+- https://github.com/devonorourke/tidybug
+- https://github.com/aitgon/vtam
+- https://github.com/aitgon/vtam_benchmark
+- https://github.com/torognes/swarm
+- https://github.com/jfmrod/mapseq
+- https://github.com/aomlomics/tourmaline
+- https://github.com/biocore/emp
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/marinebon/eDNA_microbes_whales
+- https://github.com/metabarpark/Reference-databases
+- https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+- https://github.com/YongxinLiu/EasyAmplicon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/lulu

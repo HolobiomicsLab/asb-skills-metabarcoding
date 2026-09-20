@@ -1,0 +1,25 @@
+name: SWARM
+slug: swarm
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'OTU tables were produced from the sequence data using a set of representative clustering methods: VSEARCH22, SWARM23, CROP24 and DADA213'
+- The initial clustering can be done in **UCLUST, VSEARCH, SWARM, QIIME, DADA2**, etc.
+- 'OTU tables were produced from the sequence data using a set of representative clustering methods: VSEARCH22, SWARM23, CROP24 and DADA213.'
+- Operational taxonomic units (OTUs) were clustered with Swarm
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+source_repos:
+- https://github.com/frederic-mahe/swarm
+- https://github.com/torognes/swarm
+- https://github.com/tobiasgf/lulu
+- https://github.com/marinebon/eDNA_microbes_whales
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/frederic-mahe/swarm

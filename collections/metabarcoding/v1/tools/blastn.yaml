@@ -1,0 +1,21 @@
+name: BLASTn
+slug: blastn
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**BLASTn** is an effective tool for this, and the one that was used in the validation of the **LULU** algorithm.'
+- based on local BLASTn search against the non-redundant version of SILVA SSU ref dataset (release no. 132)
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+source_repos:
+- https://github.com/tobiasgf/lulu
+- https://github.com/vsbuffalo/scythe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/lulu

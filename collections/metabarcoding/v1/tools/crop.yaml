@@ -1,0 +1,21 @@
+name: CROP
+slug: crop
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'OTU tables were produced from the sequence data using a set of representative clustering methods: VSEARCH22, SWARM23, CROP24 and DADA213'
+- When the CROP algorithm was used, PEMA's output was less accurate
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+source_repos:
+- https://github.com/tobiasgf/lulu
+- https://github.com/hariszaf/pema
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/lulu

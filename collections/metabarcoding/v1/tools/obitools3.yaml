@@ -1,0 +1,16 @@
+name: OBITools3
+slug: obitools3
+version_used: '3.0'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+source_repos:
+- https://github.com/aitgon/vtam_benchmark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aitgon/vtam_benchmark

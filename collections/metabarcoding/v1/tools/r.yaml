@@ -1,0 +1,62 @@
+name: R
+slug: r
+version_used: 3.3.2
+edam_topics: []
+evidence_spans:
+- LULU was developed in R version 3.3.2.
+- 'R-package dependencies
+
+  The following libraries need to be included for the R code to run'
+- The following libraries need to be included for the R code to run
+- 'The following libraries need to be included for the R code to run:'
+- 'R-package dependencies
+
+  The following libraries need to be included for the R code to run:'
+- tobiasgf/Bioinformatic-tools
+- We performed eDNA metabarcoding of flowers from several different plant species using two sets of generic primers, targeting the mitochondrial genes 16S rRNA and COI.
+- We obtained eDNA from at least 135 arthropod species in 67 families and 14 orders, together representing diverse ecological groups
+- All statistical analyses were performed in R (R Core Team, 2018) version 3.5.1
+- these data were generated using the [figure4_database_comparisons.R](https://github.com/devonorourke/tidybug/blob/master/scripts/R_scripts/figure4_database_comparisons.R) R script.
+- The alpha diversity indices and rarefaction curves were estimated in R (version 3.4.1) with compatible phyloseq and vegan packages.
+- IPython notebooks and scripts (Python, Java, R, Bash) developed for meta-analysis of EMP data
+- github.com__marinebon__eDNA_microbes_whales
+- Community network analysis provided evidence of expected predator-prey relationships, trophic linkages, and seasonal shifts across all domains of life.
+- (absent — flagged as missing)
+- All custom R scripts are publicly available from http://github.com/metabarpark.
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1038/s41467-020-17041-7
+  title: Analysis of compositions of microbiomes with bias correction
+- doi: 10.1002/ece3.4809
+  title: Environmental DNA metabarcoding of wild flowers reveals diverse communities of terrestrial arthropods
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+- doi: 10.1038/s41598-023-30764-z
+  title: Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+- doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+- doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+- doi: 10.1038/s41598-017-17150-2
+  title: Environmental DNA reveals tropical shark diversity in contrasting levels of anthropogenic impact
+source_repos:
+- https://github.com/tobiasgf/lulu
+- https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive
+- https://github.com/FrederickHuangLin/ANCOMBC
+- https://github.com/tobiasgf/Bioinformatic-tools
+- https://github.com/devonorourke/tidybug
+- https://github.com/aitgon/vtam_benchmark
+- https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification
+- https://github.com/biocore/emp
+- https://github.com/marinebon/eDNA_microbes_whales
+- https://github.com/github.com/metabarpark
+- https://github.com/metabarpark/Reference-databases
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/lulu

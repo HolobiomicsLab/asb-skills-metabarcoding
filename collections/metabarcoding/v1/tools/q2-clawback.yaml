@@ -1,0 +1,18 @@
+name: q2-clawback
+slug: q2-clawback
+version_used: null
+edam_topics: []
+evidence_spans:
+- q2-clawback provides a straightforward alternative for samples from common environments.
+- If you like the idea of using taxonomic weights to improve your taxonomic classification accuracy, but don't want to run clawback
+derived_from:
+- doi: 10.1038/s41467-019-12669-6
+  title: Species abundance information improves sequence taxonomy classification accuracy
+source_repos:
+- https://github.com/BenKaehler/q2-clawback
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BenKaehler/q2-clawback

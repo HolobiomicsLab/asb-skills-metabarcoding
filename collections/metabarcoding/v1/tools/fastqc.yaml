@@ -1,0 +1,36 @@
+name: FastQC
+slug: fastqc
+version_used: 0.11.9
+edam_topics: []
+evidence_spans:
+- First, FastQC [29] is used to obtain an overall read-quality summary
+- FastQC was used to obtain quality sequences with Q30 and to observe the number of reads per sample
+- FastQC Version 0.11.9 assessed quality and the filtering of raw reads
+- FastQC Version 0.11.9 assessed quality and the filtering of raw reads with a cut-off score of up to 30
+- The helper script fastqc_per_base_sequence_quality_dropoff.py can be run on the output of FastQC and MultiQC to estimate and set DADA2 or Deblur truncation lengths
+- '[FastQC](https://github.com/s-andrews/FastQC/) is used to generate comprehensive report of data quality on raw data'
+- '[FastQC](https://github.com/s-andrews/FastQC/) is used to generate comprehensive report of data quality on raw data.'
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1038/s41598-023-30764-z
+  title: Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+- doi: 10.1093/bioinformatics/bty560
+  title: 'fastp: an ultra-fast all-in-one FASTQ preprocessor'
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification
+- https://github.com/OpenGene/fastp
+- https://github.com/aomlomics/tourmaline
+- https://github.com/s-andrews/FastQC
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

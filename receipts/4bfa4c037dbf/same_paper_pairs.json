@@ -1,0 +1,1357 @@
+{
+  "auto_merges_applied": false,
+  "components_ge_0_90": 52,
+  "components_ge_0_95": 3,
+  "input_digests": {
+    "coverage_summary_sha256": "4bfa4c037dbfeb3566d9b74be1c0eb1df203dfc1e78b0f5aa68463533c985e2b",
+    "outputs": 803
+  },
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "left": {
+        "canonical_slug": "vsearch-global-alignment-otu-mapping",
+        "merge_kind": "single",
+        "output_id": "vsearch-global-alignment-otu-mapping"
+      },
+      "right": {
+        "canonical_slug": "vsearch-global-alignment-parameterization",
+        "merge_kind": "single",
+        "output_id": "vsearch-global-alignment-parameterization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.948318
+    },
+    {
+      "left": {
+        "canonical_slug": "rrna-amplicon-taxonomic-classification",
+        "merge_kind": "single",
+        "output_id": "rrna-amplicon-taxonomic-classification"
+      },
+      "right": {
+        "canonical_slug": "rrna-read-taxonomic-mapping",
+        "merge_kind": "single",
+        "output_id": "rrna-read-taxonomic-mapping"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.947099
+    },
+    {
+      "left": {
+        "canonical_slug": "post-clustering-curation-comparison",
+        "merge_kind": "single",
+        "output_id": "post-clustering-curation-comparison"
+      },
+      "right": {
+        "canonical_slug": "post-clustering-otu-table-curation",
+        "merge_kind": "single",
+        "output_id": "post-clustering-otu-table-curation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.946439
+    },
+    {
+      "left": {
+        "canonical_slug": "fastq-duplication-rate-evaluation",
+        "merge_kind": "single",
+        "output_id": "fastq-duplication-rate-evaluation"
+      },
+      "right": {
+        "canonical_slug": "fastqc-duplication-benchmarking",
+        "merge_kind": "single",
+        "output_id": "fastqc-duplication-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq",
+      "score": 0.943487
+    },
+    {
+      "left": {
+        "canonical_slug": "species-level-classification-accuracy-evaluation",
+        "merge_kind": "single",
+        "output_id": "species-level-classification-accuracy-evaluation"
+      },
+      "right": {
+        "canonical_slug": "species-level-error-rate-evaluation",
+        "merge_kind": "single",
+        "output_id": "species-level-error-rate-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.943481
+    },
+    {
+      "left": {
+        "canonical_slug": "alignment-identity-distribution-analysis",
+        "merge_kind": "single",
+        "output_id": "alignment-identity-distribution-analysis"
+      },
+      "right": {
+        "canonical_slug": "alignment-identity-estimation",
+        "merge_kind": "single",
+        "output_id": "alignment-identity-estimation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.942534
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-primer-sequence-trimming",
+        "merge_kind": "single",
+        "output_id": "amplicon-primer-sequence-trimming"
+      },
+      "right": {
+        "canonical_slug": "amplicon-sequence-dereplication",
+        "merge_kind": "single",
+        "output_id": "amplicon-sequence-dereplication"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.941959
+    },
+    {
+      "left": {
+        "canonical_slug": "minimizer-based-approximate-mapping",
+        "merge_kind": "single",
+        "output_id": "minimizer-based-approximate-mapping"
+      },
+      "right": {
+        "canonical_slug": "minimizer-index-construction",
+        "merge_kind": "single",
+        "output_id": "minimizer-index-construction"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.941221
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-deviation-analysis",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-deviation-analysis"
+      },
+      "right": {
+        "canonical_slug": "alpha-diversity-index-computation",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-index-computation--862b62da6cb82b3b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.938156
+    },
+    {
+      "left": {
+        "canonical_slug": "naive-bayes-taxonomic-classification",
+        "merge_kind": "single",
+        "output_id": "naive-bayes-taxonomic-classification"
+      },
+      "right": {
+        "canonical_slug": "taxonomic-classification-benchmarking",
+        "merge_kind": "single",
+        "output_id": "taxonomic-classification-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.937599
+    },
+    {
+      "left": {
+        "canonical_slug": "precision-recall-f1-benchmark-scoring",
+        "merge_kind": "single",
+        "output_id": "precision-recall-f1-benchmark-scoring"
+      },
+      "right": {
+        "canonical_slug": "precision-recall-metric-computation",
+        "merge_kind": "single",
+        "output_id": "precision-recall-metric-computation--3512ad2ecc1c3859"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.937148
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-compositional-data-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-compositional-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "microbiome-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-differential-abundance-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.936865
+    },
+    {
+      "left": {
+        "canonical_slug": "qiime2-artifact-workflow",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-workflow"
+      },
+      "right": {
+        "canonical_slug": "qiime2-classifier-workflow-execution",
+        "merge_kind": "single",
+        "output_id": "qiime2-classifier-workflow-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.936843
+    },
+    {
+      "left": {
+        "canonical_slug": "minimizer-index-construction",
+        "merge_kind": "single",
+        "output_id": "minimizer-index-construction"
+      },
+      "right": {
+        "canonical_slug": "reference-database-minimizer-scoring",
+        "merge_kind": "single",
+        "output_id": "reference-database-minimizer-scoring"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.936698
+    },
+    {
+      "left": {
+        "canonical_slug": "metagenomic-marker-consensus-sequencing",
+        "merge_kind": "single",
+        "output_id": "metagenomic-marker-consensus-sequencing"
+      },
+      "right": {
+        "canonical_slug": "metagenomic-marker-database-construction",
+        "merge_kind": "single",
+        "output_id": "metagenomic-marker-database-construction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.93661
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-alpha-diversity-metric-computation",
+        "merge_kind": "single",
+        "output_id": "amplicon-alpha-diversity-metric-computation"
+      },
+      "right": {
+        "canonical_slug": "beta-diversity-computation",
+        "merge_kind": "single",
+        "output_id": "beta-diversity-computation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.935206
+    },
+    {
+      "left": {
+        "canonical_slug": "class-weighted-species-level-error-rate-comparison",
+        "merge_kind": "single",
+        "output_id": "class-weighted-species-level-error-rate-comparison"
+      },
+      "right": {
+        "canonical_slug": "species-level-classification-accuracy-evaluation",
+        "merge_kind": "single",
+        "output_id": "species-level-classification-accuracy-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.935185
+    },
+    {
+      "left": {
+        "canonical_slug": "maximum-likelihood-read-assignment",
+        "merge_kind": "single",
+        "output_id": "maximum-likelihood-read-assignment"
+      },
+      "right": {
+        "canonical_slug": "read-assignment-accuracy-evaluation",
+        "merge_kind": "single",
+        "output_id": "read-assignment-accuracy-evaluation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.933469
+    },
+    {
+      "left": {
+        "canonical_slug": "dual-barcode-sequence-design",
+        "merge_kind": "single",
+        "output_id": "dual-barcode-sequence-design"
+      },
+      "right": {
+        "canonical_slug": "sample-barcode-assignment",
+        "merge_kind": "single",
+        "output_id": "sample-barcode-assignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.932256
+    },
+    {
+      "left": {
+        "canonical_slug": "interactive-qiime2-visualization-inspection",
+        "merge_kind": "single",
+        "output_id": "interactive-qiime2-visualization-inspection"
+      },
+      "right": {
+        "canonical_slug": "qiime2-artifact-visualization-interpretation",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-visualization-interpretation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.931982
+    },
+    {
+      "left": {
+        "canonical_slug": "qiime2-artifact-generation",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-generation"
+      },
+      "right": {
+        "canonical_slug": "qiime2-artifact-visualization-interpretation",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-visualization-interpretation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.931049
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-abundance-bias-correction",
+        "merge_kind": "single",
+        "output_id": "differential-abundance-bias-correction"
+      },
+      "right": {
+        "canonical_slug": "differential-abundance-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "differential-abundance-method-benchmarking"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.928385
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-abundance-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "differential-abundance-method-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "microbiome-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-differential-abundance-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.927906
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-dada2-truncation-parameter-optimization",
+        "merge_kind": "single",
+        "output_id": "amplicon-dada2-truncation-parameter-optimization"
+      },
+      "right": {
+        "canonical_slug": "dada2-truncation-parameter-selection",
+        "merge_kind": "single",
+        "output_id": "dada2-truncation-parameter-selection"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.927605
+    },
+    {
+      "left": {
+        "canonical_slug": "species-level-classification-accuracy-evaluation",
+        "merge_kind": "single",
+        "output_id": "species-level-classification-accuracy-evaluation"
+      },
+      "right": {
+        "canonical_slug": "taxonomic-classification-benchmarking",
+        "merge_kind": "single",
+        "output_id": "taxonomic-classification-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.925715
+    },
+    {
+      "left": {
+        "canonical_slug": "16s-amplicon-taxonomic-profiling",
+        "merge_kind": "single",
+        "output_id": "16s-amplicon-taxonomic-profiling"
+      },
+      "right": {
+        "canonical_slug": "genus-species-taxonomic-profiling-comparison",
+        "merge_kind": "single",
+        "output_id": "genus-species-taxonomic-profiling-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.922922
+    },
+    {
+      "left": {
+        "canonical_slug": "otu-table-curation",
+        "merge_kind": "single",
+        "output_id": "otu-table-curation"
+      },
+      "right": {
+        "canonical_slug": "post-clustering-otu-table-curation",
+        "merge_kind": "single",
+        "output_id": "post-clustering-otu-table-curation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.921922
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-differential-abundance-analysis"
+      },
+      "right": {
+        "canonical_slug": "microbiome-taxa-abundance-difference-modeling",
+        "merge_kind": "single",
+        "output_id": "microbiome-taxa-abundance-difference-modeling"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.92164
+    },
+    {
+      "left": {
+        "canonical_slug": "genus-species-taxonomic-profiling-comparison",
+        "merge_kind": "single",
+        "output_id": "genus-species-taxonomic-profiling-comparison"
+      },
+      "right": {
+        "canonical_slug": "taxonomic-profiler-benchmark-visualization",
+        "merge_kind": "single",
+        "output_id": "taxonomic-profiler-benchmark-visualization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.921606
+    },
+    {
+      "left": {
+        "canonical_slug": "metagenomic-workflow-curation",
+        "merge_kind": "single",
+        "output_id": "metagenomic-workflow-curation"
+      },
+      "right": {
+        "canonical_slug": "shotgun-metagenomics-annotation-tool-selection",
+        "merge_kind": "single",
+        "output_id": "shotgun-metagenomics-annotation-tool-selection"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.921139
+    },
+    {
+      "left": {
+        "canonical_slug": "mock-community-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "mock-community-benchmark-evaluation--f16da8d3b810a7b4"
+      },
+      "right": {
+        "canonical_slug": "mock-community-sensitivity-calculation",
+        "merge_kind": "single",
+        "output_id": "mock-community-sensitivity-calculation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.920956
+    },
+    {
+      "left": {
+        "canonical_slug": "its-mock-community-metabarcoding-analysis",
+        "merge_kind": "single",
+        "output_id": "its-mock-community-metabarcoding-analysis"
+      },
+      "right": {
+        "canonical_slug": "metabarcoding-parameter-tuning-and-fp-evaluation",
+        "merge_kind": "single",
+        "output_id": "metabarcoding-parameter-tuning-and-fp-evaluation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.920691
+    },
+    {
+      "left": {
+        "canonical_slug": "beta-diversity-analysis-of-16s-microbiome-data",
+        "merge_kind": "single",
+        "output_id": "beta-diversity-analysis-of-16s-microbiome-data"
+      },
+      "right": {
+        "canonical_slug": "microbiome-diversity-statistics",
+        "merge_kind": "single",
+        "output_id": "microbiome-diversity-statistics"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_30764_z_cq",
+      "score": 0.920642
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-reference-sequence-handling",
+        "merge_kind": "single",
+        "output_id": "amplicon-reference-sequence-handling"
+      },
+      "right": {
+        "canonical_slug": "amplicon-sequence-dereplication",
+        "merge_kind": "single",
+        "output_id": "amplicon-sequence-dereplication"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.919685
+    },
+    {
+      "left": {
+        "canonical_slug": "edna-amplicon-read-processing",
+        "merge_kind": "single",
+        "output_id": "edna-amplicon-read-processing"
+      },
+      "right": {
+        "canonical_slug": "edna-metabarcoding-pipeline-preprocessing",
+        "merge_kind": "single",
+        "output_id": "edna-metabarcoding-pipeline-preprocessing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq",
+      "score": 0.916993
+    },
+    {
+      "left": {
+        "canonical_slug": "compositional-data-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "compositional-data-differential-abundance-analysis"
+      },
+      "right": {
+        "canonical_slug": "differential-abundance-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "differential-abundance-method-benchmarking"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.916598
+    },
+    {
+      "left": {
+        "canonical_slug": "taxonomic-classification-benchmarking",
+        "merge_kind": "single",
+        "output_id": "taxonomic-classification-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "taxonomic-distance-computation",
+        "merge_kind": "single",
+        "output_id": "taxonomic-distance-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.915756
+    },
+    {
+      "left": {
+        "canonical_slug": "qiime2-alpha-diversity-table-handling",
+        "merge_kind": "single",
+        "output_id": "qiime2-alpha-diversity-table-handling"
+      },
+      "right": {
+        "canonical_slug": "qiime2-diversity-module-execution",
+        "merge_kind": "single",
+        "output_id": "qiime2-diversity-module-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.915389
+    },
+    {
+      "left": {
+        "canonical_slug": "de-novo-metagenome-assembly",
+        "merge_kind": "single",
+        "output_id": "de-novo-metagenome-assembly"
+      },
+      "right": {
+        "canonical_slug": "metagenome-contig-binning",
+        "merge_kind": "single",
+        "output_id": "metagenome-contig-binning"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.915247
+    },
+    {
+      "left": {
+        "canonical_slug": "em-based-composition-estimation",
+        "merge_kind": "single",
+        "output_id": "em-based-composition-estimation"
+      },
+      "right": {
+        "canonical_slug": "em-based-sample-composition-inference",
+        "merge_kind": "single",
+        "output_id": "em-based-sample-composition-inference"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.91484
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-deviation-analysis",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-deviation-analysis"
+      },
+      "right": {
+        "canonical_slug": "alpha-diversity-metric-comparison",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-metric-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.914431
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-community-composition-validation",
+        "merge_kind": "single",
+        "output_id": "microbiome-community-composition-validation"
+      },
+      "right": {
+        "canonical_slug": "microbiome-sample-metadata-stratification",
+        "merge_kind": "single",
+        "output_id": "microbiome-sample-metadata-stratification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.914246
+    },
+    {
+      "left": {
+        "canonical_slug": "interactive-qiime2-visualization-inspection",
+        "merge_kind": "single",
+        "output_id": "interactive-qiime2-visualization-inspection"
+      },
+      "right": {
+        "canonical_slug": "qiime2-artifact-generation",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.914239
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-abundance-bias-correction",
+        "merge_kind": "single",
+        "output_id": "differential-abundance-bias-correction"
+      },
+      "right": {
+        "canonical_slug": "microbiome-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-differential-abundance-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.913606
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-index-computation",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-index-computation--862b62da6cb82b3b"
+      },
+      "right": {
+        "canonical_slug": "rarefied-count-table-diversity-analysis",
+        "merge_kind": "single",
+        "output_id": "rarefied-count-table-diversity-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.913027
+    },
+    {
+      "left": {
+        "canonical_slug": "de-novo-metagenome-assembly",
+        "merge_kind": "single",
+        "output_id": "de-novo-metagenome-assembly"
+      },
+      "right": {
+        "canonical_slug": "metagenomic-workflow-curation",
+        "merge_kind": "single",
+        "output_id": "metagenomic-workflow-curation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.912329
+    },
+    {
+      "left": {
+        "canonical_slug": "metagenome-contig-binning",
+        "merge_kind": "single",
+        "output_id": "metagenome-contig-binning"
+      },
+      "right": {
+        "canonical_slug": "metagenomic-workflow-curation",
+        "merge_kind": "single",
+        "output_id": "metagenomic-workflow-curation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq",
+      "score": 0.912282
+    },
+    {
+      "left": {
+        "canonical_slug": "snakemake-pipeline-configuration",
+        "merge_kind": "single",
+        "output_id": "snakemake-pipeline-configuration"
+      },
+      "right": {
+        "canonical_slug": "snakemake-workflow-execution",
+        "merge_kind": "single",
+        "output_id": "snakemake-workflow-execution--1976dbb314b3445b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giaa135_cq",
+      "score": 0.911609
+    },
+    {
+      "left": {
+        "canonical_slug": "asv-prevalence-filtering",
+        "merge_kind": "single",
+        "output_id": "asv-prevalence-filtering"
+      },
+      "right": {
+        "canonical_slug": "prevalence-filtering-16s-count-tables",
+        "merge_kind": "single",
+        "output_id": "prevalence-filtering-16s-count-tables"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq",
+      "score": 0.911598
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-correlation-against-field-survey",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-correlation-against-field-survey"
+      },
+      "right": {
+        "canonical_slug": "amplicon-alpha-diversity-metric-computation",
+        "merge_kind": "single",
+        "output_id": "amplicon-alpha-diversity-metric-computation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.911377
+    },
+    {
+      "left": {
+        "canonical_slug": "sgb-abundance-prevalence-filtering",
+        "merge_kind": "single",
+        "output_id": "sgb-abundance-prevalence-filtering"
+      },
+      "right": {
+        "canonical_slug": "sgb-prevalence-estimation",
+        "merge_kind": "single",
+        "output_id": "sgb-prevalence-estimation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq",
+      "score": 0.911311
+    },
+    {
+      "left": {
+        "canonical_slug": "metabarcoding-diversity-data-reproduction",
+        "merge_kind": "single",
+        "output_id": "metabarcoding-diversity-data-reproduction"
+      },
+      "right": {
+        "canonical_slug": "metabarcoding-diversity-table-construction",
+        "merge_kind": "single",
+        "output_id": "metabarcoding-diversity-table-construction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metabarcoding_profiling_of_microbial_diversity_associated_with_trout_fish_farming_cq",
+      "score": 0.910921
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-release-reference-database-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-release-reference-database-comparison"
+      },
+      "right": {
+        "canonical_slug": "fasta-reference-database-curation",
+        "merge_kind": "single",
+        "output_id": "fasta-reference-database-curation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq",
+      "score": 0.910725
+    },
+    {
+      "left": {
+        "canonical_slug": "fastq-quality-control-reporting",
+        "merge_kind": "single",
+        "output_id": "fastq-quality-control-reporting"
+      },
+      "right": {
+        "canonical_slug": "paired-end-fastq-quality-control",
+        "merge_kind": "single",
+        "output_id": "paired-end-fastq-quality-control"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq",
+      "score": 0.910362
+    },
+    {
+      "left": {
+        "canonical_slug": "edna-amplicon-read-processing",
+        "merge_kind": "single",
+        "output_id": "edna-amplicon-read-processing"
+      },
+      "right": {
+        "canonical_slug": "edna-read-count-aggregation",
+        "merge_kind": "single",
+        "output_id": "edna-read-count-aggregation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq",
+      "score": 0.910152
+    },
+    {
+      "left": {
+        "canonical_slug": "synthetic-microbiome-abundance-generation",
+        "merge_kind": "single",
+        "output_id": "synthetic-microbiome-abundance-generation"
+      },
+      "right": {
+        "canonical_slug": "synthetic-microbiome-feature-table-processing",
+        "merge_kind": "single",
+        "output_id": "synthetic-microbiome-feature-table-processing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.910053
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-group-comparison",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-group-comparison"
+      },
+      "right": {
+        "canonical_slug": "beta-diversity-ordination-pcoa",
+        "merge_kind": "single",
+        "output_id": "beta-diversity-ordination-pcoa"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_practical_guide_to_amplicon_and_metagenomic_analysis_of_microbiome_data_cq",
+      "score": 0.909931
+    },
+    {
+      "left": {
+        "canonical_slug": "minimizer-based-approximate-mapping",
+        "merge_kind": "single",
+        "output_id": "minimizer-based-approximate-mapping"
+      },
+      "right": {
+        "canonical_slug": "reference-database-minimizer-scoring",
+        "merge_kind": "single",
+        "output_id": "reference-database-minimizer-scoring"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.909528
+    },
+    {
+      "left": {
+        "canonical_slug": "between-run-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "between-run-correlation-analysis"
+      },
+      "right": {
+        "canonical_slug": "cross-run-abundance-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "cross-run-abundance-correlation-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq",
+      "score": 0.909466
+    },
+    {
+      "left": {
+        "canonical_slug": "qiime2-artifact-qc-summary-extraction",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-qc-summary-extraction"
+      },
+      "right": {
+        "canonical_slug": "qiime2-artifact-visualization-interpretation",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-visualization-interpretation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.909462
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-primer-sequence-trimming",
+        "merge_kind": "single",
+        "output_id": "amplicon-primer-sequence-trimming"
+      },
+      "right": {
+        "canonical_slug": "amplicon-reference-sequence-handling",
+        "merge_kind": "single",
+        "output_id": "amplicon-reference-sequence-handling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.908282
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-correlation-against-field-survey",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-correlation-against-field-survey"
+      },
+      "right": {
+        "canonical_slug": "biodiversity-metric-validation-against-field-survey",
+        "merge_kind": "single",
+        "output_id": "biodiversity-metric-validation-against-field-survey"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.907923
+    },
+    {
+      "left": {
+        "canonical_slug": "microbial-community-richness-analysis",
+        "merge_kind": "single",
+        "output_id": "microbial-community-richness-analysis"
+      },
+      "right": {
+        "canonical_slug": "microbiome-community-composition-validation",
+        "merge_kind": "single",
+        "output_id": "microbiome-community-composition-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.907782
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-compositional-data-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-compositional-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "microbiome-simulation-data-generation",
+        "merge_kind": "single",
+        "output_id": "microbiome-simulation-data-generation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.907699
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-count-normalization",
+        "merge_kind": "single",
+        "output_id": "microbiome-count-normalization"
+      },
+      "right": {
+        "canonical_slug": "microbiome-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-differential-abundance-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.906867
+    },
+    {
+      "left": {
+        "canonical_slug": "beta-diversity-analysis-of-16s-microbiome-data",
+        "merge_kind": "single",
+        "output_id": "beta-diversity-analysis-of-16s-microbiome-data"
+      },
+      "right": {
+        "canonical_slug": "microbiome-sample-grouping-by-hypervariable-region",
+        "merge_kind": "single",
+        "output_id": "microbiome-sample-grouping-by-hypervariable-region"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_30764_z_cq",
+      "score": 0.906615
+    },
+    {
+      "left": {
+        "canonical_slug": "closely-related-genome-disambiguation",
+        "merge_kind": "single",
+        "output_id": "closely-related-genome-disambiguation"
+      },
+      "right": {
+        "canonical_slug": "reference-database-gene-annotation-intersection",
+        "merge_kind": "single",
+        "output_id": "reference-database-gene-annotation-intersection"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq",
+      "score": 0.906428
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-compositional-data-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-compositional-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "microbiome-count-normalization",
+        "merge_kind": "single",
+        "output_id": "microbiome-count-normalization"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.906417
+    },
+    {
+      "left": {
+        "canonical_slug": "metabarcoding-filter-parameterization",
+        "merge_kind": "single",
+        "output_id": "metabarcoding-filter-parameterization"
+      },
+      "right": {
+        "canonical_slug": "metabarcoding-pipeline-execution",
+        "merge_kind": "single",
+        "output_id": "metabarcoding-pipeline-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1016_j_csbj_2023_01_034_cq",
+      "score": 0.90608
+    },
+    {
+      "left": {
+        "canonical_slug": "benchmark-runtime-reporting",
+        "merge_kind": "single",
+        "output_id": "benchmark-runtime-reporting"
+      },
+      "right": {
+        "canonical_slug": "sequencing-runtime-profiling",
+        "merge_kind": "single",
+        "output_id": "sequencing-runtime-profiling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.90601
+    },
+    {
+      "left": {
+        "canonical_slug": "silva-taxonomic-classification-interpretation",
+        "merge_kind": "single",
+        "output_id": "silva-taxonomic-classification-interpretation"
+      },
+      "right": {
+        "canonical_slug": "taxonomic-composition-data-extraction",
+        "merge_kind": "single",
+        "output_id": "taxonomic-composition-data-extraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metabarcoding_profiling_of_microbial_diversity_associated_with_trout_fish_farming_cq",
+      "score": 0.905921
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-index-computation",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-index-computation--f6994fce2e215d51"
+      },
+      "right": {
+        "canonical_slug": "beta-diversity-distance-matrix-computation",
+        "merge_kind": "single",
+        "output_id": "beta-diversity-distance-matrix-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
+      "score": 0.90548
+    },
+    {
+      "left": {
+        "canonical_slug": "qiime2-artifact-generation",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-generation"
+      },
+      "right": {
+        "canonical_slug": "qiime2-artifact-qc-summary-extraction",
+        "merge_kind": "single",
+        "output_id": "qiime2-artifact-qc-summary-extraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.905439
+    },
+    {
+      "left": {
+        "canonical_slug": "asv-prevalence-filtering",
+        "merge_kind": "single",
+        "output_id": "asv-prevalence-filtering"
+      },
+      "right": {
+        "canonical_slug": "rarefaction-and-prevalence-filtering-preprocessing",
+        "merge_kind": "single",
+        "output_id": "rarefaction-and-prevalence-filtering-preprocessing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq",
+      "score": 0.905295
+    },
+    {
+      "left": {
+        "canonical_slug": "18s-rrna-mock-community-benchmarking",
+        "merge_kind": "single",
+        "output_id": "18s-rrna-mock-community-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "mock-community-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "mock-community-benchmark-evaluation--1340bd796d8723ca"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.904993
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-index-computation",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-index-computation--862b62da6cb82b3b"
+      },
+      "right": {
+        "canonical_slug": "alpha-diversity-metric-comparison",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-metric-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.904742
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-compositional-data-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-compositional-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "microbiome-taxa-abundance-difference-modeling",
+        "merge_kind": "single",
+        "output_id": "microbiome-taxa-abundance-difference-modeling"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.90448
+    },
+    {
+      "left": {
+        "canonical_slug": "fastq-duplication-rate-evaluation",
+        "merge_kind": "single",
+        "output_id": "fastq-duplication-rate-evaluation"
+      },
+      "right": {
+        "canonical_slug": "paired-end-duplication-rate-evaluation",
+        "merge_kind": "single",
+        "output_id": "paired-end-duplication-rate-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq",
+      "score": 0.903855
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-beta-diversity-analysis",
+        "merge_kind": "single",
+        "output_id": "alpha-beta-diversity-analysis"
+      },
+      "right": {
+        "canonical_slug": "alpha-diversity-group-significance-comparison",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-group-significance-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.903274
+    },
+    {
+      "left": {
+        "canonical_slug": "microbiome-dataset-characteristic-computation",
+        "merge_kind": "single",
+        "output_id": "microbiome-dataset-characteristic-computation"
+      },
+      "right": {
+        "canonical_slug": "microbiome-differential-abundance-results-aggregation",
+        "merge_kind": "single",
+        "output_id": "microbiome-differential-abundance-results-aggregation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq",
+      "score": 0.903043
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-taxonomic-abundance-verification",
+        "merge_kind": "single",
+        "output_id": "amplicon-taxonomic-abundance-verification"
+      },
+      "right": {
+        "canonical_slug": "taxonomic-classification-assignment",
+        "merge_kind": "single",
+        "output_id": "taxonomic-classification-assignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.902527
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-taxonomic-abundance-verification",
+        "merge_kind": "single",
+        "output_id": "amplicon-taxonomic-abundance-verification"
+      },
+      "right": {
+        "canonical_slug": "eukaryotic-taxonomy-read-abundance-quantification",
+        "merge_kind": "single",
+        "output_id": "eukaryotic-taxonomy-read-abundance-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
+      "score": 0.902503
+    },
+    {
+      "left": {
+        "canonical_slug": "mock-community-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "mock-community-benchmark-evaluation--1340bd796d8723ca"
+      },
+      "right": {
+        "canonical_slug": "mock-community-species-recovery-evaluation",
+        "merge_kind": "single",
+        "output_id": "mock-community-species-recovery-evaluation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.902122
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-metabarcoding-taxonomic-assignment",
+        "merge_kind": "single",
+        "output_id": "dna-metabarcoding-taxonomic-assignment"
+      },
+      "right": {
+        "canonical_slug": "metabarcoding-family-assignment-aggregation",
+        "merge_kind": "single",
+        "output_id": "metabarcoding-family-assignment-aggregation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1002_ece3_4809_cq",
+      "score": 0.901777
+    },
+    {
+      "left": {
+        "canonical_slug": "16s-amplicon-taxonomic-profiling",
+        "merge_kind": "single",
+        "output_id": "16s-amplicon-taxonomic-profiling"
+      },
+      "right": {
+        "canonical_slug": "taxonomic-profiler-benchmark-visualization",
+        "merge_kind": "single",
+        "output_id": "taxonomic-profiler-benchmark-visualization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq",
+      "score": 0.901429
+    },
+    {
+      "left": {
+        "canonical_slug": "compositional-data-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "compositional-data-differential-abundance-analysis"
+      },
+      "right": {
+        "canonical_slug": "microbiome-differential-abundance-analysis",
+        "merge_kind": "single",
+        "output_id": "microbiome-differential-abundance-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.901357
+    },
+    {
+      "left": {
+        "canonical_slug": "16s-amplicon-error-benchmarking",
+        "merge_kind": "single",
+        "output_id": "16s-amplicon-error-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "long-read-amplicon-error-profiling",
+        "merge_kind": "single",
+        "output_id": "long-read-amplicon-error-profiling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq",
+      "score": 0.901329
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-metabarcoding-data-processing",
+        "merge_kind": "single",
+        "output_id": "amplicon-metabarcoding-data-processing"
+      },
+      "right": {
+        "canonical_slug": "metabarcoding-field-survey-validation",
+        "merge_kind": "single",
+        "output_id": "metabarcoding-field-survey-validation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq",
+      "score": 0.900936
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-abundance-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "differential-abundance-method-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "normalization-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "normalization-method-benchmarking"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq",
+      "score": 0.900583
+    },
+    {
+      "left": {
+        "canonical_slug": "biom-table-parsing-and-subsetting",
+        "merge_kind": "single",
+        "output_id": "biom-table-parsing-and-subsetting"
+      },
+      "right": {
+        "canonical_slug": "biom-table-processing",
+        "merge_kind": "single",
+        "output_id": "biom-table-processing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_a_communal_catalogue_reveals_earth_s_multiscale_microbial_diversity_cq",
+      "score": 0.900327
+    },
+    {
+      "left": {
+        "canonical_slug": "alpha-diversity-metric-computation",
+        "merge_kind": "single",
+        "output_id": "alpha-diversity-metric-computation"
+      },
+      "right": {
+        "canonical_slug": "non-rarefied-diversity-calculation",
+        "merge_kind": "single",
+        "output_id": "non-rarefied-diversity-calculation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq",
+      "score": 0.900205
+    },
+    {
+      "left": {
+        "canonical_slug": "amplicon-naive-bayes-classifier-training",
+        "merge_kind": "single",
+        "output_id": "amplicon-naive-bayes-classifier-training"
+      },
+      "right": {
+        "canonical_slug": "naive-bayes-taxonomic-classification",
+        "merge_kind": "single",
+        "output_id": "naive-bayes-taxonomic-classification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.900033
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "left": {
+        "canonical_slug": "class-weighted-species-level-error-rate-comparison",
+        "merge_kind": "single",
+        "output_id": "class-weighted-species-level-error-rate-comparison"
+      },
+      "right": {
+        "canonical_slug": "species-level-error-rate-evaluation",
+        "merge_kind": "single",
+        "output_id": "species-level-error-rate-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.965771
+    },
+    {
+      "left": {
+        "canonical_slug": "asv-inference-with-swarm",
+        "merge_kind": "single",
+        "output_id": "asv-inference-with-swarm"
+      },
+      "right": {
+        "canonical_slug": "swarm-v2-asv-inference-parameter-tuning",
+        "merge_kind": "single",
+        "output_id": "swarm-v2-asv-inference-parameter-tuning"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq",
+      "score": 0.954035
+    },
+    {
+      "left": {
+        "canonical_slug": "paired-t-test-error-comparison",
+        "merge_kind": "single",
+        "output_id": "paired-t-test-error-comparison"
+      },
+      "right": {
+        "canonical_slug": "paired-t-test-statistical-testing",
+        "merge_kind": "single",
+        "output_id": "paired-t-test-statistical-testing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq",
+      "score": 0.952927
+    }
+  ],
+  "runs": 29,
+  "skills": 803,
+  "surplus_leaves": {
+    "ge_0_90": 83,
+    "ge_0_95": 3
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/metabarcoding/corpus"
+}

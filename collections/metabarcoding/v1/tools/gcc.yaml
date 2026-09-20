@@ -1,0 +1,23 @@
+name: GCC
+slug: gcc
+version_used: 4.8.5
+edam_topics: []
+evidence_spans:
+- GCC (`g++` version 4.8.5 or more recent) or `clang`
+- GCC (`g++` version 4.8.5 or more recent)
+- gcc -arch i386 -arch x86_64 -arch ppc -arch ppc64
+- ./configure CC="gcc -arch i386 -arch x86_64 -arch ppc -arch ppc64"
+derived_from:
+- doi: 10.1093/bioinformatics/btab493
+  title: 'Swarm v3: towards tera-scale amplicon clustering'
+- doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+source_repos:
+- https://github.com/torognes/swarm
+- https://github.com/jfmrod/mapseq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/torognes/swarm

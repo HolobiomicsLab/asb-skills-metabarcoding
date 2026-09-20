@@ -1,0 +1,17 @@
+name: BayesHammer
+slug: bayeshammer
+version_used: null
+edam_topics: []
+evidence_spans:
+- BayesHammer [32], an algorithm of the SPAdes assembly toolkit [33], revises incorrectly called bases
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+source_repos:
+- https://github.com/hariszaf/pema
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

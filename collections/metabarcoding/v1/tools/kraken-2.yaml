@@ -1,0 +1,24 @@
+name: Kraken 2
+slug: kraken-2
+version_used: null
+edam_topics: []
+evidence_spans:
+- This class includes approaches like Kraken2, Kraken 23, Opal4, CLARK5, and MetaOthello6.
+- Kraken 2 SILVA indices were obtained from the [Index Zone.]
+- We evaluated the tools DADA2, QIIME 2, Mothur, PathoScope 2, and Kraken 2 in conjunction with reference libraries
+- Kraken 2 Greengenes indices were obtained by running the following code
+- Kraken 2 SILVA indices were obtained from the [Index Zone.](https://benlangmead.github.io/aws-indexes/k2)
+derived_from:
+- doi: 10.1038/s41467-019-10934-2
+  title: Strain-level metagenomic assignment and compositional estimation for long reads with MetaMaps
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+source_repos:
+- https://github.com/DiltheyLab/MetaMaps
+- https://github.com/aubreyodom/16SBenchmarking
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DiltheyLab/MetaMaps

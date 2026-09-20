@@ -1,0 +1,22 @@
+name: QIIME2
+slug: qiime2
+version_used: null
+edam_topics: []
+evidence_spans:
+- You can then use QIIME1 or QIIME2 to merge the BIOM tables and mapping files.
+- Our workflows were ran on qiime 2022.2.0, but should be compatible with newer versions of the code.
+- All sample processing was done using QIIME2 https://qiime2.org/ on an anaconda virtual enviroment.
+derived_from:
+- doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+- doi: 10.1038/s41598-024-77864-y
+  title: Key features and guidelines for the application of microbial alpha diversity metrics
+source_repos:
+- https://github.com/biocore/emp
+- https://github.com/mauroibz/alpha-diversities
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biocore/emp

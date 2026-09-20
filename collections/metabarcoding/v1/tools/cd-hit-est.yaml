@@ -1,0 +1,17 @@
+name: cd-hit-est
+slug: cd-hit-est
+version_used: 3.1.2
+edam_topics: []
+evidence_spans:
+- clustered and assigned as OTUs (organism taxonomical units) using cd-hit-est v3.1.2;52)
+derived_from:
+- doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+source_repos:
+- https://github.com/vsbuffalo/scythe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vsbuffalo/scythe

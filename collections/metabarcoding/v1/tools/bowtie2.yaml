@@ -1,0 +1,21 @@
+name: Bowtie2
+slug: bowtie2
+version_used: null
+edam_topics: []
+evidence_spans:
+- For PathoScope 2.0 analyses, Bowtie2 alignment parameters were set to “–local -R 2 -N 0 -L 25 -i S,1,0.75 -k 10
+- No usage/docs found.
+derived_from:
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+source_repos:
+- https://github.com/aubreyodom/16SBenchmarking
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aubreyodom/16SBenchmarking

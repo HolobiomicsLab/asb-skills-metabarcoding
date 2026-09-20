@@ -1,0 +1,43 @@
+name: USEARCH
+slug: usearch
+version_used: null
+edam_topics: []
+evidence_spans:
+- it is a great alternative for USEARCH [36] because it is distributed under an open source license.
+- full-length 16S gene sequences clustered at 99% identity provided reasonable estimates of Bacteroides species relative abundance
+- _No usage/docs found._
+- USEARCH (Edgar, 2010), VSEARCH (Rognes et al., 2016) and NINJA-OPS (Al-Ghalith et al., 2016)
+- the QIIME-binned OTUs (binned at 97% sequence similarity using USEARCH
+- All of these steps can be completed using USEARCH (Edgar, 2010) or QIIME (Caporaso et al., 2010).
+- You can use usearch -otutab_stats to view the statistical information.
+- 可用 usearch -otutab_stats 查看统计信息
+- usearch -unoise3 temp/uniques.fa -minsize 1 -zotus temp/zotus.fa
+- Use **USEARCH** or **VSEARCH** to align each quality control sequence to the OTU/ASV sequence
+- usearch -alpha_div result/otutab_rare.txt -output result/alpha/alpha.txt
+- integrates popular tools such as USEARCH and VSEARCH, offering a streamlined workflow from raw data to results
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1038/s41467-019-13036-1
+  title: Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis
+- doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+- doi: 10.1038/npjbiofilms.2016.4
+  title: A perspective on 16S rRNA operational taxonomic unit clustering using sequence similarity
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1002/imo2.42
+  title: 'Unveiling microbial communities with EasyAmplicon: A user‐centric guide to perform amplicon sequencing data analysis'
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/TheJacksonLaboratory/weinstock_full_length_16s
+- https://github.com/jfmrod/mapseq
+- https://github.com/namphuon/phylo
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/YongxinLiu/EasyAmplicon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

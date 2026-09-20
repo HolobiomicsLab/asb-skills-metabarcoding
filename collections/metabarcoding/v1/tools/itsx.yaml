@@ -1,0 +1,18 @@
+name: ITSx
+slug: itsx
+version_used: null
+edam_topics: []
+evidence_spans:
+- taxonomic classification - using mothur and/or DECIPHER (& ITS detection - using ITSx
+- (& ITS detection - using ITSx & blastn + BASTA)
+derived_from:
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+source_repos:
+- https://github.com/a-h-b/dadasnake
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/a-h-b/dadasnake

@@ -1,0 +1,41 @@
+name: Python
+slug: python
+version_used: '3.6'
+edam_topics: []
+evidence_spans:
+- Implemented in Python with automated dependency management, the source code for MHASS is freely available
+- MHASS is implemented primarily in Python 3.6+ with the following key dependencies
+- We developed Tourmaline, a Python-based workflow that implements QIIME 2
+- QIIME 2 Artifact API in Python
+- Analyze the output of single or multiple Tourmaline runs programmatically, with qiime2R in R or the QIIME 2 Artifact API in Python
+- IPython notebooks and scripts (Python, Java, R, Bash) developed for meta-analysis of EMP data
+- _No usage/docs found._
+- github.com__marinebon__eDNA_microbes_whales
+derived_from:
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+- doi: 10.1093/bioinformatics/btaf656
+  title: 'MHASS: Microbiome HiFi Amplicon Sequencing Simulator'
+- doi: 10.1093/bioinformatics/bty560
+  title: 'fastp: an ultra-fast all-in-one FASTQ preprocessor'
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+- doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+source_repos:
+- https://github.com/aitgon/vtam
+- https://github.com/aitgon/vtam_benchmark
+- https://github.com/rhowardstone/MHASS
+- https://github.com/rhowardstone/MHASS_evaluation
+- https://github.com/OpenGene/fastp
+- https://github.com/aomlomics/tourmaline
+- https://github.com/biocore/emp
+- https://github.com/marinebon/eDNA_microbes_whales
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aitgon/vtam

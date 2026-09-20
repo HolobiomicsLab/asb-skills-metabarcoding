@@ -1,0 +1,17 @@
+name: Jupyter
+slug: jupyter
+version_used: null
+edam_topics: []
+evidence_spans:
+- Exploration of data and vizualizations were carried out on different jupyter notebooks.
+derived_from:
+- doi: 10.1038/s41598-024-77864-y
+  title: Key features and guidelines for the application of microbial alpha diversity metrics
+source_repos:
+- https://github.com/mauroibz/alpha-diversities
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mauroibz/alpha-diversities

@@ -1,0 +1,17 @@
+name: breakaway
+slug: breakaway
+version_used: null
+edam_topics: []
+evidence_spans:
+- Using vegan and breakaway on rarefied (10,000 reads) counts
+derived_from:
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+source_repos:
+- https://github.com/aubreyodom/16SBenchmarking
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aubreyodom/16SBenchmarking

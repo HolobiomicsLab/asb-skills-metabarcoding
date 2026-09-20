@@ -1,0 +1,26 @@
+name: SPAdes
+slug: spades
+version_used: null
+edam_topics: []
+evidence_spans:
+- BayesHammer [32], an algorithm of the SPAdes assembly toolkit [33], revises incorrectly called bases.
+- Three assemblers (Megahit,SPAdes and IDBA) are integrated in this step
+- Three assemblers (Megahit,SPAdes and IDBA) are integrated in this step.
+- 'SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing'
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+- doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+- https://github.com/vsbuffalo/scythe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

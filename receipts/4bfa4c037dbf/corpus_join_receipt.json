@@ -1,0 +1,116 @@
+{
+  "access_map": {
+    "bronze": "link-only",
+    "closed": "link-only",
+    "gold": {
+      "otherwise": "open-access",
+      "permissive": "gold-oa"
+    },
+    "green": "green-oa",
+    "hybrid": {
+      "cc": "open-access",
+      "otherwise": "link-only"
+    },
+    "otherwise": "link-only",
+    "unknown": "link-only"
+  },
+  "capped_rows": [
+    {
+      "doi": "10.1016/j.csbj.2023.01.034",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1093/bioinformatics/bty560",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    }
+  ],
+  "counts": {
+    "access.type": {
+      "gold-oa": 22,
+      "open-access": 7
+    },
+    "builds": 29,
+    "capped": 2,
+    "license_tier": {
+      "noncommercial": 2,
+      "open": 27
+    },
+    "oa_status_raw": {
+      "gold": 23,
+      "hybrid": 6
+    },
+    "unique_dois": 29,
+    "unmatched": 0
+  },
+  "domain": "metabarcoding",
+  "duplicate_dois": [],
+  "inputs": {
+    "access_map": "1716c1f87ab08cb241c77e357c5e938b16a1d71d6d4022be7412da82fcb1a59b",
+    "builds/asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq/build_manifest.json": "1e1dce862fcdd4734ba495ad1a6bf4958c11401f8066d688830aca6eb6ba1ae5",
+    "builds/asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq/external_enrichment.json": "267b2ee3dd53ad5399a615ae38b20a39346c584af470a7219c55bfa3bc35ab8f",
+    "builds/asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq/build_manifest.json": "393788a0adb74758d3f6e96bdbf0a1a4d44fc84292955d9d88afa564bfd3becf",
+    "builds/asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq/external_enrichment.json": "614373cd9a1f8793312fc12ae0c8b8ccb6bad65e446b5bcca4835978e0199ee3",
+    "builds/asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq/build_manifest.json": "7018b96d890a95bbe685434c85ae435444e71b8b0061741c55ac975d5efc46ca",
+    "builds/asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq/external_enrichment.json": "943e96ab185d088df2899e7ae105dfb676a3fefee991da15dcab56600c6834c3",
+    "builds/asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq/build_manifest.json": "2e7d0cebcacf62b0e797cdb6bb4579234f8fc775a8bd3e958a1c69f36a3e7405",
+    "builds/asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq/external_enrichment.json": "7c52f3ece56f99e7ab1f97cbc41e879f30c961a3fafcc8958e107c91808a3060",
+    "builds/asbb_wave250_2026-09-01__coll_10_1002_ece3_4809_cq/build_manifest.json": "64e05348912850cbdd5aaa2451082d0cddddb13d8977d95417131d2db42fad3e",
+    "builds/asbb_wave250_2026-09-01__coll_10_1002_ece3_4809_cq/external_enrichment.json": "7d39bad09645b0c111f5ad9dd9bf53852acd632119b40a0ea5b6207f17634a42",
+    "builds/asbb_wave250_2026-09-01__coll_10_1002_ece3_6594_cq/build_manifest.json": "282148938af6a552052557b2c98042f098d359e185fa0abb10e5d669be89ad8a",
+    "builds/asbb_wave250_2026-09-01__coll_10_1002_ece3_6594_cq/external_enrichment.json": "6936e5fd854682de995f082066ff173a5b4338d747a966f26f746f9244690d82",
+    "builds/asbb_wave250_2026-09-01__coll_10_1016_j_csbj_2023_01_034_cq/build_manifest.json": "90dd962a458488ed8adde6f52fec2df4c7b87d2d15b8209173d06e8811f1e932",
+    "builds/asbb_wave250_2026-09-01__coll_10_1016_j_csbj_2023_01_034_cq/external_enrichment.json": "33464951451777a47488cd192f30b094124d369ae0c4b271c4c247b0cbd2bcb1",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq/build_manifest.json": "c35a1ecf6c238da0384ad867a93ad5b9dc08d633fd8e1367a0575451e892d230",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq/external_enrichment.json": "a2f232ca149ee7b85efce0623f0054ce7360631f5014d92c2e740da7d8e5c4f8",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41467_019_13036_1_cq/build_manifest.json": "452c9b356ae8a2f72e6db31672744377d2f9654ed49ac3bda495f2fe9ed44116",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41467_019_13036_1_cq/external_enrichment.json": "fb788f21b967e2cefa615fb8a2abcab092304f3decd7b07c1ad0dc020cafbb12",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq/build_manifest.json": "fc24f51827d8d9f450a46be1d0b4386b3d56cca866fde5642e6b04dba78e5720",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq/external_enrichment.json": "70b1ca1d51d83773f1c19b8fb4ac0131c7ce243daf10df43b74c6a433a74bd0d",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41598_018_22505_4_cq/build_manifest.json": "355b0d63e01b34a18ce9a1b39503e898502e126ad5a1b3aeea013eb45dfd1a16",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41598_018_22505_4_cq/external_enrichment.json": "da438aefb2efad5910136336d4d06fc6a832df87e4985c6ff4d072a2ab93953f",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41598_023_30764_z_cq/build_manifest.json": "b927945d9510a7a8c69b752b9ca3dcc0ac061a815a51f4b6bb0a1f1bbf83058f",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41598_023_30764_z_cq/external_enrichment.json": "2c5ba61ec7c55af1aa47070520af827847b9eec5b05bfb8f3b979319eefa33a2",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq/build_manifest.json": "d9079511eb4f6e7e8f95d60f62424ea5554dc3d74f0f813cd24a453dc324658c",
+    "builds/asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq/external_enrichment.json": "b422cbb869b8fef6102d9d3281ad9883eddeba684335b6eafeb0ca37fce7bc3a",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btab493_cq/build_manifest.json": "58ea9b65f9ee77be177d85c45547ff775b6199414f6c7cb4f01cbde0dbde408b",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btab493_cq/external_enrichment.json": "36fd5d41ff634e0b78a1cd6d4076df65961bf23e4a09c66ac4f3e1f24b00a802",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq/build_manifest.json": "3976e098be43ad12732f845d73ce667f6822cdbb89a9b6bb5df4987e809270b7",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq/external_enrichment.json": "1e37fedbf510536313ad2f24b9433febc59685bec7dc1ff7a10d8d8f79b4dc13",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq/build_manifest.json": "f34871b9fcf48de66db468737acd50fd03f3d2ac3a9a10a6d76a4469f4c2536e",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq/external_enrichment.json": "1be88b317a3babdde9870f5c88e16205375089095782d22774a5a951c29a9654",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq/build_manifest.json": "1dadb143a75204ea8e355005b608e39d2ea6925ff1df6b98022c478e0919d394",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq/external_enrichment.json": "89ac88129bebdef995b5daf372effd0003fb8398cf06356b5a9f0e9018d8c26b",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_gigascience_giaa135_cq/build_manifest.json": "32e0fa73e886b7c72afe0f11c9b9dfc695954ea3ac6716fe498d41e3a6ec23c6",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_gigascience_giaa135_cq/external_enrichment.json": "7b5252e3537bd6b692d59cc937724ab1f2ef756f7ea280c799316b2f58de2f4a",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq/build_manifest.json": "36d85cd6eb17052eef7a4fa5a97a34979d4328b80fd85db007676c019dca1d36",
+    "builds/asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq/external_enrichment.json": "5d3ad4acc2487323c9ff4259fe0d52818475e6918413471e7fd5a650bf3b8484",
+    "builds/asbb_wave250_2026-09-01__coll_a_communal_catalogue_reveals_earth_s_multiscale_microbial_diversity_cq/build_manifest.json": "ee2c35aed2d619d027ecff652f052245d4b09c0ade160ac5ee5ebe21d63f4095",
+    "builds/asbb_wave250_2026-09-01__coll_a_communal_catalogue_reveals_earth_s_multiscale_microbial_diversity_cq/external_enrichment.json": "8f1b53110eb974fe111dca087f1bf61a48bd6d95c241286f8c4e55aaf3953c66",
+    "builds/asbb_wave250_2026-09-01__coll_a_perspective_on_16s_rrna_operational_taxonomic_unit_clustering_using_sequence_similarity_cq/build_manifest.json": "a80b19e4d02e22c45a0a72a90ef0d827f42dd348c5deeb3fac4fd7147800b856",
+    "builds/asbb_wave250_2026-09-01__coll_a_perspective_on_16s_rrna_operational_taxonomic_unit_clustering_using_sequence_similarity_cq/external_enrichment.json": "5cd3f5666d58c337b29b1b131e457d5eb779c3c1a15c075566b35cec330bbe1f",
+    "builds/asbb_wave250_2026-09-01__coll_a_practical_guide_to_amplicon_and_metagenomic_analysis_of_microbiome_data_cq/build_manifest.json": "96431b284080ed27c9b62705e6810f684e850771df6f55bed7859dcda84552c3",
+    "builds/asbb_wave250_2026-09-01__coll_a_practical_guide_to_amplicon_and_metagenomic_analysis_of_microbiome_data_cq/external_enrichment.json": "31f4219fec931772f3d6869a72368f5a27434944b3afb2564fd27c51fb866b79",
+    "builds/asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq/build_manifest.json": "00948633a146d507787aef2d3c9e2e9374c908f487a24eb7300d3f6240695ac7",
+    "builds/asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq/external_enrichment.json": "beb9940ea6ac377d4872c81310304716038fc5c3f1aabc9f1c2f1f8583af2b92",
+    "builds/asbb_wave250_2026-09-01__coll_environmental_dna_reveals_seasonal_shifts_and_potential_interactions_in_a_marine_community_cq/build_manifest.json": "6acafc3bf6edad7cc95544ddf9e6de1a6775d03e81ddad40a5387e1eed81755f",
+    "builds/asbb_wave250_2026-09-01__coll_environmental_dna_reveals_seasonal_shifts_and_potential_interactions_in_a_marine_community_cq/external_enrichment.json": "155de70755835e3b097e1263a0612e1ecd477a469e8ebef4ac304b345b28ad38",
+    "builds/asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq/build_manifest.json": "84a3ea56e3f245da244b206dbdfab7a553b71ceb1077699939345625acdd823e",
+    "builds/asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq/external_enrichment.json": "b6b50896d2f22ce572cc35eb9906376a3adb740d0c854412b6292f161e54d53b",
+    "builds/asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq/build_manifest.json": "57303909d366464ac98072a97c6ffe6786ead9b457f4e736e7f7a6c5c863e9d4",
+    "builds/asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq/external_enrichment.json": "49c6df06c0b79df3c416f58facb344b7f4ece36d2c44032857b1bc3c7c236c7d",
+    "builds/asbb_wave250_2026-09-01__coll_metabarcoding_profiling_of_microbial_diversity_associated_with_trout_fish_farming_cq/build_manifest.json": "75c4003c2be4688d32b4f84797e441af562f545312005cfd3029a316aeb5f9ea",
+    "builds/asbb_wave250_2026-09-01__coll_metabarcoding_profiling_of_microbial_diversity_associated_with_trout_fish_farming_cq/external_enrichment.json": "239dbcf6bdcd5f67da57b29fd71684e081114daf27d25f2f16adac2c330218d7",
+    "builds/asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq/build_manifest.json": "e7de13d96e3433c5744f7367173af94ba614d90e3025f782d0d294e7b7bfc6c9",
+    "builds/asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq/external_enrichment.json": "be84e5b0b3b933ec9bab6d2f12a58fe6bfb6f2a34d51182fc87c762bb43b7a3a",
+    "builds/asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq/build_manifest.json": "39d9140bd328bc9a1ae3b97afa03e1ea4f6a680450f51e5fadbfbb575d8e359c",
+    "builds/asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq/external_enrichment.json": "acf2da0736ce157bf09f9f4b0c289d605236e2791b9a1b62b39c6351791f6726",
+    "tiered": "a94ba7404409b997ad4b00a61315b145681660b7aa006362fda34906d7955a09"
+  },
+  "schema": "asbb-corpus-join-receipt/1.0",
+  "stage": "S4",
+  "unmatched_rows": []
+}

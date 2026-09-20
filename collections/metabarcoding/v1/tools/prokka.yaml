@@ -1,0 +1,22 @@
+name: Prokka
+slug: prokka
+version_used: null
+edam_topics: []
+evidence_spans:
+- Prokkahttp://www.vicbioinformatics.com/software.prokka.shtmlProvides rapid prokaryotic genome annotation
+- Prokka annotate the contigs by predicting genes using Prodigal
+- here were are using PROKKA which used open source tools and databased for profiling.
+derived_from:
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YongxinLiu/Liu2020ProteinCell

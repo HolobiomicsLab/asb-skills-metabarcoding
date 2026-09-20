@@ -1,0 +1,17 @@
+name: metaSPAdes
+slug: metaspades
+version_used: null
+edam_topics: []
+evidence_spans:
+- metaSPAdes can generate longer contigs but requires more computational resources (Nurk et al., 2017)
+derived_from:
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+source_repos:
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YongxinLiu/Liu2020ProteinCell

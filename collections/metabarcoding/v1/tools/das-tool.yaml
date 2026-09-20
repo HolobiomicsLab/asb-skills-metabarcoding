@@ -1,0 +1,17 @@
+name: DAS Tool
+slug: das-tool
+version_used: null
+edam_topics: []
+evidence_spans:
+- DAS Toolhttps://github.com/cmks/DAS_ToolBinning pipeline that integrates five binning software packages and performs refinement
+derived_from:
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+source_repos:
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YongxinLiu/Liu2020ProteinCell

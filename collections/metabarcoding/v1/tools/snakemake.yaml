@@ -1,0 +1,30 @@
+name: Snakemake
+slug: snakemake
+version_used: null
+edam_topics: []
+evidence_spans:
+- snakemake -s Snakefile --configfile /PATH/TO/YOUR/CONFIGFILE --use-conda
+- you have all the scripts you need to run the workflow using snakemake
+- By use of Snakemake, dadasnake makes efficient use of high-performance computing infrastructures.
+- dadasnake is implemented in Snakemake [20] using the conda package management system
+- built using the Snakemake workflow management system
+- manages commands, inputs, and outputs using the [Snakemake](https://snakemake.readthedocs.io/en/stable/) workflow management system
+- Tourmaline 2 manages commands, inputs, and outputs using the [Snakemake](https://snakemake.readthedocs.io/en/stable/) workflow management system.
+- Snakemake is a popular workflow management system in the bioinformatics community that manages input and output files in a defined directory structure
+derived_from:
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+source_repos:
+- https://github.com/aitgon/vtam_benchmark
+- https://github.com/a-h-b/dadasnake
+- https://github.com/aomlomics/tourmaline
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aitgon/vtam_benchmark

@@ -1,0 +1,20 @@
+name: ANCOM-BC
+slug: ancom-bc
+version_used: null
+edam_topics: []
+evidence_spans:
+- ANCOM_BC(feature.table, grp.name, grp.ind, struc.zero, adj.method, tol.EM, max.iterNum, perNum, alpha)
+- in this paper we propose a methodology called Analysis of Compositions of Microbiomes with Bias Correction (ANCOM-BC)
+- feature_table_pre_process(feature.table, meta.data, sample.var, group.var, zero.cut, lib.cut, neg.lb)
+derived_from:
+- doi: 10.1038/s41467-020-17041-7
+  title: Analysis of compositions of microbiomes with bias correction
+source_repos:
+- https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive
+- https://github.com/FrederickHuangLin/ANCOMBC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive

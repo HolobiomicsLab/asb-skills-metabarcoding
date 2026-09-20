@@ -1,0 +1,18 @@
+name: create_consensus_taxonomy.py
+slug: create-consensus-taxonomy-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- python create_consensus_taxonomy.py tmp_nolabels.taxa tmp_nolabels.fasta ./pid100_otus/tmp_nolabels_otus.txt outmap.txt
+- python create_consensus_taxonomy.py porter.taxa.tmp porter.arthCOI_notax.fasta.tmp ./porter_pid100_otus/porter.arthCOI_otus.txt porter_outmap.txt
+derived_from:
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+source_repos:
+- https://github.com/devonorourke/tidybug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/devonorourke/tidybug

@@ -1,0 +1,18 @@
+name: WGCNA (R package)
+slug: wgcna-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- Community network analysis provided evidence of expected predator-prey relationships, trophic linkages, and seasonal shifts across all domains of life.
+- we used weighted gene correlation network analysis (WGCNA) of the amplicon abundance index of each taxon
+derived_from:
+- doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+source_repos:
+- https://github.com/marinebon/eDNA_microbes_whales
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marinebon/eDNA_microbes_whales

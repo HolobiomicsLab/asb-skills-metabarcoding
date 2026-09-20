@@ -1,0 +1,17 @@
+name: ecotag
+slug: ecotag
+version_used: null
+edam_topics: []
+evidence_spans:
+- Taxonomic assignment of the representative sequences for each Molecular Operational Taxonomic Unit (MOTU) was performed using the ecotag algorithm75.
+derived_from:
+- doi: 10.1038/s41598-017-17150-2
+  title: Environmental DNA reveals tropical shark diversity in contrasting levels of anthropogenic impact
+source_repos:
+- https://github.com/metabarpark/Reference-databases
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metabarpark/Reference-databases
