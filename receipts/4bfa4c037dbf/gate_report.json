@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-09-20T00:44:36.332643+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/metabarcoding",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/metabarcoding/corpus.yaml",
+  "generated_at": "2026-09-20T13:27:07.354605+00:00",
+  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/metabarcoding/candidate",
+  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/metabarcoding/candidate/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "agentic_science_builder.release.promote",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "881c41b73db4923b990472d9e9797ee2ca3e1d2dcc09d47815ed83b4e0b1e204",
+      "sha256": "c39bcc792bccb2d3b36e65138a48c177103a7da5fcab68b61f55a16cc1d1f464",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -51,6 +51,11 @@
           "path": ".claude-plugin/plugin.json",
           "bytes": 530,
           "sha256": "f7f71942d7d05f88b9bd4084ab1b5d746970845b272451d31aafe9551c7c79e0"
+        },
+        {
+          "path": ".zenodo.json",
+          "bytes": 2771,
+          "sha256": "a292cbafdd19c76a9ff975bdf2f5ef929a5ad507a3d36b838a603329c8e5b353"
         },
         {
           "path": "CITATION.cff",
@@ -69,7 +74,7 @@
         {
           "path": "collection.yaml",
           "bytes": 38486,
-          "sha256": "f95790529bb5a9a4f5331296646af086917c632e777eca2712bc3729a78690fc"
+          "sha256": "cefe2b638da64ee5fdd577f2fd17e697b20671e723c54d84b5aa7f7e1a7b779b"
         },
         {
           "path": "corpus.yaml",
@@ -8358,6 +8363,62 @@
           "path": "tools_index.json",
           "bytes": 218810,
           "sha256": "2707c2b59b3aada0efece71bd7f2dbf96ae0d34101c67ad6aeeb0d252c0a775b"
+        },
+        {
+          "path": "workflows",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router/SKILL.md",
+          "bytes": 3364,
+          "sha256": "34eb80cd8f0e6da37eb3c7babc85b6efe4bfacb60c252ea874f1e85d18be938d"
+        },
+        {
+          "path": "workflows/amplicon-asv-taxonomy-diversity",
+          "directory": true
+        },
+        {
+          "path": "workflows/amplicon-asv-taxonomy-diversity/README.md",
+          "bytes": 1534,
+          "sha256": "c3366ef1fceb5f43f60cdbdc6c21c9f766107af220cf6f30e1ddca9882f2a6ed"
+        },
+        {
+          "path": "workflows/amplicon-asv-taxonomy-diversity/SKILL.md",
+          "bytes": 5485,
+          "sha256": "aff0d77686daf77b6993a1a9e777333f5346dfb655625f7ec3479fde635d1b9b"
+        },
+        {
+          "path": "workflows/amplicon-asv-taxonomy-diversity/workflow.yaml",
+          "bytes": 4051,
+          "sha256": "19cc52d3d80c68f05ab34ec8bb2a2c0417e45f8d503d1a6857b1ac2ab1afe332"
+        },
+        {
+          "path": "workflows/edna-reference-curation-assignment",
+          "directory": true
+        },
+        {
+          "path": "workflows/edna-reference-curation-assignment/README.md",
+          "bytes": 1726,
+          "sha256": "c9dea492fc4edf4e2bea28a9d647c3b94b813b88751fa5a75c61539c21337c1d"
+        },
+        {
+          "path": "workflows/edna-reference-curation-assignment/SKILL.md",
+          "bytes": 6200,
+          "sha256": "b03d1e3097498c78a8498cbd8fc7a28e0d5c5926324df6745537a25d5ea05067"
+        },
+        {
+          "path": "workflows/edna-reference-curation-assignment/workflow.yaml",
+          "bytes": 4299,
+          "sha256": "1198fe4b3daa709569ffb12c151508c7bd1e2cb9e103d2e8137a48e294bf1c33"
+        },
+        {
+          "path": "workflows/workflows_index.json",
+          "bytes": 1725,
+          "sha256": "3ae0d8cee7bfa56bd01662466007f211f68f3eb744564541f24aec7cc556de61"
         }
       ],
       "excluded_paths": [
@@ -8376,7 +8437,7 @@
   "inventory": {
     "skills": 803,
     "tools": 203,
-    "workflows": 0,
+    "workflows": 2,
     "papers": 29,
     "dois": 29
   },
@@ -8385,7 +8446,6 @@
   "verification_scope": "content-policy checks and bound artifact integrity",
   "release_verified": true,
   "zero_item_checks": [
-    "composite_workflows",
     "layout_packaging",
     "unit_closure",
     "catalogue_membership",
@@ -8395,11 +8455,11 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 11,
+    "pass": 12,
     "warn": 0,
     "fail": 0,
     "uncheckable": 0,
-    "not_applicable": 2
+    "not_applicable": 1
   },
   "hard_gate_ids": [
     2,
@@ -8513,21 +8573,16 @@
     },
     {
       "name": "composite_workflows",
-      "status": "not_applicable",
+      "status": "pass",
       "gates": [],
       "hard_gate": false,
-      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.",
-      "n_findings": 1,
-      "details": [
-        {
-          "status": "not_applicable",
-          "message": "No workflows/ subtree; no workflow validation performed."
-        }
-      ],
+      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.  (2 workflows checked)",
+      "n_findings": 0,
+      "details": [],
       "scope": "composite workflows",
-      "required": false,
+      "required": true,
       "counts": {
-        "checked": 0,
+        "checked": 2,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -8603,7 +8658,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 1016,
+        "checked": 1025,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -8690,5 +8745,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "f4db4c57a1506518622b1565d9480b9d9ec639719b0b8255ad59bd290f09b32a"
+  "receipt_sha256": "fc6c43f7d6d88d528bc430fb6276123cb475dcf802001ffed73396f451ee1421"
 }

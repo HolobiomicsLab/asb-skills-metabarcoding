@@ -1,0 +1,178 @@
+schema_version: 0.3.0
+workflow_id: edna_reference_curation_assignment
+kind: composite-workflow
+techniques: []
+steps:
+- id: assemble_reference
+  goal: retrieve COI records, screen human contaminants, and preserve complete lineages
+  edam_operation: http://edamontology.org/operation_0306
+  skills:
+  - co1-reference-sequence-assembly
+  - taxonomic-lineage-retrieval-and-formatting
+  - reference-database-validation-against-deposit
+  - rdp-training-set-construction
+  tools:
+  - BLAST
+  - BioPerl
+  - CO1Classifier repository releases
+  - Ebot
+  - Perl
+  - RDP classifier
+  inputs:
+  - type: tsv
+    flavour: target-taxa
+  - type: database
+    flavour: ncbi-taxonomy
+  - type: database
+    flavour: ncbi-nucleotide
+  - type: database
+    flavour: human-co1-blast
+  outputs:
+  - type: fasta
+    flavour: assembled-co1-reference
+  - type: tsv
+    flavour: rdp-taxonomy
+  - type: archive
+    flavour: rdp-classifier
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-018-22505-4
+    dois:
+    - 10.1038/s41598-018-22505-4
+  after: []
+  candidate_tools:
+  - Perl + BioPerl (Ebot script)
+  - RDP classifier v2.12
+  - Perl + BioPerl + Ebot
+- id: curate_reference
+  goal: filter taxonomy, dereplicate identical sequences, reconcile conflicts, and
+    cluster centroids
+  edam_operation: http://edamontology.org/operation_0291
+  skills:
+  - coi-reference-database-curation
+  - fasta-reference-database-curation
+  - bold-c-oi-sequence-retrieval-replace
+  tools:
+  - CO1Classifier (Porter)
+  - QIIME 2
+  - R
+  - R (figure4_database_comparisons.R)
+  - VSEARCH
+  - bold (R package)
+  - csvtk
+  - seqkit
+  inputs:
+  - type: fasta
+    flavour: assembled-co1-reference
+  - type: tsv
+    flavour: rdp-taxonomy
+  - type: fasta
+    flavour: bold-coi-reference
+  - type: tsv
+    flavour: taxonomy-exclusion-patterns
+  outputs:
+  - type: fasta
+    flavour: curated-coi-reference
+  - type: tsv
+    flavour: curated-taxonomy
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-ece3-6594
+    - asb-paper-10-1038-s41598-017-17150-2
+    dois:
+    - 10.1002/ece3.6594
+    - 10.1038/s41598-017-17150-2
+  after:
+  - assemble_reference
+  candidate_tools:
+  - custom R script
+  - ecoPCR
+  - OBITools
+  inputs_from:
+    assemble_reference:
+    - fasta:assembled-co1-reference
+    - tsv:rdp-taxonomy
+- id: format_reference
+  goal: build an OBITools-compatible combined COI reference index
+  edam_operation: http://edamontology.org/operation_0335
+  skills:
+  - coi-reference-database-formatting
+  - cross-release-reference-database-comparison
+  tools:
+  - BOLD database
+  - OBITools
+  - ecoPCR
+  - ecotag
+  inputs:
+  - type: fasta
+    flavour: curated-coi-reference
+  - type: tsv
+    flavour: curated-taxonomy
+  - type: fasta
+    flavour: non-target-coi-reference
+  outputs:
+  - type: database
+    flavour: obitools-coi-reference
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-017-17150-2
+    dois:
+    - 10.1038/s41598-017-17150-2
+  after:
+  - curate_reference
+  candidate_tools:
+  - custom R script
+  inputs_from:
+    curate_reference:
+    - fasta:curated-coi-reference
+    - tsv:curated-taxonomy
+- id: assign_motus
+  goal: assign MOTUs to the most specific consistent taxon and retain ambiguous matches
+  edam_operation: http://edamontology.org/operation_0346
+  skills:
+  - metabarcoding-taxonomic-assignment
+  - obitools-ecotag-workflow
+  - ecotaxonomic-assignment-table-processing
+  - taxonomy-table-integration-with-read-counts
+  tools:
+  - OBITools
+  - ecoPCR
+  - ecotag
+  - sumaclust
+  inputs:
+  - type: fasta
+    flavour: motu-representatives
+  - type: database
+    flavour: obitools-coi-reference
+  - type: feature-table
+    flavour: motu-counts
+  outputs:
+  - type: tsv
+    flavour: motu-taxonomic-assignments
+  - type: tsv
+    flavour: ambiguous-motus
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-017-17150-2
+    dois:
+    - 10.1038/s41598-017-17150-2
+  after:
+  - format_reference
+  candidate_tools:
+  - Reference-databases
+  - obigrep
+  inputs_from:
+    format_reference:
+    - database:obitools-coi-reference
+verification:
+  final_outputs:
+  - path: obitools_coi_reference
+    type: directory
+  - path: motu_taxonomic_assignments.tsv
+    type: file
+  - path: ambiguous_motus.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

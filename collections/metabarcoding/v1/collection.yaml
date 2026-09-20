@@ -33,7 +33,7 @@ contributors:
 cut_id: 4bfa4c037dbf
 skills_count: 803
 tools_count: 203
-workflows_count: 0
+workflows_count: 2
 skills:
 - 16s-amplicon-alignment-to-reference
 - 16s-amplicon-error-benchmarking
