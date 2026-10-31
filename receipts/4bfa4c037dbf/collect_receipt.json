@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/task8/cut/metabarcoding/builds",
+  "builds_root": "metabarcoding",
   "counts": {
     "builds": 29,
     "input_files": 2499,
@@ -2511,7 +2511,7 @@
     "corpus/skills/workflow-runtime-profiling/tools.json": "f08eea370f791c436ca5379955014a60ac24f64db821467249837c4f3eab2289",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "4f90dc1b920072b6b9b58c623e875a90e6bf091140be6422a1d5723f0ff2ff5e",
+  "output_tree_sha256": "c7992f2a5191810ad6e992feb6c22a5a291b08c27dfc44e127b839a56215377f",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v1"
