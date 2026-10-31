@@ -1014,7 +1014,7 @@
         "output_id": "beta-diversity-distance-matrix-computation"
       },
       "run": "asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq",
-      "score": 0.90548
+      "score": 0.905479
     },
     {
       "left": {
@@ -1140,7 +1140,7 @@
         "output_id": "taxonomic-classification-assignment"
       },
       "run": "asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq",
-      "score": 0.902527
+      "score": 0.902528
     },
     {
       "left": {
@@ -1353,5 +1353,5 @@
     "pair_scope": "same_run_full_pairwise",
     "suggest": 0.9
   },
-  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/metabarcoding/corpus"
+  "view": "outputs/asbb_classA_papers_2026-09-17_filtered/metabarcoding/corpus"
 }
