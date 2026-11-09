@@ -10,7 +10,7 @@ when_to_use_negative:
   trees (e.g. v2 and v3)
 - The tool's inputs are not held fixed across versions (different FASTA files, thread
   counts, or d thresholds), which invalidates a like-for-like speedup comparison
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -41,7 +41,7 @@ metadata:
   - SoftWipe
   - swarm v2
   - swarm v3
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

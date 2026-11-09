@@ -12,7 +12,6 @@ when_to_use_negative:
   skill does not compute
 edam_operation: http://edamontology.org/operation_0292
 edam_topics:
-- http://edamontology.org/topic_0069
 - http://edamontology.org/topic_3697
 tools:
 - name: pplacer
@@ -45,7 +44,6 @@ metadata:
   - pplacer
   edam_operation: http://edamontology.org/operation_0292
   edam_topics:
-  - http://edamontology.org/topic_0069
   - http://edamontology.org/topic_3697
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,7 @@ when_to_use_negative:
   generated — chimera removal must occur before sumaclust delimitation
 - A curated reference-based chimera checking strategy is specifically required, since
   uchime-denovo is a de novo method performed without a reference database
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_0196
@@ -37,7 +37,7 @@ metadata:
   tools:
   - obiuniq
   - vsearch
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_0196

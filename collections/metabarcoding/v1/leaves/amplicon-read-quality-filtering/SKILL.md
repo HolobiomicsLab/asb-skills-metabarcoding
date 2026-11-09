@@ -14,7 +14,6 @@ when_to_use_negative:
   of Deblur for variant detection.
 edam_operation: http://edamontology.org/operation_3218
 edam_topics:
-- http://edamontology.org/topic_0697
 - http://edamontology.org/topic_3168
 tools:
 - name: FastQC
@@ -48,7 +47,6 @@ metadata:
   - Illumina MiSeq
   edam_operation: http://edamontology.org/operation_3218
   edam_topics:
-  - http://edamontology.org/topic_0697
   - http://edamontology.org/topic_3168
   provenance_tier: literature
 license: CC-BY-4.0

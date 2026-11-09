@@ -10,7 +10,7 @@ when_to_use_negative:
   computational performance; this skill measures runtime and memory only
 - The dataset is a small test file where runtime differences between swarm versions
   are negligible
-edam_operation: http://edamontology.org/operation_3468
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0632
 - http://edamontology.org/topic_3293
@@ -42,7 +42,7 @@ metadata:
   - GCC
   - swarm v2
   - swarm v3
-  edam_operation: http://edamontology.org/operation_3468
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0632
   - http://edamontology.org/topic_3293

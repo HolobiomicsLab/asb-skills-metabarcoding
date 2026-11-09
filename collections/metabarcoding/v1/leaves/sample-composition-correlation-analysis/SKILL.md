@@ -10,7 +10,7 @@ when_to_use_negative:
   the article states is not well addressed by MetaMaps' minimizer-based mapping
 - The goal is strain/contig-level coverage analysis rather than taxon-frequency correlation
   — use classification_results.EM.contigCoverage instead
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_3174
@@ -39,7 +39,7 @@ metadata:
   tools:
   - LomanLab/mockcommunity
   - MetaMaps
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_3174

@@ -12,7 +12,6 @@ when_to_use_negative:
   Spearman rank correlation
 edam_operation: http://edamontology.org/operation_2238
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3305
 tools:
 - name: DADA2
@@ -54,7 +53,6 @@ metadata:
   - QIIME 2
   edam_operation: http://edamontology.org/operation_2238
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3305
   provenance_tier: literature
 license: CC-BY-4.0

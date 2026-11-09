@@ -12,7 +12,7 @@ when_to_use_negative:
   plus Mantel test)
 - Sequencing data are eukaryotic ITS reads classified with the Warcup V2 training
   set — this skill addresses prokaryotic 16S taxa only
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -46,7 +46,7 @@ metadata:
   - SILVAngs
   - XLSTAT 2017
   - cd-hit-est v3.1.2
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

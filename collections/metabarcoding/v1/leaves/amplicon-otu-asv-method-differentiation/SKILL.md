@@ -9,7 +9,7 @@ when_to_use_negative:
   methods.
 - The OTU/ASV abundance table already exists and only downstream comparative/statistical
   analysis or visualization is needed.
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_3168
@@ -58,7 +58,7 @@ metadata:
   - kraken2
   - mothur
   - phyloseq
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_3168

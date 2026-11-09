@@ -12,7 +12,6 @@ when_to_use_negative:
   precede sumaclust clustering, not follow it
 edam_operation: http://edamontology.org/operation_0292
 edam_topics:
-- http://edamontology.org/topic_0652
 - http://edamontology.org/topic_0080
 tools:
 - name: vsearch
@@ -37,7 +36,6 @@ metadata:
   - vsearch
   edam_operation: http://edamontology.org/operation_0292
   edam_topics:
-  - http://edamontology.org/topic_0652
   - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0

@@ -15,8 +15,7 @@ when_to_use_negative:
   definition (MOTU supported by exactly one read) depends on that per-MOTU read-count
   structure
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3911
+edam_topics: []
 tools:
 - name: obigrep
   role: Removes every MOTU supported by only a single read (singleton removal) from
@@ -50,8 +49,7 @@ metadata:
   - obigrep
   - sumaclust
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3911
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -11,7 +11,7 @@ when_to_use_negative:
   data, and rarefied validation would require a different (unpublished-location) dataset
 - The input is raw sequence data (e.g., SRA FASTQ) rather than an already-denoised
   feature table — sample processing with DADA2/DEBLUR is a separate workflow
-edam_operation: http://edamontology.org/operation_2123
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - QIIME2
   - anaconda
-  edam_operation: http://edamontology.org/operation_2123
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

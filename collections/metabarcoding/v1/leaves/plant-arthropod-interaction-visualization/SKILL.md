@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than reproducing the descriptive visualization of family distribution
 - Interaction data are quantitative time-series or individual-based rather than a
   simple species-by-family detection matrix
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0610
 - http://edamontology.org/topic_3053
@@ -35,7 +35,7 @@ metadata:
   tools:
   - R
   - R bipartite package (frame2webs / plotweb / visweb)
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0610
   - http://edamontology.org/topic_3053

@@ -11,7 +11,7 @@ when_to_use_negative:
   sequences cannot be defined by comparison to references.
 - Your goal is taxonomic classifier accuracy (e.g. BOLD API vs BLAST+LCA comparison)
   rather than denoising/clustering error assessment.
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 tools:
@@ -47,7 +47,7 @@ metadata:
   - Deblur
   - QIIME 2
   - VSEARCH
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   provenance_tier: literature

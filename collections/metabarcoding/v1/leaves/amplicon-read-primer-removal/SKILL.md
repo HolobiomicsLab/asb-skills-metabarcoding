@@ -10,7 +10,7 @@ when_to_use_negative:
   shotgun metagenomic reads)
 - The locus uses degenerate primers not expressible within cutadapt's 2-primers-per-end
   and 0.2 mismatch-rate defaults as configured in dadasnake
-edam_operation: http://edamontology.org/operation_2003
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0632
 - http://edamontology.org/topic_3697
@@ -42,7 +42,7 @@ metadata:
   - cutadapt
   - dadasnake
   - mothur
-  edam_operation: http://edamontology.org/operation_2003
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0632
   - http://edamontology.org/topic_3697

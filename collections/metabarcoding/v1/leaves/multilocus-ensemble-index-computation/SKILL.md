@@ -10,8 +10,7 @@ when_to_use_negative:
   per-locus index alone is the output
 - You need absolute organismal abundance estimates; amplification bias from template–primer
   interaction means amplicon abundance is only proportional, not quantitative
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: pandas
   role: Loads the per-locus read-proportion tables, computes the max-scaled per-locus
@@ -38,8 +37,7 @@ metadata:
   - numpy
   - pandas
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

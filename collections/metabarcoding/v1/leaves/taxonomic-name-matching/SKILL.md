@@ -9,7 +9,7 @@ when_to_use_negative:
 - The sampling region lies outside the geographic coverage of Naturbasen and Fauna
   Europaea (Danish/European fauna databases)
 - The input is raw sequencing reads rather than a curated, resolved species list
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -33,7 +33,7 @@ metadata:
   tools:
   - Fauna Europaea
   - Naturbasen / allearter
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

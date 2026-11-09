@@ -11,8 +11,7 @@ when_to_use_negative:
 - Working with shotgun metagenomic or ITS/metabolomics data from EMP500, where the
   5,000-observation 16S rarefaction depth does not apply
 edam_operation: http://edamontology.org/operation_3222
-edam_topics:
-- http://edamontology.org/topic_0699
+edam_topics: []
 tools:
 - name: QIIME1
   role: Merges the BIOM tables and mapping files before rarefaction and filtering
@@ -47,8 +46,7 @@ metadata:
   - QIIME1
   - QIIME2
   edam_operation: http://edamontology.org/operation_3222
-  edam_topics:
-  - http://edamontology.org/topic_0699
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

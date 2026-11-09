@@ -12,7 +12,7 @@ when_to_use_negative:
 - Requiring reads to be assigned to a functional or full-genome reference rather than
   clade-specific markers (the profiler explains ~20% more reads in human gut but is
   marker-based, not whole-genome)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0622
@@ -42,7 +42,7 @@ metadata:
   - MetaPhlAn 4
   - PhyloPhlAn
   - conda
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0622

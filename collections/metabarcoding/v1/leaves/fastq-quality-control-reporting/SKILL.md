@@ -10,7 +10,7 @@ when_to_use_negative:
   tool may suffice, though fastp can serve this role
 - Duplication assessment requires strict per-mate analysis identical to FASTQC for
   comparability — fastp's PE-aware duplication rate is not directly comparable
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 tools:
@@ -51,7 +51,7 @@ metadata:
   - SpeedSeq
   - Trimmomatic
   - fastp
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   provenance_tier: literature

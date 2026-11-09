@@ -11,7 +11,7 @@ when_to_use_negative:
   to sequence variants
 - No mock-community control exists in the run, making the per-library 'miss' max-count
   integer impossible to derive
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -50,7 +50,7 @@ metadata:
   - Tidyverse
   - VSEARCH
   - Vegan
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
 - http://edamontology.org/topic_0769
-- http://edamontology.org/topic_0695
 tools:
 - name: dadasnake
   role: Pipeline whose thread cap (-t) and VARIABLE_CONFIG MAX_THREADS/NORMAL_MEM_EACH/SCHEDULER
@@ -54,7 +53,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
   - http://edamontology.org/topic_0769
-  - http://edamontology.org/topic_0695
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

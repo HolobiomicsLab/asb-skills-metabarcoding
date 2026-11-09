@@ -13,7 +13,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_3050
-- http://edamontology.org/topic_3061
+- http://edamontology.org/topic_3068
 tools:
 - name: vegan
   role: R package used to compute beta-diversity distance matrices, perform PCoA/NMDS/CPCoA
@@ -47,7 +47,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_3050
-  - http://edamontology.org/topic_3061
+  - http://edamontology.org/topic_3068
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

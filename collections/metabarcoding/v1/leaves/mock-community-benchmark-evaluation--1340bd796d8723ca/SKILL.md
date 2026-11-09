@@ -11,7 +11,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3218
 edam_topics:
 - http://edamontology.org/topic_0632
-- http://edamontology.org/topic_0694
+- http://edamontology.org/topic_2814
 tools:
 - name: PEMA
   role: Containerized pipeline executing pre-processing, ASV inference / OTU clustering,
@@ -57,7 +57,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3218
   edam_topics:
   - http://edamontology.org/topic_0632
-  - http://edamontology.org/topic_0694
+  - http://edamontology.org/topic_2814
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

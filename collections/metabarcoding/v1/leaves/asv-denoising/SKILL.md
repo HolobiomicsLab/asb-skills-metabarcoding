@@ -11,7 +11,7 @@ when_to_use_negative:
   amplicon workflow
 - The analysis goal is OTU-based clustering at the predefined 97% identity threshold
   — use the mothur path ('mothur_workflow.sh') instead
-edam_operation: http://edamontology.org/operation_3236
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 tools:
@@ -40,7 +40,7 @@ metadata:
   - argparser
   - ggplot2
   - mothur
-  edam_operation: http://edamontology.org/operation_3236
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   provenance_tier: literature
