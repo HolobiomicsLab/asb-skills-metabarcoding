@@ -13,7 +13,7 @@ when_to_use_negative:
   comparison instead
 - The data are single-sample taxonomic profiles rather than aggregated mock-community
   benchmark metrics across the 136-sample mock community set
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -59,7 +59,7 @@ metadata:
   - QIIME 2
   - matplotlib
   - scipy.stats.spearmanr
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

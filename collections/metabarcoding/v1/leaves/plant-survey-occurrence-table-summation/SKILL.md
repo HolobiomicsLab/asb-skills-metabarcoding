@@ -11,7 +11,7 @@ when_to_use_negative:
   species categories cannot be defined
 - Input is a sequence file rather than an OTU table with samples as columns and unique
   OTU ids as row names; clustering (e.g. VSEARCH, SWARM, DADA2) must be done first
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0637
@@ -55,7 +55,7 @@ metadata:
   - LULU
   - SWARM
   - VSEARCH
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0637

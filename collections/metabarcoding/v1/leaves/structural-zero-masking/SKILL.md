@@ -12,7 +12,7 @@ when_to_use_negative:
 - 'Input is raw unprocessed data: structural-zero classification requires the pre-processed
   table and asymptotic lower bounds from feature_table_pre_process, and taxa with
   zero proportion > zero.cut are already removed'
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -45,7 +45,7 @@ metadata:
   - R
   - dplyr
   - nloptr
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

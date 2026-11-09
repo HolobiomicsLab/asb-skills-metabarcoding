@@ -11,7 +11,7 @@ when_to_use_negative:
 - Samples are from environmental, nonhost-associated habitats where sequences are
   highly enriched for those not captured by current uSGBs, making SGB prevalence estimates
   unreliable
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0637
@@ -43,7 +43,7 @@ metadata:
   - MetaPhlAn 4
   - bioBakery
   - conda
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0637

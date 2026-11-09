@@ -12,8 +12,7 @@ when_to_use_negative:
   the targeted region, since no valid amplicon can be excised and everything would
   be discarded
 edam_operation: http://edamontology.org/operation_0231
-edam_topics:
-- http://edamontology.org/topic_0697
+edam_topics: []
 tools:
 - name: Cutadapt
   role: Excises the in-silico amplicon for each primer set (max 3 mismatches) from
@@ -40,8 +39,7 @@ metadata:
   - Mesquite
   - ruffus
   edam_operation: http://edamontology.org/operation_0231
-  edam_topics:
-  - http://edamontology.org/topic_0697
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

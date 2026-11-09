@@ -12,7 +12,7 @@ when_to_use_negative:
   be cautious.
 - Input is already a species-level relative-abundance table from another profiler
   and no re-profiling with MetaPhlAn 4 is needed.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0637
@@ -44,7 +44,7 @@ metadata:
   - MetaPhlAn
   - MetaPhlAn 4
   - PhyloPhlAn
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0637

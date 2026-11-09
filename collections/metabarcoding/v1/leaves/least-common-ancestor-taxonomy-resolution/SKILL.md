@@ -10,7 +10,7 @@ when_to_use_negative:
   — LCA will truncate to the deepest rank at which all member taxonomies agree.
 - When headers or classifier hits lack comparable rank-delimited taxonomy strings,
   since the consensus script cannot reconcile incompatible lineage formats.
-edam_operation: http://edamontology.org/operation_0454
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 tools:
@@ -44,7 +44,7 @@ metadata:
   - create_consensus_taxonomy.py
   - csvtk
   - seqkit
-  edam_operation: http://edamontology.org/operation_0454
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   provenance_tier: literature

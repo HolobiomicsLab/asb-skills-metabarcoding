@@ -14,7 +14,6 @@ when_to_use_negative:
   is needed — the review provides no changelog
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3697
 tools:
 - name: FastQC
@@ -104,7 +103,6 @@ metadata:
   - phyloseq
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3697
   provenance_tier: literature
 license: CC-BY-4.0

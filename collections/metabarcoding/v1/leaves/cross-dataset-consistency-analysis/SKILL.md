@@ -16,7 +16,6 @@ when_to_use_negative:
   to count; use within-dataset consensus/intersect of tool outputs instead.
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_3270
 tools:
 - name: ALDEx2
   role: DA tool whose significant-genus calls are compared across the five diarrhea/obesity
@@ -68,7 +67,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_3270
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

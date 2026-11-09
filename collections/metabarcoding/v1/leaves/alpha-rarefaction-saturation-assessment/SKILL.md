@@ -11,7 +11,7 @@ when_to_use_negative:
   so the expected ~350 sequences/sample plateau depth is not comparable.
 - Beta diversity or compositional dissimilarity questions — this skill only assesses
   within-sample richness (observed features), not between-sample ordination.
-edam_operation: http://edamontology.org/operation_3845
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0637
@@ -49,7 +49,7 @@ metadata:
   - Python
   - QIIME 2
   - Tourmaline
-  edam_operation: http://edamontology.org/operation_3845
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0637

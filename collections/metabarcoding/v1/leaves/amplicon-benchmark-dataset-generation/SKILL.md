@@ -12,7 +12,7 @@ when_to_use_negative:
   the abundance model is genome-aware.
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_0622
 tools:
@@ -47,7 +47,7 @@ metadata:
   - git
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_0622
   provenance_tier: literature

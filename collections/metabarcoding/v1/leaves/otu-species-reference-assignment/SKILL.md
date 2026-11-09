@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3460
 edam_topics:
 - http://edamontology.org/topic_0659
-- http://edamontology.org/topic_3058
 tools:
 - name: LULU
   role: Produces the curated OTU tables (default minimum_match=84, minimum_ratio=1,
@@ -55,7 +54,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3460
   edam_topics:
   - http://edamontology.org/topic_0659
-  - http://edamontology.org/topic_3058
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

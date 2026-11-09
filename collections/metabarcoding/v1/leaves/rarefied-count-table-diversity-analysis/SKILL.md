@@ -11,7 +11,7 @@ when_to_use_negative:
   species-level alpha-diversity accuracy against mock community ground truth
 - Samples are environmental/clinical with no known true composition — absolute deviation
   from ground truth cannot be computed
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_3300
@@ -55,7 +55,7 @@ metadata:
   - QIIME 2
   - breakaway
   - vegan
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_3300

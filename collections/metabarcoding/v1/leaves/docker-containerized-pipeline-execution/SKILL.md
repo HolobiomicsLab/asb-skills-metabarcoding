@@ -11,7 +11,7 @@ when_to_use_negative:
   paired-end amplicon sequences.
 - You need per-rule Snakemake customization beyond the three steps (qaqc, repseqs,
   taxonomy) exposed by tourmaline.sh.
-edam_operation: http://edamontology.org/operation_4056
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 tools:
@@ -49,7 +49,7 @@ metadata:
   - QIIME 2
   - Snakemake
   - Tourmaline
-  edam_operation: http://edamontology.org/operation_4056
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   provenance_tier: literature

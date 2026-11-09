@@ -652,10 +652,7 @@
   "name": "16s-v4-read-trimming",
   "description": "Use when processing Illumina 16S V4 amplicon reads (515f/806r) with Deblur, where sequences must be trimmed to 90 bp so identical V4 tag sequences are comparable across multiple studies before merging BIOM tables.",
   "edam_operation": "http://edamontology.org/operation_0239",
-  "edam_topics": [
-   "http://edamontology.org/topic_0080",
-   "http://edamontology.org/topic_0688"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "Deblur",
    "Python",
@@ -933,7 +930,7 @@
   "slug": "age-category-stratified-taxa-prevalence",
   "name": "age-category-stratified-taxa-prevalence",
   "description": "Use when you have per-sample species/SGB relative-abundance profiles from a large metagenome cohort annotated with host metadata (lifestyle, age) and need prevalence-ranked taxa or enrichment of unidentified taxa (uSGBs) per category.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174"
   ],
@@ -1084,10 +1081,7 @@
   "name": "alpha-diversity-deviation-analysis",
   "description": "Use when benchmark metrics for multiple profiler/reference-library pairings are available and you need to test whether quality traits (sensitivity, specificity, error score, alpha diversity deviation) are correlated across pairings.",
   "edam_operation": "http://edamontology.org/operation_2238",
-  "edam_topics": [
-   "http://edamontology.org/topic_0699",
-   "http://edamontology.org/topic_3305"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3305"],
   "tools": [
    "DADA2",
    "Kraken 2",
@@ -1392,7 +1386,7 @@
   "slug": "alpha-rarefaction-saturation-assessment",
   "name": "alpha-rarefaction-saturation-assessment",
   "description": "Use when a .qzv rarefaction visualization and per-sample observed-features values are available and you must confirm a richness difference between metadata strata (e.g. 5.0-μm vs 0.22-μm size fractions) and the sampling depth where curves saturate.",
-  "edam_operation": "http://edamontology.org/operation_3845",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174",
    "http://edamontology.org/topic_0637"
@@ -1459,11 +1453,7 @@
   "name": "amplicon-benchmark-dataset-generation",
   "description": "Use when building synthetic long-read (PacBio HiFi) amplicon read sets with known ground-truth ASV counts to benchmark ASV clustering, taxonomic assignment, or abundance-estimation workflows.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_0182",
-   "http://edamontology.org/topic_3697",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080", "http://edamontology.org/topic_3697", "http://edamontology.org/topic_0622"],
   "tools": [
    "MHASS",
    "Python",
@@ -1490,7 +1480,7 @@
   "slug": "amplicon-clustering-benchmarking",
   "name": "amplicon-clustering-benchmarking",
   "description": "Use when comparing runtime and memory footprint of swarm versions on large dereplicated amplicon datasets, or when validating claimed speedups (e.g., >5x V9, >9x V4 with fastidious mode).",
-  "edam_operation": "http://edamontology.org/operation_3468",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0632",
    "http://edamontology.org/topic_3293"
@@ -1757,7 +1747,7 @@
   "slug": "amplicon-otu-asv-method-differentiation",
   "name": "amplicon-otu-asv-method-differentiation",
   "description": "Use when raw 16S rRNA amplicon sequencing reads must be converted into OTUs or ASVs and the practitioner must decide between (or document both) the 97%-identity clustering route and the denoising ASV route.",
-  "edam_operation": "http://edamontology.org/operation_3234",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3697",
    "http://edamontology.org/topic_3168"
@@ -2151,7 +2141,7 @@
   "slug": "amplicon-read-primer-removal",
   "name": "amplicon-read-primer-removal",
   "description": "Use when raw paired-end amplicon FASTQ files (e.g. 16S V4 with 515F/806R or ITS2 with F-ITS4/R-fITS7) still contain primer sequences at read ends and must be cleaned before DADA2 quality filtering and ASV inference.",
-  "edam_operation": "http://edamontology.org/operation_2003",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0632",
    "http://edamontology.org/topic_3697"
@@ -2211,10 +2201,7 @@
   "name": "amplicon-read-quality-filtering",
   "description": "Use when raw 16S rRNA amplicon FASTQ reads (e.g. Illumina MiSeq, ~300 bp paired-end) need per-sample quality assessment, read counting, and denoising into ASVs prior to taxonomy assignment.",
   "edam_operation": "http://edamontology.org/operation_3218",
-  "edam_topics": [
-   "http://edamontology.org/topic_0697",
-   "http://edamontology.org/topic_3168"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3168"],
   "tools": [
    "Deblur",
    "FastQC",
@@ -2959,7 +2946,7 @@
   "slug": "asv-denoising",
   "name": "asv-denoising",
   "description": "Use when raw paired-end, demultiplexed 16S rRNA amplicon FASTQ data (e.g. V4 2x250 reads) must be converted to an error-corrected ASV table rather than clustered into OTUs at a 97% identity threshold.",
-  "edam_operation": "http://edamontology.org/operation_3236",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0637"
   ],
@@ -3325,9 +3312,7 @@
   "name": "asv-replicate-reproducibility-assessment",
   "description": "Use when a metabarcoding occurrence table contains technical replicates per sample and non-reproducible ASV occurrences (e.g. tag-jumps, contaminants) must be removed by requiring occurrence repeatability across replicates.",
   "edam_operation": "http://edamontology.org/operation_3695",
-  "edam_topics": [
-   "http://edamontology.org/topic_3294"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "VTAM"
@@ -3722,10 +3707,7 @@
   "name": "best-practice-software-cataloging",
   "description": "Use when building or auditing a 16S rRNA amplicon or shotgun metagenomics pipeline and you need the review's recommended tool per phase (e.g. Trimmomatic/Sickle/BBMap for quality trimming, MEGAHIT/SPAdes/IDBA for assembly, MetaBAT/MaxBin for binning, Kraken2/MetaPhlAn2 for classification).",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_0699",
-   "http://edamontology.org/topic_3697"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3697"],
   "tools": [
    "BBMap",
    "Binning_refiner",
@@ -4675,10 +4657,7 @@
   "name": "chimera-filtered-fasta-output-handling",
   "description": "Use when dereplicated amplicon reads (post quality/length filtering) must be screened for chimeric PCR products before MOTU clustering and no curated chimera reference database is available.",
   "edam_operation": "http://edamontology.org/operation_0292",
-  "edam_topics": [
-   "http://edamontology.org/topic_0652",
-   "http://edamontology.org/topic_0080"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "obiuniq",
    "vsearch"
@@ -5942,10 +5921,7 @@
   "name": "cross-dataset-consistency-analysis",
   "description": "Use when differential abundance results exist for the same phenotype across multiple independent datasets (e.g., five diarrhea or five obesity studies) and you need to quantify which DA tools call the same genera significant more often than expected by chance.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_2269",
-   "http://edamontology.org/topic_3270"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_2269"],
   "tools": [
    "ALDEx2",
    "ANCOM",
@@ -6665,7 +6641,7 @@
   "slug": "dereplicated-read-processing",
   "name": "dereplicated-read-processing",
   "description": "Use when dereplicated amplicon FASTA files (e.g. produced by obiuniq after illuminapairedend alignment, quality-score >40 filtering and 120–135 bp length filtering) may contain chimeric sequences that must be removed without a reference database before MOTU clustering.",
-  "edam_operation": "http://edamontology.org/operation_3287",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0637",
    "http://edamontology.org/topic_0196"
@@ -6727,7 +6703,7 @@
   "slug": "diet-biomarker-identification-from-taxonomic-profiles",
   "name": "diet-biomarker-identification-from-taxonomic-profiles",
   "description": "Use when metagenomic taxonomic profiles (e.g. MetaPhlAn 4 SGB-level relative abundances) must be tested for differential abundance between two host conditions, such as high-fat vs normal-chow diet, while controlling for host covariates.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174",
    "http://edamontology.org/topic_0622"
@@ -6959,7 +6935,7 @@
   "slug": "docker-containerized-pipeline-execution",
   "name": "docker-containerized-pipeline-execution",
   "description": "Use when you need wall-clock runtime benchmarks of a full amplicon workflow (e.g. ~96-sample 16S rRNA dataset) under different core counts (1 vs 8 cores) inside the Tourmaline Docker container.",
-  "edam_operation": "http://edamontology.org/operation_4056",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174"
   ],
@@ -7021,7 +6997,7 @@
   "slug": "dominance-metric-sensitivity-analysis",
   "name": "dominance-metric-sensitivity-analysis",
   "description": "Use when you need to test whether dominance-type alpha diversity metrics (e.g., dominance, Gini, Simpson) respond monotonically to artificially imposed community unevenness, using synthetic ASV feature tables with known abundance ratios.",
-  "edam_operation": "http://edamontology.org/operation_2123",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3697"
   ],
@@ -7296,10 +7272,7 @@
   "name": "edna-metabarcoding-community-profiling",
   "description": "Use when you have an eDNA metabarcoding community matrix (COI or 16S OTU/ASV table) plus sample metadata with host/source identity (e.g. plant species) and site coordinates, and want to test whether communities separate by that identity.",
   "edam_operation": "http://edamontology.org/operation_2939",
-  "edam_topics": [
-   "http://edamontology.org/topic_3050",
-   "http://edamontology.org/topic_3911"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3050"],
   "tools": [
    "R",
    "vegan"
@@ -7952,10 +7925,7 @@
   "name": "eukaryotic-otu-summary-extraction",
   "description": "Use when an ITS2 metabarcoding study reports eukaryotic OTU totals, known-species identifications, and kingdom/functional-group percentages that must be compiled into a structured, validated summary table.",
   "edam_operation": "http://edamontology.org/operation_3435",
-  "edam_topics": [
-   "http://edamontology.org/topic_0694",
-   "http://edamontology.org/topic_0621"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_2814", "http://edamontology.org/topic_0621"],
   "tools": [
    "BLASTn",
    "cd-hit-est v3.1.2",
@@ -8415,7 +8385,7 @@
   "slug": "fastq-quality-control-reporting",
   "name": "fastq-quality-control-reporting",
   "description": "Use when Illumina (NovaSeq/MGI) FASTQ reads, especially paired-end, need QC profiling plus cleaning — adapter trimming, quality filtering, duplication-rate estimation — before downstream alignment or variant calling.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080"
   ],
@@ -8688,7 +8658,7 @@
   "slug": "feature-table-low-abundance-filtering",
   "name": "feature-table-low-abundance-filtering",
   "description": "Use when a denoised or clustered COI metabarcoding feature table (e.g., from DADA2, Deblur, or VSEARCH) still contains singleton or mock-derived spurious ASVs that must be removed before diversity analyses.",
-  "edam_operation": "http://edamontology.org/operation_3238",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3697"
   ],
@@ -9391,10 +9361,7 @@
   "name": "ggplot2-diversity-visualization",
   "description": "Use when an amplicon feature table (BIOM/QIIME 2 format) with a sample metadata mapping file needs group-difference testing and figure/table output for alpha- and beta-diversity in R.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_3050",
-   "http://edamontology.org/topic_3061"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3050", "http://edamontology.org/topic_3068"],
   "tools": [
    "Liu2020ProteinCell",
    "QIIME 2",
@@ -9980,10 +9947,7 @@
   "name": "hpc-workflow-parallel-execution",
   "description": "Use when estimating or optimizing wall-clock runtime of a multi-sample dadasnake/DADA2 amplicon run on a cluster, or when deciding how many cores (-t) to allocate for a given dataset size.",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_0769",
-   "http://edamontology.org/topic_0695"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0769"],
   "tools": [
    "Snakemake",
    "conda",
@@ -10209,7 +10173,7 @@
   "slug": "inflow-versus-pond-water-group-comparison",
   "name": "inflow-versus-pond-water-group-comparison",
   "description": "Use when you have a species/taxon-level OTU abundance table with sample metadata distinguishing inflow water from pond water, and need to identify taxa whose relative abundances differ significantly between the two water-source groups.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3174"
@@ -10504,7 +10468,7 @@
   "slug": "its-region-taxonomic-classification",
   "name": "its-region-taxonomic-classification",
   "description": "Use when processing paired-end ITS amplicon FASTQ data (e.g. ITS1, 267-sample fungal datasets) and you need region-filtered, taxonomically assigned ASV tables rather than 16S classification.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080"
   ],
@@ -11029,7 +10993,7 @@
   "slug": "least-common-ancestor-taxonomy-resolution",
   "name": "least-common-ancestor-taxonomy-resolution",
   "description": "Use when merging taxonomic labels from multiple identical or near-identical COI reference records, or when classifier output provides multiple hits without coverage metadata and a conservative single lineage per sequence is needed.",
-  "edam_operation": "http://edamontology.org/operation_0454",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0637"
   ],
@@ -11235,10 +11199,7 @@
   "name": "location-factor-categorical-modeling",
   "description": "Use when per-location count data (e.g. MOTU richness or read abundances from metabarcoding) must be tested for significant differences among sampling locations, and pairwise location contrasts with P-values are needed.",
   "edam_operation": "http://edamontology.org/operation_3659",
-  "edam_topics": [
-   "http://edamontology.org/topic_2269",
-   "http://edamontology.org/topic_3058"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_2269"],
   "tools": [
    "custom R scripts (metabarpark)",
    "glm2",
@@ -11696,7 +11657,7 @@
   "slug": "marker-gene-based-abundance-estimation",
   "name": "marker-gene-based-abundance-estimation",
   "description": "Use when profiling bacteria, archaea, eukaryotes, or viruses from metagenomic shotgun sequencing data, especially when accurate quantification of uncharacterized species (uSGBs/MAGs without cultured isolates) is required.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174",
    "http://edamontology.org/topic_0622"
@@ -11756,9 +11717,7 @@
   "name": "marker-gene-metabarcoding-processing",
   "description": "Use when starting from raw paired-end NextSeq FASTQ files of 16S or COI amplicons and the goal is an error-filtered, merged, chimera-removed MOTU count table per marker gene.",
   "edam_operation": "http://edamontology.org/operation_3237",
-  "edam_topics": [
-   "http://edamontology.org/topic_0697"
-  ],
+  "edam_topics": [],
   "tools": [
    "DADA2",
    "R"
@@ -12033,9 +11992,7 @@
   "name": "metabarcoding-contamination-control",
   "description": "Use when a MOTU table built with sumaclust (99% similarity) contains single-read MOTUs and the goal is a conservative contamination/false-positive control before computing elasmobranch (or other taxon) richness per sampling location or region.",
   "edam_operation": "http://edamontology.org/operation_3695",
-  "edam_topics": [
-   "http://edamontology.org/topic_3911"
-  ],
+  "edam_topics": [],
   "tools": [
    "ecoPCR",
    "ecotag",
@@ -13379,9 +13336,7 @@
   "name": "microbiome-environment-stratification",
   "description": "Use when an EMP 16S Release 1 BIOM table and mapping file must be analyzed per environment type — e.g., computing NODF nestedness separately for non-saline, saline, animal, and plant subsets of a 2,000-sample subset rather than only globally.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0699"
-  ],
+  "edam_topics": [],
   "tools": [
    "Pandas",
    "Python",
@@ -13934,10 +13889,7 @@
   "name": "mock-community-benchmark-evaluation",
   "description": "Use when a metabarcoding pipeline needs quantitative performance validation on a mock community with known taxonomic composition, e.g., comparing ASV inference (Swarm v2) vs OTU clustering (VSEARCH) precision/recall.",
   "edam_operation": "http://edamontology.org/operation_3218",
-  "edam_topics": [
-   "http://edamontology.org/topic_0632",
-   "http://edamontology.org/topic_0694"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0632", "http://edamontology.org/topic_2814"],
   "tools": [
    "BayesHammer",
    "CREST LCAClassifier",
@@ -14076,7 +14028,7 @@
   "slug": "mock-community-error-rate-quantification",
   "name": "mock-community-error-rate-quantification",
   "description": "Use when you have raw paired-end mock community reads and need to compare how representative-sequence inference methods (denoising vs OTU clustering) and filtering stringency affect erroneous-sequence rates.",
-  "edam_operation": "http://edamontology.org/operation_3238",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0196"
   ],
@@ -14436,10 +14388,7 @@
   "name": "msd-computation-from-placement-msa",
   "description": "Use when auditing compactness of 16S rRNA OTUs (e.g. HMP V1V3/V3V5 OTUs clustered at 97% PSD) by re-measuring each member's distance from the representative with alignment-based (MSD) and tree-based (BLD) metrics.",
   "edam_operation": "http://edamontology.org/operation_0292",
-  "edam_topics": [
-   "http://edamontology.org/topic_0069",
-   "http://edamontology.org/topic_3697"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3697"],
   "tools": [
    "FastTree 2",
    "PASTA",
@@ -14599,9 +14548,7 @@
   "name": "multilocus-ensemble-index-computation",
   "description": "Use when you have taxa x time-point read-proportion tables from multilocus eDNA amplicon sequencing and need relative abundance changes comparable across loci despite amplification bias.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "numpy",
@@ -15200,10 +15147,7 @@
   "name": "nucleotide-substitution-profiling",
   "description": "Use when full-length 16S PacBio reads have been assigned to a 99%-identity OTU and the goal is to resolve strain-level intragenomic 16S copy variants via per-position substitution frequencies rather than indels.",
   "edam_operation": "http://edamontology.org/operation_0291",
-  "edam_topics": [
-   "http://edamontology.org/topic_3693",
-   "http://edamontology.org/topic_3697"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3697"],
   "tools": [
    "Cross_match",
    "PacBio",
@@ -15651,10 +15595,7 @@
   "name": "otu-species-reference-assignment",
   "description": "Reference for validating OTU tables against ground-truth species inventories when OTUs must be labeled taxonomically (GenBank ITS2) and compared per-site to field survey lists to quantify recaptured, unregistered, redundant, and lost species.",
   "edam_operation": "http://edamontology.org/operation_3460",
-  "edam_topics": [
-   "http://edamontology.org/topic_0659",
-   "http://edamontology.org/topic_3058"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0659"],
   "tools": [
    "CROP",
    "DADA2",
@@ -17420,7 +17361,7 @@
   "slug": "plant-arthropod-interaction-visualization",
   "name": "plant-arthropod-interaction-visualization",
   "description": "Use when you have a plant-species by arthropod-family abundance/detection matrix from flower eDNA metabarcoding and need to visualize which plant taxa host the highest and lowest arthropod family diversity in a bipartite web.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0610",
    "http://edamontology.org/topic_3053"
@@ -17473,7 +17414,7 @@
   "slug": "plant-survey-occurrence-table-summation",
   "name": "plant-survey-occurrence-table-summation",
   "description": "Use when an OTU table derived from plant ITS2 metabarcoding of soil (or similar) must be validated against paired field-survey species lists, by summarizing per-site taxonomic composition into species-validation categories before and after post-clustering curation.",
-  "edam_operation": "http://edamontology.org/operation_3220",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0637"
@@ -17545,7 +17486,7 @@
   "slug": "poisson-glm-richness-modeling",
   "name": "poisson-glm-richness-modeling",
   "description": "Use when per-location count data (e.g. MOTU richness or sequencing read abundance) must be compared across a categorical sampling factor such as geographic location, and pairwise post-hoc contrasts are needed.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_3053"
   ],
@@ -17773,7 +17714,7 @@
   "slug": "precision-recall-metric-computation--3512ad2ecc1c3859",
   "name": "precision-recall-metric-computation",
   "description": "Use when evaluating an eDNA metabarcoding pipeline on a mock community with a known taxonomic ground truth and you need quantitative precision/recall/F1 per clustering or ASV-inference condition.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0632",
    "http://edamontology.org/topic_3305"
@@ -18267,7 +18208,7 @@
   "slug": "qiime2-artifact-visualization-interpretation",
   "name": "qiime2-artifact-visualization-interpretation",
   "description": "Use when QIIME 2 distance matrices and ordinations exist (or a .qzv report is produced) and you must inspect Emperor plots or extract PERMANOVA pseudo-F/p-values to judge whether samples group by a metadata column.",
-  "edam_operation": "http://edamontology.org/operation_0280",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0637",
    "http://edamontology.org/topic_0091"
@@ -18870,9 +18811,7 @@
   "name": "rarefaction-normalization-of-16s-counts",
   "description": "Use when comparing environment distributions or alpha diversity across EMP samples processed in different studies, where BIOM tables have heterogeneous depths and counts must first be equalized to 5,000 observations per sample.",
   "edam_operation": "http://edamontology.org/operation_3222",
-  "edam_topics": [
-   "http://edamontology.org/topic_0699"
-  ],
+  "edam_topics": [],
   "tools": [
    "Deblur",
    "Pandas",
@@ -18901,7 +18840,7 @@
   "slug": "rarefied-count-table-diversity-analysis",
   "name": "rarefied-count-table-diversity-analysis",
   "description": "Use when you have rarefied taxonomic count tables from multiple profiler/reference pairings (e.g., PathoScope, Kraken 2, DADA2 with RefSeq2020, RefSeq2018, SILVA, Greengenes) plus ground-truth mock community abundances and need to rank pairings by alpha-diversity deviation.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0637",
    "http://edamontology.org/topic_3300"
@@ -19252,9 +19191,7 @@
   "name": "reference-database-fasta-processing",
   "description": "Use when a taxonomic-resolution or primer-bias comparison requires excising sub-region 16S amplicons (e.g., V4, V3-V5) in silico from a full-length reference FASTA using known primer-binding sites.",
   "edam_operation": "http://edamontology.org/operation_0231",
-  "edam_topics": [
-   "http://edamontology.org/topic_0697"
-  ],
+  "edam_topics": [],
   "tools": [
    "CUTADAPT",
    "Cutadapt",
@@ -20317,7 +20254,7 @@
   "slug": "sample-composition-correlation-analysis",
   "name": "sample-composition-correlation-analysis",
   "description": "Use when you need to quantify how faithfully a metagenomic classifier's estimated taxon abundances match known sample composition, e.g. comparing default vs memory-efficient MetaMaps runs on mock communities.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0637",
    "http://edamontology.org/topic_3174"
@@ -20913,7 +20850,7 @@
   "slug": "sgb-prevalence-estimation",
   "name": "sgb-prevalence-estimation",
   "description": "Use when a cohort of shotgun metagenomes (e.g. ~19.5k curatedMetagenomicData gut samples) must be profiled to rank SGBs by detection frequency across lifestyle (westernized vs nonwesternized) or age (childhood vs adult) strata.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174",
    "http://edamontology.org/topic_0637"
@@ -21778,7 +21715,7 @@
   "slug": "software-version-comparison",
   "name": "software-version-comparison",
   "description": "Use when a tool release claims performance or code-quality improvements and you must verify them side-by-side, e.g. runtime, peak RSS, or SoftWipe scores of swarm v2 vs v3 on the same datasets.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092"
   ],
@@ -22389,7 +22326,7 @@
   "slug": "structural-zero-masking",
   "name": "structural-zero-masking",
   "description": "Use when a taxa-by-sample absolute abundance table contains zeros that may be structural (taxon truly absent in a group) rather than sampling zeros, before computing group log differences or fitting the ANCOM-BC E-M mixture model.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091"
   ],
@@ -23230,7 +23167,7 @@
   "slug": "taxonomic-name-matching",
   "name": "taxonomic-name-matching",
   "description": "Use when you have a resolved species list from eDNA metabarcoding and need to verify plausibility by checking each taxon against independent occurrence records for the sampling region (e.g., locality or island-level faunistic data).",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091"
   ],
@@ -23321,7 +23258,7 @@
   "slug": "taxonomic-profiler-benchmark-visualization",
   "name": "taxonomic-profiler-benchmark-visualization",
   "description": "Use when you have a per-pairing benchmark metrics table (sensitivity, specificity, error score, alpha diversity deviation for each profiler-library combination) and need to determine which metrics are correlated and which pairings occupy the high-sensitivity/high-specificity quadrant.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -23501,10 +23438,7 @@
   "name": "taxonomy-stratum-merging-via-confidence-weighted-voting",
   "description": "Use when building shuffled stratified 5-fold splits over reference sequences and empirical samples (e.g., Qiita habitats) and some taxonomy labels lack enough members to be stratified on their own.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0699",
-   "http://edamontology.org/topic_3474"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3474"],
   "tools": [
    "imbalanced-learn",
    "q2-clawback",
@@ -23799,7 +23733,7 @@
   "slug": "unclassified-reads-estimation",
   "name": "unclassified-reads-estimation",
   "description": "Use when profiling shotgun metagenomic samples with MetaPhlAn 4 and you need to quantify the fraction of reads explained (including reads mapping to uSGBs), or when comparing MetaPhlAn 4 vs MetaPhlAn 3 explainable-read fractions across environments.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174",
    "http://edamontology.org/topic_0637"

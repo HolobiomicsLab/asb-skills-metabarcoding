@@ -10,7 +10,7 @@ when_to_use_negative:
   (use HUMAnN-style functional profiling instead)
 - Environments dominated by sequences not captured by current uSGBs (e.g. environmental
   or nonhost-associated communities), where uSGB biomarker fractions will be unreliable
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0622
@@ -38,7 +38,7 @@ metadata:
   tools:
   - MetaPhlAn
   - MetaPhlAn 4
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0622

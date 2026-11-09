@@ -11,8 +11,7 @@ when_to_use_negative:
   strata cannot be defined.
 - The goal is functional (e.g., metabolomic) rather than taxonomic composition stratification
   of EMP samples.
-edam_topics:
-- http://edamontology.org/topic_0699
+edam_topics: []
 tools:
 - name: Python
   role: 'Scripting environment for the meta-analysis: loading the EMP 16S Release
@@ -40,8 +39,7 @@ metadata:
   - Python
   - redbiom
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0699
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

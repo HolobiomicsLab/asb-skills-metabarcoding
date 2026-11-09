@@ -13,7 +13,6 @@ when_to_use_negative:
   recapture the diversity of the full ~1500 bp gene
 edam_operation: http://edamontology.org/operation_0291
 edam_topics:
-- http://edamontology.org/topic_3693
 - http://edamontology.org/topic_3697
 tools:
 - name: PacBio
@@ -44,7 +43,6 @@ metadata:
   - ruffus
   edam_operation: http://edamontology.org/operation_0291
   edam_topics:
-  - http://edamontology.org/topic_3693
   - http://edamontology.org/topic_3697
   provenance_tier: literature
 license: CC-BY-4.0

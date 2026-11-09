@@ -10,7 +10,7 @@ when_to_use_negative:
   has not yet produced them (Tourmaline will not emit the diversity .qzv outputs)
 - The metadata file lacks the grouping columns (e.g. location or size fraction) needed
   by beta-group-significance
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - QIIME 2 viewer
   - Snakemake
   - Tourmaline
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_0091

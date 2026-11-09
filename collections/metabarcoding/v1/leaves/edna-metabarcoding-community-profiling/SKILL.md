@@ -12,7 +12,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
 - http://edamontology.org/topic_3050
-- http://edamontology.org/topic_3911
 tools:
 - name: vegan
   role: R package used to run the partial redundancy analysis (rda with Condition()
@@ -38,7 +37,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
   - http://edamontology.org/topic_3050
-  - http://edamontology.org/topic_3911
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

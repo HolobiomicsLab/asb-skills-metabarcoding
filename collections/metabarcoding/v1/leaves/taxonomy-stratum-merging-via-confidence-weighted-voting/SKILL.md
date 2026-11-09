@@ -11,7 +11,6 @@ when_to_use_negative:
 - Your goal is plain k-fold CV that ignores taxon proportions and empirical abundances
   — stratification and stratum merging are unnecessary overhead
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3474
 tools:
 - name: imbalanced-learn
@@ -43,7 +42,6 @@ metadata:
   - scikit-learn
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

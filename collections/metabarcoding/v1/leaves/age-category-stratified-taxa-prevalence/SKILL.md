@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than taxon prevalence across sample strata
 - Samples come from environmental, nonhost-associated, or under-characterized habitats,
   where sequences are highly enriched for content not captured by current uSGBs
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 tools:
@@ -41,7 +41,7 @@ metadata:
   - MetaPhlAn 4
   - bioBakery
   - conda
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   provenance_tier: literature

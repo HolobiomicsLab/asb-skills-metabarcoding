@@ -8,7 +8,7 @@ when_to_use_negative:
   taxon composition, so TP/FP/FN cannot be defined
 - Taxonomy was assigned only to level above genus, since the PEMA benchmark computed
   these metrics at genus level
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0632
 - http://edamontology.org/topic_3305
@@ -49,7 +49,7 @@ metadata:
   - Swarm v2
   - Trimmomatic
   - VSEARCH
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0632
   - http://edamontology.org/topic_3305

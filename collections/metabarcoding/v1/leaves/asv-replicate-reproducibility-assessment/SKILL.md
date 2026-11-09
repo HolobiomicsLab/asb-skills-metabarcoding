@@ -11,8 +11,7 @@ when_to_use_negative:
 - The occurrence table has already been replicate-filtered and you would risk double-filtering
   the same occurrences
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3294
+edam_topics: []
 tools:
 - name: VTAM
   role: Source of the FilterMinReplicateNumber filter; its merge, sortreads and filter
@@ -43,8 +42,7 @@ metadata:
   - Python
   - VTAM
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3294
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

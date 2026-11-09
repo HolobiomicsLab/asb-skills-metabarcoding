@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0239
 edam_topics:
 - http://edamontology.org/topic_0080
-- http://edamontology.org/topic_0688
 tools:
 - name: Deblur
   role: Exact-sequence de novo OTU picking method used to derive 90-bp V4 tag sequences
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0239
   edam_topics:
   - http://edamontology.org/topic_0080
-  - http://edamontology.org/topic_0688
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

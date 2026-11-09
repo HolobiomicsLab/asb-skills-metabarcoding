@@ -12,7 +12,7 @@ when_to_use_negative:
   validation would not apply
 edam_operation: http://edamontology.org/operation_3435
 edam_topics:
-- http://edamontology.org/topic_0694
+- http://edamontology.org/topic_2814
 - http://edamontology.org/topic_0621
 tools:
 - name: pandas
@@ -41,7 +41,7 @@ metadata:
   - pandas
   edam_operation: http://edamontology.org/operation_3435
   edam_topics:
-  - http://edamontology.org/topic_0694
+  - http://edamontology.org/topic_2814
   - http://edamontology.org/topic_0621
   provenance_tier: literature
 license: CC-BY-4.0

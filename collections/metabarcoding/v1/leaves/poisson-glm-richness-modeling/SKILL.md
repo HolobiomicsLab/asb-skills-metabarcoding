@@ -10,7 +10,7 @@ when_to_use_negative:
   location factor for Tukey contrasts
 - Input is the raw FASTQ/MOTU table rather than the aggregated per-location richness
   and read abundance table
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3053
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - OBITools
   - sumaclust
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3053
   provenance_tier: literature

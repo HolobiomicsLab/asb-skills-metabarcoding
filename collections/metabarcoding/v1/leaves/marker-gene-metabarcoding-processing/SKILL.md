@@ -9,8 +9,7 @@ when_to_use_negative:
 - The amplicon targets nuclear loci or non-mitochondrial markers for which the 16S/COI-specific
   error models and 5 bp merge-overlap assumptions of this workflow were built
 edam_operation: http://edamontology.org/operation_3237
-edam_topics:
-- http://edamontology.org/topic_0697
+edam_topics: []
 tools:
 - name: DADA2
   role: R package performing filterAndTrim, learnErrors, dada denoising, mergePairs
@@ -35,8 +34,7 @@ metadata:
   - DADA2
   - R
   edam_operation: http://edamontology.org/operation_3237
-  edam_topics:
-  - http://edamontology.org/topic_0697
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted
