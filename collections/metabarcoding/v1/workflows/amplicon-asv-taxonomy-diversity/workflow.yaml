@@ -1,0 +1,170 @@
+schema_version: 0.3.0
+workflow_id: amplicon_asv_taxonomy_diversity
+kind: composite-workflow
+techniques: []
+steps:
+- id: denoise_asvs
+  goal: quality-filter, denoise, merge, and remove chimeras into QIIME 2 ASV artifacts
+  edam_operation: http://edamontology.org/operation_3219
+  skills:
+  - amplicon-sequence-denoising-dada2
+  - asv-denoising
+  - asv-feature-table-generation
+  - dada2-asv-denoising-and-pair-merging
+  tools:
+  - DADA2
+  - Docker
+  - Python
+  - QIIME 2
+  - QIIME 2 viewer
+  - Snakemake
+  - Tourmaline
+  inputs:
+  - type: paired-fastq
+    flavour: demultiplexed
+  - type: tsv
+    flavour: sample-manifest
+  - type: tsv
+    flavour: sample-metadata
+  - type: yaml
+    flavour: qaqc-config
+  outputs:
+  - type: qiime2-artifact
+    flavour: feature-table
+  - type: qiime2-artifact
+    flavour: representative-sequences
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-023-30764-z
+    - asb-paper-10-1093-bib-bbz155
+    - asb-paper-10-1093-gigascience-giaa135
+    - asb-paper-10-1093-gigascience-giac066
+    dois:
+    - 10.1038/s41598-023-30764-z
+    - 10.1093/bib/bbz155
+    - 10.1093/gigascience/giaa135
+    - 10.1093/gigascience/giac066
+  after: []
+  candidate_tools:
+  - Phyloseq
+  - argparser
+  - ggplot2
+  - mothur
+  - Deblur
+  - FastQC
+  - BLAST
+  - conda
+  - cutadapt
+  - dadasnake
+  - seqtk
+- id: assign_taxonomy
+  goal: assign reference-backed taxonomy to the representative-sequence artifact
+  edam_operation: http://edamontology.org/operation_3460
+  skills:
+  - taxonomic-classification-assignment
+  - qiime2-artifact-generation
+  - taxonomic-assignment-amplicon-sequences
+  - qiime2-artifact-import--a9b98430d1674072
+  tools:
+  - DADA2
+  - Python
+  - QIIME 2
+  - QIIME 2 viewer
+  - Snakemake
+  - Tourmaline
+  inputs:
+  - type: qiime2-artifact
+    flavour: representative-sequences
+  - type: qiime2-artifact
+    flavour: taxonomy-reference
+  - type: yaml
+    flavour: taxonomy-config
+  outputs:
+  - type: qiime2-artifact
+    flavour: taxonomy
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-imo2-42
+    - asb-paper-10-1007-s13238-020-00724-8
+    - asb-paper-10-1093-gigascience-giac066
+    dois:
+    - 10.1002/imo2.42
+    - 10.1007/s13238-020-00724-8
+    - 10.1093/gigascience/giac066
+  after:
+  - denoise_asvs
+  candidate_tools:
+  - EasyAmplicon
+  inputs_from:
+    denoise_asvs:
+    - qiime2-artifact:representative-sequences
+- id: analyze_diversity
+  goal: calculate core diversity metrics, ordinations, and metadata-group significance
+  edam_operation: http://edamontology.org/operation_2945
+  skills:
+  - alpha-beta-diversity-analysis
+  - alpha-diversity-group-significance-comparison
+  - permanova-group-significance-testing
+  - non-rarefied-diversity-calculation
+  tools:
+  - DADA2
+  - Python
+  - QIIME 2
+  - QIIME 2 viewer
+  - Snakemake
+  - Tourmaline
+  inputs:
+  - type: qiime2-artifact
+    flavour: feature-table
+  - type: qiime2-artifact
+    flavour: representative-sequences
+  - type: qiime2-artifact
+    flavour: taxonomy
+  - type: tsv
+    flavour: sample-metadata
+  - type: integer
+    flavour: sampling-depth
+  outputs:
+  - type: tsv
+    flavour: alpha-diversity
+  - type: qiime2-artifact
+    flavour: distance-matrices
+  - type: tsv
+    flavour: pcoa-coordinates
+  - type: tsv
+    flavour: permanova-statistics
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-024-77864-y
+    - asb-paper-10-1093-gigascience-giac066
+    dois:
+    - 10.1038/s41598-024-77864-y
+    - 10.1093/gigascience/giac066
+  after:
+  - denoise_asvs
+  - assign_taxonomy
+  candidate_tools:
+  - Jupyter notebooks
+  - QIIME2
+  - anaconda
+  - sra-tools
+  inputs_from:
+    denoise_asvs:
+    - qiime2-artifact:feature-table
+    - qiime2-artifact:representative-sequences
+    assign_taxonomy:
+    - qiime2-artifact:taxonomy
+verification:
+  final_outputs:
+  - path: taxonomy.qza
+    type: file
+  - path: alpha_diversity.tsv
+    type: file
+  - path: pcoa_coordinates.tsv
+    type: file
+  - path: permanova_statistics.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

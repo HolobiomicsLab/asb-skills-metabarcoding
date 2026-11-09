@@ -1,0 +1,32 @@
+name: QIIME
+slug: qiime
+version_used: 1.9.1
+edam_topics: []
+evidence_spans:
+- The initial clustering can be done in **UCLUST, VSEARCH, SWARM, QIIME, DADA2**, etc.
+- which are often bundled in broader pipelines such as MOTHUR (Schloss et al., 2009) and QIIME (Caporaso et al., 2010)
+- Sequence data were demultiplexed and minimally quality filtered using the QIIME 1.9.1 script split_libraries_fastq.py
+- Several pipelines have been developed to perform the entire 16S analysis from end to end, including QIIME4 and MOTHUR.5
+- we use a subset of the QIIME-based analyses from the Human Microbiome Project14 (HMP), which computed OTUs using PSD based upon a 97% sequence similarity threshold
+- QIIME allows analysis of high-throughput community sequencing data
+- Several pipelines have been developed to perform the entire 16S analysis from end to end, including QIIME4 and MOTHUR
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+- doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+- doi: 10.1038/npjbiofilms.2016.4
+  title: A perspective on 16S rRNA operational taxonomic unit clustering using sequence similarity
+source_repos:
+- https://github.com/tobiasgf/lulu
+- https://github.com/jfmrod/mapseq
+- https://github.com/biocore/emp
+- https://github.com/namphuon/phylo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/lulu

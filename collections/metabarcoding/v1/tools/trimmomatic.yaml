@@ -1,0 +1,30 @@
+name: Trimmomatic
+slug: trimmomatic
+version_used: null
+edam_topics: []
+evidence_spans:
+- Trimmomatic [30] implements a series of trimming steps
+- Trimmomatic [30] implements a series of trimming steps, which either remove parts of the sequences corresponding to the adapters or the primers
+- No usage/docs found.
+- Trimmomatic is a flexible quality-control software package for Illumina sequencing data that can be used to trim low-quality sequences
+- removal of adapters, low quality reads, sequencing artifacts, phix adapters and host contamination is performed using trimmomatic, sickle and bbmap
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1093/bioinformatics/bty560
+  title: 'fastp: an ultra-fast all-in-one FASTQ preprocessor'
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/OpenGene/fastp
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

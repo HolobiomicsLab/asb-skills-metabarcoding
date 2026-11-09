@@ -1,0 +1,20 @@
+name: Singularity
+slug: singularity
+version_used: null
+edam_topics: []
+evidence_spans:
+- the Singularity-based one is recommended for HPC environments owing to Singularity's improved security and file accessing properties
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/aitgon/vtam_benchmark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

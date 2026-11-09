@@ -1,0 +1,70 @@
+{
+  "workflows": {
+    "amplicon_asv_taxonomy_diversity": {
+      "workflow_id": "amplicon_asv_taxonomy_diversity",
+      "prefer": [
+        {
+          "stage": "denoise_asvs",
+          "pin": "amplicon-sequence-denoising-dada2",
+          "status": "resolved",
+          "resolved_slug": "amplicon-sequence-denoising-dada2"
+        },
+        {
+          "stage": "assign_taxonomy",
+          "pin": "taxonomic-classification-assignment",
+          "status": "resolved",
+          "resolved_slug": "taxonomic-classification-assignment"
+        },
+        {
+          "stage": "analyze_diversity",
+          "pin": "alpha-beta-diversity-analysis",
+          "status": "resolved",
+          "resolved_slug": "alpha-beta-diversity-analysis"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 3,
+        "prefer_resolved": 3,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "edna_reference_curation_assignment": {
+      "workflow_id": "edna_reference_curation_assignment",
+      "prefer": [
+        {
+          "stage": "assemble_reference",
+          "pin": "co1-reference-sequence-assembly",
+          "status": "resolved",
+          "resolved_slug": "co1-reference-sequence-assembly"
+        },
+        {
+          "stage": "curate_reference",
+          "pin": "coi-reference-database-curation",
+          "status": "resolved",
+          "resolved_slug": "coi-reference-database-curation"
+        },
+        {
+          "stage": "format_reference",
+          "pin": "coi-reference-database-formatting",
+          "status": "resolved",
+          "resolved_slug": "coi-reference-database-formatting"
+        },
+        {
+          "stage": "assign_motus",
+          "pin": "metabarcoding-taxonomic-assignment",
+          "status": "resolved",
+          "resolved_slug": "metabarcoding-taxonomic-assignment"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 4,
+        "prefer_resolved": 4,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

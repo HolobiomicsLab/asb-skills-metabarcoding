@@ -1,0 +1,18 @@
+name: MHASS
+slug: mhass
+version_used: null
+edam_topics: []
+evidence_spans:
+- Microbiome HiFi Amplicon Sequence Simulator (MHASS) creates realistic synthetic PacBio HiFi amplicon sequencing datasets for microbiome studies
+derived_from:
+- doi: 10.1093/bioinformatics/btaf656
+  title: 'MHASS: Microbiome HiFi Amplicon Sequencing Simulator'
+source_repos:
+- https://github.com/rhowardstone/MHASS
+- https://github.com/rhowardstone/MHASS_evaluation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rhowardstone/MHASS

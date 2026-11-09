@@ -1,0 +1,21 @@
+name: MetaPhlAn 4
+slug: metaphlan-4
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we present MetaPhlAn 4, which integrates information from metagenome assemblies and microbial isolate genomes for more comprehensive metagenomic taxonomic profiling.
+- '[MetaPhlAn documentation](https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4)'
+- https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4
+- If you use StrainPhlAn, please cite the MetaPhlAn paper and the StrainPhlAn paper
+- 'If you use StrainPhlAn, please cite the MetaPhlAn paper and the StrainPhlAn paper:'
+derived_from:
+- doi: 10.1038/s41587-023-01688-w
+  title: Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4
+source_repos:
+- https://github.com/biobakery/MetaPhlAn
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biobakery/MetaPhlAn

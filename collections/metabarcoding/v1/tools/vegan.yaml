@@ -1,0 +1,50 @@
+name: vegan
+slug: vegan
+version_used: 2.5.6
+edam_topics: []
+evidence_spans:
+- tobiasgf/Bioinformatic-tools
+- Arthropod communities clustered together according to plant species.
+- Phyloseq (McMurdie & Holmes, 2013), and Vegan (Oksanen et al., 2018) packages.
+- with the ecological distance metrics calculated with the Bray–Curtis dissimilarities index implemented in R packages (vegan, metaMDS
+- implemented in R packages (vegan, metaMDS, and ggplot2 open access packages
+- Using vegan and breakaway on rarefied (10,000 reads) counts
+- rarefaction_curve||true|true or false|postprocessing|whether a rarefaction curve should be made
+- we introduce statistical and visualization methods suitable for microbiome analysis
+- All custom R scripts are publicly available from http://github.com/metabarpark.
+- '"vegan" Version: 2.5.6'
+derived_from:
+- doi: 10.1002/ece3.4809
+  title: Environmental DNA metabarcoding of wild flowers reveals diverse communities of terrestrial arthropods
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+- doi: 10.1038/s41598-023-30764-z
+  title: Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1038/s41598-017-17150-2
+  title: Environmental DNA reveals tropical shark diversity in contrasting levels of anthropogenic impact
+- doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+source_repos:
+- https://github.com/tobiasgf/Bioinformatic-tools
+- https://github.com/devonorourke/tidybug
+- https://github.com/aitgon/vtam_benchmark
+- https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification
+- https://github.com/aubreyodom/16SBenchmarking
+- https://github.com/a-h-b/dadasnake
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/metabarpark/Reference-databases
+- https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/Bioinformatic-tools

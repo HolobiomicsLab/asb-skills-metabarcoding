@@ -1,0 +1,19 @@
+name: EasyAmplicon
+slug: easyamplicon
+version_used: null
+edam_topics: []
+evidence_spans:
+- EasyAmplicon pipeline (Positive control) https://github.com/YongxinLiu/EasyAmplicon
+- Typically, an R script (e.g., `otutab_filter_nonBac.R`) is used to filter out Eukarya, Chloroplasts, Mitochondria, and Archaea
+- Rscript ${db}/script/otutab_rare.R --input result/otutab.txt
+derived_from:
+- doi: 10.1002/imo2.42
+  title: 'Unveiling microbial communities with EasyAmplicon: A user‐centric guide to perform amplicon sequencing data analysis'
+source_repos:
+- https://github.com/YongxinLiu/EasyAmplicon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YongxinLiu/EasyAmplicon

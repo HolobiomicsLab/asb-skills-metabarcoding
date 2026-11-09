@@ -1,0 +1,19 @@
+name: PathoScope 2
+slug: pathoscope-2
+version_used: null
+edam_topics: []
+evidence_spans:
+- PathoScope SILVA indices were custom-configured
+- We evaluated the tools DADA2, QIIME 2, Mothur, PathoScope 2, and Kraken 2 in conjunction with reference libraries
+- PathoScope SILVA indices were custom-configured, and can be downloaded
+derived_from:
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+source_repos:
+- https://github.com/aubreyodom/16SBenchmarking
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aubreyodom/16SBenchmarking

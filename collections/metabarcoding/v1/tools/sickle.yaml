@@ -1,0 +1,18 @@
+name: Sickle
+slug: sickle
+version_used: null
+edam_topics: []
+evidence_spans:
+- removal of adapters, low quality reads, sequencing artifacts, phix adapters and host contamination is performed using trimmomatic, sickle and bbmap
+- sequencing artifacts, phix adapters and host contamination is performed using trimmomatic, sickle and bbmap
+derived_from:
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/grimmlab/MicrobiomeBestPracticeReview

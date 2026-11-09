@@ -1,0 +1,21 @@
+{
+  "workflow": "amplicon_asv_taxonomy_diversity",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf imports reference FASTA and taxonomy and trains a reference classifier; it does not apply that classifier to the stage's representative sequences or produce their taxonomy artifact.",
+      "severity": "advisory",
+      "slug": "qiime2-artifact-import--a9b98430d1674072",
+      "stage": "assign_taxonomy"
+    }
+  ],
+  "verdict": "pass"
+}

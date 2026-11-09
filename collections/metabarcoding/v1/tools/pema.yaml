@@ -1,0 +1,19 @@
+name: PEMA
+slug: pema
+version_used: null
+edam_topics: []
+evidence_spans:
+- PEMA is a containerized assembly of key metabarcoding analysis tools that requires low effort in setting up, running, and customizing to researchers' needs.
+- PEMA is a containerized assembly of key metabarcoding analysis tools that requires low effort in setting up, running, and customizing
+- a comparative analysis of the Pavloudi et al. [49] dataset with mothur [4], QIIME 2 [5], LotuS [6], and PEMA was conducted
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+source_repos:
+- https://github.com/hariszaf/pema
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

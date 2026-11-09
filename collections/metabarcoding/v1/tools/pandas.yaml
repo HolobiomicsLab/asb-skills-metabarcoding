@@ -1,0 +1,28 @@
+name: Pandas
+slug: pandas
+version_used: null
+edam_topics: []
+evidence_spans:
+- Artifact objects can be viewed as a Pandas [62] DataFrame or Series.
+- Also shown is data type (Python/Pandas), variable type, and number of the 27,751 samples having metadata for each field.
+- IPython notebooks and scripts (Python, Java, R, Bash) developed for meta-analysis of EMP data
+- Metadata curation was automated using Pandas (http://pandas.pydata.org)
+- github.com__marinebon__eDNA_microbes_whales
+- _No usage/docs found._
+derived_from:
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+- doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+source_repos:
+- https://github.com/aomlomics/tourmaline
+- https://github.com/biocore/emp
+- https://github.com/marinebon/eDNA_microbes_whales
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aomlomics/tourmaline

@@ -1,0 +1,17 @@
+name: Bioinformatic-tools (tobiasgf/Bioinformatic-tools)
+slug: bioinformatic-tools-tobiasgf-bioinformatic-tools
+version_used: null
+edam_topics: []
+evidence_spans:
+- tobiasgf/Bioinformatic-tools
+derived_from:
+- doi: 10.1002/ece3.4809
+  title: Environmental DNA metabarcoding of wild flowers reveals diverse communities of terrestrial arthropods
+source_repos:
+- https://github.com/tobiasgf/Bioinformatic-tools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/Bioinformatic-tools

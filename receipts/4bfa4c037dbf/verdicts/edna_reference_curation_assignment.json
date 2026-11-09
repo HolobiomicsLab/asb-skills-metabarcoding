@@ -1,0 +1,35 @@
+{
+  "workflow": "edna_reference_curation_assignment",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf filters singleton rows in an existing ecotag table and computes richness; it does not assign MOTU representatives or produce an ambiguity table.",
+      "severity": "advisory",
+      "slug": "ecotaxonomic-assignment-table-processing",
+      "stage": "assign_motus"
+    },
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf retrieves and merges BOLD and ecoPCR sequences into a FASTA; it does not perform the stage's taxonomic filtering, dereplication, reconciliation, and centroid clustering or emit curated taxonomy.",
+      "severity": "advisory",
+      "slug": "bold-c-oi-sequence-retrieval-replace",
+      "stage": "curate_reference"
+    },
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf only merges BOLD target sequences with ecoPCR homologs; it does not perform the stage's taxonomy filtering, identical-sequence dereplication, conflict reconciliation, and centroid clustering or emit matching curated taxonomy.",
+      "severity": "advisory",
+      "slug": "fasta-reference-database-curation",
+      "stage": "curate_reference"
+    }
+  ],
+  "verdict": "pass"
+}

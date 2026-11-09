@@ -1,0 +1,17 @@
+name: SoftWipe
+slug: softwipe
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run the SoftWipe tool (Zapletal et al., 2020) on the swarm v2 and swarm v3 source trees
+derived_from:
+- doi: 10.1093/bioinformatics/btab493
+  title: 'Swarm v3: towards tera-scale amplicon clustering'
+source_repos:
+- https://github.com/torognes/swarm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/torognes/swarm

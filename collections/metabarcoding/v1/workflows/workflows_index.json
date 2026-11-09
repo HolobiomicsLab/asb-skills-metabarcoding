@@ -1,0 +1,61 @@
+[
+  {
+    "slug": "amplicon-asv-taxonomy-diversity",
+    "name": "amplicon-asv-taxonomy-diversity-workflow",
+    "description": "Use when demultiplexed paired-end Illumina amplicon reads must be denoised into QIIME 2 ASV artifacts, assigned taxonomy, and summarized with alpha and beta diversity statistics in one coherent Tourmaline workflow.\n",
+    "techniques": [],
+    "stage_count": 3,
+    "stages": [
+      "denoise_asvs",
+      "assign_taxonomy",
+      "analyze_diversity"
+    ],
+    "member_tools": [
+      "DADA2",
+      "Docker",
+      "Python",
+      "QIIME 2",
+      "QIIME 2 viewer",
+      "Snakemake",
+      "Tourmaline"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "edna-reference-curation-assignment",
+    "name": "edna-reference-curation-assignment-workflow",
+    "description": "Use when eDNA COI MOTU sequences require a traceable reference set assembled from public records, curated with lineage reconciliation, formatted for OBITools, and assigned to the most specific consistent taxon.\n",
+    "techniques": [],
+    "stage_count": 4,
+    "stages": [
+      "assemble_reference",
+      "curate_reference",
+      "format_reference",
+      "assign_motus"
+    ],
+    "member_tools": [
+      "BLAST",
+      "BioPerl",
+      "CO1Classifier repository releases",
+      "Ebot",
+      "Perl",
+      "RDP classifier",
+      "CO1Classifier (Porter)",
+      "QIIME 2",
+      "R",
+      "R (figure4_database_comparisons.R)",
+      "VSEARCH",
+      "bold (R package)",
+      "csvtk",
+      "seqkit",
+      "BOLD database",
+      "OBITools",
+      "ecoPCR",
+      "ecotag",
+      "sumaclust"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

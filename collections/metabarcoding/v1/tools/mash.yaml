@@ -1,0 +1,17 @@
+name: Mash
+slug: mash
+version_used: null
+edam_topics: []
+evidence_spans:
+- Mash-dereplicate and cluster into SGBs at 5% identity
+derived_from:
+- doi: 10.1038/s41587-023-01688-w
+  title: Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4
+source_repos:
+- https://github.com/biobakery/MetaPhlAn
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biobakery/MetaPhlAn

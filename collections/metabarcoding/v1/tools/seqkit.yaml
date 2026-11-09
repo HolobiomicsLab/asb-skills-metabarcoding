@@ -1,0 +1,18 @@
+name: seqkit
+slug: seqkit
+version_used: null
+edam_topics: []
+evidence_spans:
+- seqkit -w 0 grep --pattern-file idsNoFam.txt --invert-match boldCustom.allArth.filt2.fasta > boldCustom.allArth.filt3.fasta
+- seqkit grep -r -p 'p:Arthropoda' amptk.coi.fasta -w 0 > palmer.arthCOI.fasta
+derived_from:
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+source_repos:
+- https://github.com/devonorourke/tidybug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/devonorourke/tidybug

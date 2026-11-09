@@ -1,0 +1,29 @@
+name: ggplot2
+slug: ggplot2
+version_used: 3.3.0
+edam_topics: []
+evidence_spans:
+- implemented in R packages (vegan, metaMDS, and ggplot2 open access packages
+- R and its libraries (Phyloseq, ggplot2, DADA2, argparser)
+- '"ggplot2" Version: 3.3.0'
+- facilitate the generation of these plots using R packages like ggplot2 and vegan
+derived_from:
+- doi: 10.1038/s41598-023-30764-z
+  title: Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+- doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+- doi: 10.1002/imo2.42
+  title: 'Unveiling microbial communities with EasyAmplicon: A user‐centric guide to perform amplicon sequencing data analysis'
+source_repos:
+- https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+- https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+- https://github.com/YongxinLiu/EasyAmplicon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification

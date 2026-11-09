@@ -1,0 +1,51 @@
+name: BLAST+
+slug: blast
+version_used: null
+edam_topics: []
+evidence_spans:
+- the BLAST+ (megablast) algorithm [53] was used against a manually created database including all NCBI GenBank COI sequences
+- qiime feature-classifier classify-consensus-blast
+- Taxonomic identification was performed using BLAST to align representative sequences to the NCBI 16S BLAST database
+- contaminant sequences were identified using BLAST and a custom database comprised of only human CO1
+- For each primer, the RDP classifier was directly compared with the top BLAST hit method.
+- For each primer, the RDP classifier was directly compared with the top BLAST hit method
+- most CO1 metabarcodes are still routinely assigned using the familiar top BLAST hit method
+- a pairwise BLAST comparing E. coli’s 16S rRNA gene sequence to the T. flagellates scaffolds using the exact RefSeq entry
+- whether blast should be run
+- You can also use dadasnake to blast and summarize results using [basta](https://github.com/timkahlke/BASTA).
+- (& ITS detection - using ITSx & blastn + BASTA)
+- BLAST [28] can optionally be used to annotate all or only unclassified sequence variants
+- Feature classification (taxonomic assignment) with options of naive Bayes [47], consensus BLAST [48], and consensus VSEARCH [49]
+- 'BLAST+: architecture and applications'
+derived_from:
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1038/s41467-019-13036-1
+  title: Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis
+- doi: 10.1038/s41598-018-22505-4
+  title: Automated high throughput animal CO1 metabarcode classification
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+source_repos:
+- https://github.com/hariszaf/pema
+- https://github.com/devonorourke/tidybug
+- https://github.com/TheJacksonLaboratory/weinstock_full_length_16s
+- https://github.com/terrimporter/CO1Classifier
+- https://github.com/aubreyodom/16SBenchmarking
+- https://github.com/a-h-b/dadasnake
+- https://github.com/aomlomics/tourmaline
+- https://github.com/vsbuffalo/scythe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hariszaf/pema

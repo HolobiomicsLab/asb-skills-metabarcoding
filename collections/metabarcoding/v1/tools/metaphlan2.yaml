@@ -1,0 +1,22 @@
+name: MetaPhlAn2
+slug: metaphlan2
+version_used: null
+edam_topics: []
+evidence_spans:
+- No usage/docs found.
+- different state of art tools like kraken2 and metaphlan2, Diamond, Megan and Humann2 are used to classify the output reads
+- different state of art tools like kraken2 and metaphlan2, Diamond, Megan and Humann2 are used to classify the output reads from quality control step.
+derived_from:
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YongxinLiu/Liu2020ProteinCell

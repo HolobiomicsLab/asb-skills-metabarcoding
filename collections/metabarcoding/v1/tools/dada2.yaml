@@ -1,0 +1,81 @@
+name: DADA2
+slug: dada2
+version_used: 1.12.1
+edam_topics: []
+evidence_spans:
+- 'OTU tables were produced from the sequence data using a set of representative clustering methods: VSEARCH22, SWARM23, CROP24 and DADA213'
+- The initial clustering can be done in **UCLUST, VSEARCH, SWARM, QIIME, DADA2**, etc.
+- 'OTU tables were produced from the sequence data using a set of representative clustering methods: VSEARCH22, SWARM23, CROP24 and DADA213.'
+- when the PERMANOVA analysis was run for the results of PEMA, LotuS, and DADA2
+- tobiasgf/Bioinformatic-tools
+- We performed eDNA metabarcoding of flowers from several different plant species using two sets of generic primers, targeting the mitochondrial genes 16S rRNA and COI.
+- Illumina sequences were analyzed using DADA2 (Callahan et al., 2016), in order to clean the data from errors
+- whether denoising programs (DADA2, Deblur, and VSEARCH) produced different exact, partial, or poorly aligned (miss) ASVs
+- using one of three amplicon processing programs (hereafter termed denoising methods)
+- We evaluated the tools DADA2, QIIME 2, Mothur, PathoScope 2, and Kraken 2 in conjunction with reference libraries
+- We evaluated the tools DADA2, QIIME 2, Mothur, PathoScope 2, and Kraken 2
+- DADA2 breakaway deviation mean = 1.37
+- The most common software packages currently employed in analysis of 16S amplicon sequencing data are DADA24, QIIME 25
+- model-based noise-filtering methods, such as DADA2 (Callahan et al., 2016) and Deblur (Amir et al., 2017)
+- error estimation & denoising - using DADA2
+- error estimation & denoising - using DADA2, including Novaseq-enabled models
+- quality filtering and trimming - using DADA2
+- '"OTU" table generation (it contains ASVs, of course) - using DADA2'
+- the delineation of exact sequence variants by using the favorably benchmarked and widely used DADA2 algorithm
+- The central processing within dadasnake wraps the DADA2 R package [21], which accurately determines sequence variants
+- it uses QIIME 2 to run either the DADA2 or Deblur denoising algorithm
+- Denoising with [DADA2](https://doi.org/10.1038/nmeth.3869)
+- 'dada2_trunc_len_f: 245        # forward truncation length'
+- Generates ASVs using the specified method (DADA2 paire-end or single-end, or Deblur).
+- Denoising with [DADA2](https://benjjneb.github.io/dada2/index.html)
+- Denoising with DADA2 [40] (paired-end and single-end) and Deblur [41] (single-end)
+- DADA2 is a recently developed denoising algorithm that outputs ASVs as more exactly representative sequences (Callahan et al., 2016).
+- we have included a stepwise systematic workflow for V4 region of 16S rRNA using mothur and DADA2
+- R and its libraries (Phyloseq, ggplot2, DADA2, argparser)
+- all samples were processed using DADA2 and DEBLUR
+- DADA223 and DEBLUR24 not only have different algorithmic denoising techniques but also have relevant differences in their singletons treatment
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+- doi: 10.1002/ece3.4809
+  title: Environmental DNA metabarcoding of wild flowers reveals diverse communities of terrestrial arthropods
+- doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+- doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+- doi: 10.1093/bioinformatics/btab493
+  title: 'Swarm v3: towards tera-scale amplicon clustering'
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+- doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+- doi: 10.1038/s41598-024-77864-y
+  title: Key features and guidelines for the application of microbial alpha diversity metrics
+source_repos:
+- https://github.com/tobiasgf/lulu
+- https://github.com/hariszaf/pema
+- https://github.com/tobiasgf/Bioinformatic-tools
+- https://github.com/devonorourke/tidybug
+- https://github.com/aitgon/vtam_benchmark
+- https://github.com/aubreyodom/16SBenchmarking
+- https://github.com/torognes/swarm
+- https://github.com/a-h-b/dadasnake
+- https://github.com/benjjneb/dada2
+- https://github.com/aomlomics/tourmaline
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+- https://github.com/mauroibz/alpha-diversities
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/lulu

@@ -1,0 +1,530 @@
+schema: asb-corpus/1.0
+collection: metabarcoding
+version: 1
+summary:
+  total: 29
+  included: 29
+  hold: 0
+papers:
+- name: asbb_wave250_2026-09-01__coll_10_1002_ece3_4809_cq
+  doi: 10.1002/ece3.4809
+  title: Environmental DNA metabarcoding of wild flowers reveals diverse communities of terrestrial arthropods
+  category: metabarcoding
+  repo_url: https://github.com/tobiasgf/Bioinformatic-tools
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1002_ece3_6594_cq
+  doi: 10.1002/ece3.6594
+  title: A total crapshoot? Evaluating bioinformatic decisions in animal diet metabarcoding analyses
+  category: metabarcoding
+  repo_url: https://github.com/devonorourke/tidybug
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_unveiling_microbial_communities_with_easyamplicon_a_user_centric_guide_to_perform_amplicon_sequencing_data_analysis_cq
+  doi: 10.1002/imo2.42
+  title: 'Unveiling microbial communities with EasyAmplicon: A user‐centric guide to perform amplicon sequencing data analysis'
+  category: metabarcoding
+  repo_url: https://github.com/YongxinLiu/EasyAmplicon
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_a_practical_guide_to_amplicon_and_metagenomic_analysis_of_microbiome_data_cq
+  doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+  category: metabarcoding
+  repo_url: https://github.com/YongxinLiu/Liu2020ProteinCell
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1016_j_csbj_2023_01_034_cq
+  doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+  category: metabarcoding
+  repo_url: https://github.com/aitgon/vtam_benchmark
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_a_communal_catalogue_reveals_earth_s_multiscale_microbial_diversity_cq
+  doi: 10.1038/nature24621
+  title: A communal catalogue reveals Earth’s multiscale microbial diversity
+  category: metabarcoding
+  repo_url: https://github.com/biocore/emp
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_a_perspective_on_16s_rrna_operational_taxonomic_unit_clustering_using_sequence_similarity_cq
+  doi: 10.1038/npjbiofilms.2016.4
+  title: A perspective on 16S rRNA operational taxonomic unit clustering using sequence similarity
+  category: metabarcoding
+  repo_url: https://github.com/namphuon/phylo
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave2_2026-08-31__coll_10_1038_s41467_017_01312_x_cq
+  doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+  category: metabarcoding
+  repo_url: https://github.com/tobiasgf/lulu
+  status: included
+  wave: asbb_subwave2_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave2_2026-08-31__coll_10_1038_s41467_019_10934_2_cq
+  doi: 10.1038/s41467-019-10934-2
+  title: Strain-level metagenomic assignment and compositional estimation for long reads with MetaMaps
+  category: metabarcoding
+  repo_url: https://github.com/DiltheyLab/MetaMaps
+  status: included
+  wave: asbb_subwave2_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1038_s41467_019_12669_6_cq
+  doi: 10.1038/s41467-019-12669-6
+  title: Species abundance information improves sequence taxonomy classification accuracy
+  category: metabarcoding
+  repo_url: https://github.com/BenKaehler/q2-clawback
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1038_s41467_019_13036_1_cq
+  doi: 10.1038/s41467-019-13036-1
+  title: Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis
+  category: metabarcoding
+  repo_url: https://github.com/TheJacksonLaboratory/weinstock_full_length_16s
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_environmental_dna_reveals_seasonal_shifts_and_potential_interactions_in_a_marine_community_cq
+  doi: 10.1038/s41467-019-14105-1
+  title: Environmental DNA reveals seasonal shifts and potential interactions in a marine community
+  category: metabarcoding
+  repo_url: https://github.com/marinebon/eDNA_microbes_whales
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave2_2026-08-31__coll_analysis_of_compositions_of_microbiomes_with_bias_correction_cq
+  doi: 10.1038/s41467-020-17041-7
+  title: Analysis of compositions of microbiomes with bias correction
+  category: metabarcoding
+  repo_url: https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive
+  status: included
+  wave: asbb_subwave2_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_microbiome_differential_abundance_methods_produce_different_results_across_38_datasets_cq
+  doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+  category: metabarcoding
+  repo_url: https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1038_s41587_023_01688_w_cq
+  doi: 10.1038/s41587-023-01688-w
+  title: Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4
+  category: metabarcoding
+  repo_url: https://github.com/biobakery/MetaPhlAn
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_environmental_dna_reveals_tropical_shark_diversity_in_contrasting_levels_of_anthropogenic_impact_cq
+  doi: 10.1038/s41598-017-17150-2
+  title: Environmental DNA reveals tropical shark diversity in contrasting levels of anthropogenic impact
+  category: metabarcoding
+  repo_url: https://github.com/metabarpark/Reference-databases
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1038_s41598_018_22505_4_cq
+  doi: 10.1038/s41598-018-22505-4
+  title: Automated high throughput animal CO1 metabarcode classification
+  category: metabarcoding
+  repo_url: https://github.com/terrimporter/CO1Classifier
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_metabarcoding_profiling_of_microbial_diversity_associated_with_trout_fish_farming_cq
+  doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+  category: metabarcoding
+  repo_url: https://github.com/vsbuffalo/scythe
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1038_s41598_023_30764_z_cq
+  doi: 10.1038/s41598-023-30764-z
+  title: Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+  category: metabarcoding
+  repo_url: https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1038_s41598_023_40799_x_cq
+  doi: 10.1038/s41598-023-40799-x
+  title: Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data
+  category: metabarcoding
+  repo_url: https://github.com/aubreyodom/16SBenchmarking
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_key_features_and_guidelines_for_the_application_of_microbial_alpha_diversity_metrics_cq
+  doi: 10.1038/s41598-024-77864-y
+  title: Key features and guidelines for the application of microbial alpha diversity metrics
+  category: metabarcoding
+  repo_url: https://github.com/mauroibz/alpha-diversities
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_current_challenges_and_best_practice_protocols_for_microbiome_analysis_cq
+  doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+  category: metabarcoding
+  repo_url: https://github.com/grimmlab/MicrobiomeBestPracticeReview
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btab493_cq
+  doi: 10.1093/bioinformatics/btab493
+  title: 'Swarm v3: towards tera-scale amplicon clustering'
+  category: metabarcoding
+  repo_url: https://github.com/torognes/swarm
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btaf656_cq
+  doi: 10.1093/bioinformatics/btaf656
+  title: 'MHASS: Microbiome HiFi Amplicon Sequencing Simulator'
+  category: metabarcoding
+  repo_url: https://github.com/rhowardstone/MHASS_evaluation
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_btx517_cq
+  doi: 10.1093/bioinformatics/btx517
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+  category: metabarcoding
+  repo_url: https://github.com/jfmrod/mapseq
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1093_bioinformatics_bty560_cq
+  doi: 10.1093/bioinformatics/bty560
+  title: 'fastp: an ultra-fast all-in-one FASTQ preprocessor'
+  category: metabarcoding
+  repo_url: https://github.com/OpenGene/fastp
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-27'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave2_2026-08-31__coll_10_1093_gigascience_giaa022_cq
+  doi: 10.1093/gigascience/giaa022
+  title: 'PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes'
+  category: metabarcoding
+  repo_url: https://github.com/hariszaf/pema
+  status: included
+  wave: asbb_subwave2_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1093_gigascience_giaa135_cq
+  doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+  category: metabarcoding
+  repo_url: https://github.com/a-h-b/dadasnake
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_10_1093_gigascience_giac066_cq
+  doi: 10.1093/gigascience/giac066
+  title: 'Tourmaline: A containerized workflow for rapid and iterable amplicon sequence analysis using QIIME 2 and Snakemake'
+  category: metabarcoding
+  repo_url: https://github.com/aomlomics/tourmaline
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-27'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall

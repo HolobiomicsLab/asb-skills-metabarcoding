@@ -1,0 +1,25 @@
+name: LULU
+slug: lulu
+version_used: 0.1.0
+edam_topics: []
+evidence_spans:
+- '> curated_result <- lulu(otutable_name, matchlist_name)'
+- Run the **LULU** curation in **R**
+- Here we present and validate a method, called LULU, for removing erroneous molecular operational taxonomic units (OTUs) from community data
+- install_github("tobiasgf/lulu")
+- we developed a co-occurrence based post-clustering curation method, LULU
+- curated_result <- lulu(otutable_name, matchlist_name)
+derived_from:
+- doi: 10.1038/s41467-017-01312-x
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+- doi: 10.1016/j.csbj.2023.01.034
+  title: 'VTAM: A robust pipeline for validating metabarcoding data using controls'
+source_repos:
+- https://github.com/tobiasgf/lulu
+- https://github.com/aitgon/vtam_benchmark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tobiasgf/lulu

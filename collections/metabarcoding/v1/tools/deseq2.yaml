@@ -1,0 +1,21 @@
+name: DESeq2
+slug: deseq2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Median (MED) in DESeq210, Upper Quartile (UQ) and Trimmed Mean of M values (TMM)
+- DESeq28 and edgeR9 are both tools that assume read counts follow a negative binomial distribution
+derived_from:
+- doi: 10.1038/s41467-020-17041-7
+  title: Analysis of compositions of microbiomes with bias correction
+- doi: 10.1038/s41467-022-28034-z
+  title: Microbiome differential abundance methods produce different results across 38 datasets
+source_repos:
+- https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive
+- https://github.com/nearinj/Comparison_of_DA_microbiome_methods
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive

@@ -1,0 +1,18 @@
+name: EasyMicrobiome
+slug: easymicrobiome
+version_used: null
+edam_topics: []
+evidence_spans:
+- EasyMicrobiome include scripts and databases https://github.com/YongxinLiu/EasyMicrobiome
+derived_from:
+- doi: 10.1002/imo2.42
+  title: 'Unveiling microbial communities with EasyAmplicon: A user‐centric guide to perform amplicon sequencing data analysis'
+source_repos:
+- https://github.com/YongxinLiu/EasyMicrobiome
+- https://github.com/YongxinLiu/EasyAmplicon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YongxinLiu/EasyMicrobiome

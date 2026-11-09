@@ -1,0 +1,37 @@
+name: conda
+slug: conda
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'To install MetaPhlan through conda run:
+
+
+  ```
+
+  $ conda install -c'
+- Installation is automated through a bash script that creates appropriate conda environments and downloads required models
+- For dadasnake to work, you need [conda](https://www.anaconda.com/).
+- 'Initialize conda environments:'
+- 'This run sets up the conda environments that will be usable by all users:'
+- DADA2 and the other tools are packaged in conda environments to facilitate installation
+- we recommend using the package manager Conda with BioConda channel (Grüning et al., 2018) to deploy metagenomic analysis pipelines
+derived_from:
+- doi: 10.1038/s41587-023-01688-w
+  title: Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4
+- doi: 10.1093/bioinformatics/btaf656
+  title: 'MHASS: Microbiome HiFi Amplicon Sequencing Simulator'
+- doi: 10.1093/gigascience/giaa135
+  title: Dadasnake, a Snakemake implementation of DADA2 to process amplicon sequencing data for microbial ecology
+- doi: 10.1007/s13238-020-00724-8
+  title: A practical guide to amplicon and metagenomic analysis of microbiome data
+source_repos:
+- https://github.com/biobakery/MetaPhlAn
+- https://github.com/rhowardstone/MHASS_evaluation
+- https://github.com/a-h-b/dadasnake
+- https://github.com/YongxinLiu/Liu2020ProteinCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biobakery/MetaPhlAn

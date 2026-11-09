@@ -1,0 +1,22 @@
+name: CheckM
+slug: checkm
+version_used: null
+edam_topics: []
+evidence_spans:
+- quality-filter the 1.01M genome catalog with CheckM (completeness >50%, contamination <5%)
+- In this step we are using two programs Binning_refiner and CheckM
+- CheckM, provides a set of tools for assessing the quality of genomes recovered from metagenomes.
+derived_from:
+- doi: 10.1038/s41587-023-01688-w
+  title: Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4
+- doi: 10.1093/bib/bbz155
+  title: Current challenges and best-practice protocols for microbiome analysis
+source_repos:
+- https://github.com/biobakery/MetaPhlAn
+- https://github.com/grimmlab/MicrobiomeBestPracticeReview
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biobakery/MetaPhlAn

@@ -1,0 +1,19 @@
+name: MetaMaps
+slug: metamaps
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaMaps is a new method, specifically developed for long reads, capable of mapping a long-read metagenome to a comprehensive RefSeq database
+- make metamaps
+- MetaMaps is a new method, specifically developed for long reads
+derived_from:
+- doi: 10.1038/s41467-019-10934-2
+  title: Strain-level metagenomic assignment and compositional estimation for long reads with MetaMaps
+source_repos:
+- https://github.com/DiltheyLab/MetaMaps
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DiltheyLab/MetaMaps

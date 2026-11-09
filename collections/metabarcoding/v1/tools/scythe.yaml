@@ -1,0 +1,17 @@
+name: Scythe
+slug: scythe
+version_used: '0.994'
+edam_topics: []
+evidence_spans:
+- Scythe (v0.994; available at http://github.com/vsbuffalo/scythe) and Sickle
+derived_from:
+- doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+source_repos:
+- https://github.com/vsbuffalo/scythe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vsbuffalo/scythe

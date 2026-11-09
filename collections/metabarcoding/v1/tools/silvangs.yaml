@@ -1,0 +1,17 @@
+name: SILVAngs
+slug: silvangs
+version_used: null
+edam_topics: []
+evidence_spans:
+- SILVAngs was used for data analysis using the compressed fastq files through an online automatic software pipeline based on the SILVA rDNA database
+derived_from:
+- doi: 10.1038/s41598-020-80236-x
+  title: Metabarcoding profiling of microbial diversity associated with trout fish farming
+source_repos:
+- https://github.com/vsbuffalo/scythe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vsbuffalo/scythe

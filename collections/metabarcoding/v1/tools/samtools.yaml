@@ -1,0 +1,20 @@
+name: Samtools
+slug: samtools
+version_used: '1.10'
+edam_topics: []
+evidence_spans:
+- It also requires conda (23.3.1) and Samtools (1.10) for dependency management and sequence processing
+derived_from:
+- doi: 10.1093/bioinformatics/btaf656
+  title: 'MHASS: Microbiome HiFi Amplicon Sequencing Simulator'
+- doi: 10.1093/bioinformatics/bty560
+  title: 'fastp: an ultra-fast all-in-one FASTQ preprocessor'
+source_repos:
+- https://github.com/rhowardstone/MHASS_evaluation
+- https://github.com/OpenGene/fastp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rhowardstone/MHASS_evaluation
