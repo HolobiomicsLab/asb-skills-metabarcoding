@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:41:39.473336+00:00",
+  "generated_at": "2026-11-10T16:46:59.642229+00:00",
   "collection_dir": "collections/metabarcoding/v1",
   "corpus_path": "collections/metabarcoding/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "b2a6d4a7fd85b3009cfced8a5e676c8dfb06600c702dbb6f25516959823563eb",
+      "sha256": "bbe61059e38f3c06ed6c46b283db154cf3e091199d140aea8ae3c1cdeba6f3a9",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -8821,5 +8821,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "866aad5e41b31a7f0f10d24ebe43d60c630c7d284b17fac34e9c6e9a7bb28f33"
+  "receipt_sha256": "96010d383b80e70f71ddc18d2c2be8ba7df25dba7fe69ae0d29cee46f35a90c7"
 }
