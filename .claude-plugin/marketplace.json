@@ -10,7 +10,7 @@
       "name": "metabarcoding",
       "source": "./collections/metabarcoding/v1",
       "description": "ASB Metabarcoding Skill Collection v1: 803 evidence-grounded skills over 203 tools.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Holobiomics Lab",
         "url": "https://github.com/HolobiomicsLab"

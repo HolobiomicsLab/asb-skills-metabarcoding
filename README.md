@@ -30,7 +30,7 @@ This repository holds the metabarcoding skill collection of AgenticScienceBuilde
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/metabarcoding/v1` | ASB Metabarcoding Skill Collection v1 | 803 | 203 | 2026-11-09 | [10.5281/zenodo.24093089](https://doi.org/10.5281/zenodo.24093089) |
+| `collections/metabarcoding/v1` | ASB Metabarcoding Skill Collection v1 | 803 | 203 | 2026-11-10 | [10.5281/zenodo.24122109](https://doi.org/10.5281/zenodo.24122109) |
 
 ## Status
 
