@@ -23,8 +23,10 @@ source_repos:
 - https://github.com/YongxinLiu/Liu2020ProteinCell
 - https://github.com/grimmlab/MicrobiomeBestPracticeReview
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/hariszaf/pema
+entry_kind: software
+license_tier: open
+license: GPL-3.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/usadellab/Trimmomatic/HEAD/LICENSE
+repo_url: https://github.com/usadellab/Trimmomatic

@@ -1,0 +1,1017 @@
+{
+  "anaconda": {
+    "license": null,
+    "license_tier": "restricted",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://www.anaconda.com/legal/terms/terms-of-service",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "Anaconda (Anaconda Distribution)",
+    "entry_kind": "vendor_product",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "ancom-bc": {
+    "license": "Artistic-2.0",
+    "license_tier": "open",
+    "license_raw": "Artistic-2.0",
+    "license_detection": "bioconductor-package",
+    "license_evidence": "https://bioconductor.org/packages/ANCOMBC",
+    "repo_url": "https://github.com/FrederickHuangLin/ANCOMBC",
+    "route": "registry:bioconductor",
+    "matched": "ANCOMBC",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/frederickhuanglin/ancombc"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/FrederickHuangLin/ANCOMBC/HEAD/DESCRIPTION",
+      "file_license": "Artistic-2.0",
+      "readme": "https://raw.githubusercontent.com/FrederickHuangLin/ANCOMBC/HEAD/README.md"
+    }
+  },
+  "bbmap": {
+    "license": "BSD-3-Clause-LBNL",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause-LBNL",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/BioInfoTools/BBMap/HEAD/license.txt",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "BBMap (BBTools)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "blast": {
+    "license": "NCBI-PD",
+    "license_tier": "open",
+    "license_raw": "NCBI-PD",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/ncbi/ncbi-cxx-toolkit-public/HEAD/LICENSE",
+    "repo_url": "https://github.com/ncbi/ncbi-cxx-toolkit-public",
+    "route": "reviewed",
+    "matched": "NCBI BLAST+",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "bowtie2": {
+    "license": "GPL-3.0",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/BenLangmead/bowtie2/HEAD/LICENSE",
+    "repo_url": "https://github.com/BenLangmead/bowtie2",
+    "route": "reviewed",
+    "matched": "Bowtie 2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "bwa": {
+    "license": "GPL-3.0",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/lh3/bwa/HEAD/README.md",
+    "repo_url": "https://github.com/lh3/bwa",
+    "route": "reviewed",
+    "matched": "BWA (BWA-MEM)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "c": {
+    "license": null,
+    "license_tier": "unknown",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": null,
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "C and C++ (programming languages)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "caret": {
+    "license": "GPL-2.0-or-later",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://cran.r-project.org/web/packages/caret/index.html",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "caret",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "conda": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE",
+    "repo_url": "https://github.com/conda/conda",
+    "route": "reviewed",
+    "matched": "conda",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "cutadapt": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/marcelm/cutadapt/HEAD/LICENSE",
+    "repo_url": "https://github.com/marcelm/cutadapt",
+    "route": "reviewed",
+    "matched": "cutadapt",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "dada2": {
+    "license": "LGPL",
+    "license_tier": "open",
+    "license_raw": "LGPL",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/benjjneb/dada2/HEAD/LICENSE",
+    "repo_url": "https://github.com/benjjneb/dada2",
+    "route": "reviewed",
+    "matched": "DADA2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "deblur": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/biocore/deblur/HEAD/LICENSE",
+    "repo_url": "https://github.com/biocore/deblur",
+    "route": "reviewed",
+    "matched": "Deblur",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "deseq2": {
+    "license": "LGPL-3.0-or-later",
+    "license_tier": "open",
+    "license_raw": "LGPL-3.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "DESeq2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "docker": {
+    "license": "Apache-2.0",
+    "license_tier": "open",
+    "license_raw": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/moby/moby/HEAD/LICENSE",
+    "repo_url": "https://github.com/moby/moby",
+    "route": "reviewed",
+    "matched": "Docker Engine (moby)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "dplyr": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/dplyr/HEAD/DESCRIPTION",
+    "repo_url": "https://github.com/tidyverse/dplyr",
+    "route": "reviewed",
+    "matched": "dplyr",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "edger": {
+    "license": "GPL-2.0-or-later",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/edgeR.html",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "edgeR",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "fastp": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/OpenGene/fastp/HEAD/LICENSE",
+    "repo_url": "https://github.com/OpenGene/fastp",
+    "route": "reviewed",
+    "matched": "fastp",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "fastqc": {
+    "license": "GPL-3.0",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/s-andrews/FastQC/HEAD/LICENSE",
+    "repo_url": "https://github.com/s-andrews/FastQC",
+    "route": "reviewed",
+    "matched": "FastQC",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "fasttree": {
+    "license": "GPL",
+    "license_tier": "open",
+    "license_raw": "GPL",
+    "license_detection": "repository-licence-file",
+    "license_evidence": "https://raw.githubusercontent.com/morgannprice/fasttree/HEAD/LICENSE",
+    "repo_url": "https://github.com/morgannprice/fasttree",
+    "route": "registry:bioconda",
+    "matched": "fasttree",
+    "identity": {
+      "rule": "domain-corroborated",
+      "corroboration": [
+        {
+          "kind": "domain",
+          "value": "corroborated",
+          "score": 0.422577,
+          "overlap": [
+            "alignments",
+            "approximately",
+            "likelihood",
+            "maximum",
+            "trees"
+          ]
+        }
+      ]
+    },
+    "confirmation": {
+      "file": "https://raw.githubusercontent.com/morgannprice/fasttree/HEAD/LICENSE",
+      "file_license": "GPL-3.0",
+      "file_tier": "open",
+      "registry_license": "GPL-2.0-or-later",
+      "registry_license_raw": "GPL-2.0-or-later",
+      "registry_tier": "open",
+      "registry_evidence": "https://anaconda.org/bioconda/fasttree",
+      "status": "family-fallback",
+      "readme": "https://raw.githubusercontent.com/morgannprice/fasttree/HEAD/README.md"
+    }
+  },
+  "ggplot2": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/ggplot2/HEAD/DESCRIPTION",
+    "repo_url": "https://github.com/tidyverse/ggplot2",
+    "route": "reviewed",
+    "matched": "ggplot2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "git": {
+    "license": "GPL-2.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/git/git/HEAD/COPYING",
+    "repo_url": "https://github.com/git/git",
+    "route": "reviewed",
+    "matched": "Git",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "igraph": {
+    "license": "GPL-2.0-or-later",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://cran.r-project.org/web/packages/igraph/index.html",
+    "repo_url": "https://github.com/igraph/igraph",
+    "route": "reviewed",
+    "matched": "igraph",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "java": {
+    "license": null,
+    "license_tier": "unknown",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": null,
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "Java",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "jupyter": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/jupyter/notebook/HEAD/LICENSE",
+    "repo_url": "https://github.com/jupyter/notebook",
+    "route": "reviewed",
+    "matched": "Project Jupyter (Jupyter Notebook)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "kraken-2": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/DerrickWood/kraken2/HEAD/LICENSE",
+    "repo_url": "https://github.com/DerrickWood/kraken2",
+    "route": "reviewed",
+    "matched": "Kraken 2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "kraken2": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/DerrickWood/kraken2/HEAD/LICENSE",
+    "repo_url": "https://github.com/DerrickWood/kraken2",
+    "route": "reviewed",
+    "matched": "Kraken 2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "lulu": {
+    "license": "LGPL-3.0-only",
+    "license_tier": "open",
+    "license_raw": "LGPL-3.0",
+    "license_detection": "biotools-entry",
+    "license_evidence": "https://bio.tools/LULU",
+    "repo_url": "https://github.com/tobiasgf/lulu",
+    "route": "registry:biotools",
+    "matched": "LULU",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/tobiasgf/lulu"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/tobiasgf/lulu/HEAD/LICENSE",
+      "file_license": "LGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/tobiasgf/lulu/HEAD/README.md"
+    }
+  },
+  "mothur": {
+    "license": "GPL-3.0-or-later",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0-or-later",
+    "license_detection": "bioconda-package",
+    "license_evidence": "https://anaconda.org/bioconda/mothur",
+    "repo_url": "https://github.com/mothur/mothur",
+    "route": "registry:bioconda",
+    "matched": "mothur",
+    "identity": {
+      "rule": "domain-corroborated",
+      "corroboration": [
+        {
+          "kind": "domain",
+          "value": "corroborated",
+          "score": 0.080408,
+          "overlap": [
+            "community",
+            "ecology",
+            "microbial"
+          ]
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/mothur/mothur/HEAD/LICENSE.md",
+      "file_license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/mothur/mothur/HEAD/README.md"
+    }
+  },
+  "networkx": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/networkx/networkx/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/networkx/networkx",
+    "route": "reviewed",
+    "matched": "NetworkX",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "nloptr": {
+    "license": "LGPL-3.0-or-later",
+    "license_tier": "open",
+    "license_raw": "LGPL (>= 3)",
+    "license_detection": "cran-package",
+    "license_evidence": "https://cran.r-project.org/package=nloptr",
+    "repo_url": "https://github.com/astamm/nloptr",
+    "route": "registry:cran",
+    "matched": "nloptr",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "code",
+          "value": "library(nloptr) Analysis of compositions of microbiomes"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/astamm/nloptr/HEAD/DESCRIPTION",
+      "file_license": "LGPL-3.0-or-later",
+      "readme": "https://raw.githubusercontent.com/astamm/nloptr/HEAD/README.md"
+    }
+  },
+  "numpy": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/numpy/numpy/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/numpy/numpy",
+    "route": "reviewed",
+    "matched": "NumPy",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pandas": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/LICENSE",
+    "repo_url": "https://github.com/pandas-dev/pandas",
+    "route": "reviewed",
+    "matched": "pandas",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pandaseq": {
+    "license": "GPL-3.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL3",
+    "license_detection": "bioconda-package",
+    "license_evidence": "https://anaconda.org/bioconda/pandaseq",
+    "repo_url": "https://github.com/neufeld/pandaseq",
+    "route": "registry:bioconda",
+    "matched": "pandaseq",
+    "identity": {
+      "rule": "domain-corroborated",
+      "corroboration": [
+        {
+          "kind": "domain",
+          "value": "corroborated",
+          "score": 0.150756,
+          "overlap": [
+            "overlapping",
+            "reads"
+          ]
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/neufeld/pandaseq/HEAD/COPYING",
+      "file_license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/neufeld/pandaseq/HEAD/README.md"
+    }
+  },
+  "perl": {
+    "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
+    "license_tier": "open",
+    "license_raw": "GPL-1.0-or-later OR Artistic-1.0-Perl",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://dev.perl.org/licenses/",
+    "repo_url": "https://github.com/Perl/perl5",
+    "route": "reviewed",
+    "matched": "Perl (Perl 5 reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "picrust2": {
+    "license": "GPL-3.0-only",
+    "license_tier": "open",
+    "license_raw": "GNU General Public License v3.0",
+    "license_detection": "bioconda-package",
+    "license_evidence": "https://anaconda.org/bioconda/picrust2",
+    "repo_url": "https://github.com/picrust/picrust2",
+    "route": "registry:bioconda",
+    "matched": "picrust2",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/picrust/picrust2"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/picrust/picrust2/HEAD/LICENSE",
+      "file_license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/picrust/picrust2/HEAD/README.md"
+    }
+  },
+  "pplacer": {
+    "license": "GPL-3.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0",
+    "license_detection": "bioconda-package",
+    "license_evidence": "https://anaconda.org/bioconda/pplacer",
+    "repo_url": "https://github.com/matsen/pplacer",
+    "route": "registry:bioconda",
+    "matched": "pplacer",
+    "identity": {
+      "rule": "domain-corroborated",
+      "corroboration": [
+        {
+          "kind": "domain",
+          "value": "corroborated",
+          "score": 0.372104,
+          "overlap": [
+            "fixed",
+            "likelihood",
+            "phylogenetic",
+            "reference",
+            "sequences",
+            "tree"
+          ]
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/matsen/pplacer/HEAD/COPYING",
+      "file_license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/matsen/pplacer/HEAD/README.md"
+    }
+  },
+  "prodigal": {
+    "license": "GPL-3.0",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/hyattpd/Prodigal/HEAD/LICENSE",
+    "repo_url": "https://github.com/hyattpd/Prodigal",
+    "route": "reviewed",
+    "matched": "Prodigal",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "prokka": {
+    "license": "GPL-3.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0-only",
+    "license_detection": "bioconda-package",
+    "license_evidence": "https://anaconda.org/bioconda/prokka",
+    "repo_url": "https://github.com/tseemann/prokka",
+    "route": "registry:bioconda",
+    "matched": "prokka",
+    "identity": {
+      "rule": "domain-corroborated",
+      "corroboration": [
+        {
+          "kind": "domain",
+          "value": "corroborated",
+          "score": 0.294174,
+          "overlap": [
+            "annotation",
+            "prokaryotic",
+            "rapid"
+          ]
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/tseemann/prokka/HEAD/LICENSE",
+      "file_license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/tseemann/prokka/HEAD/README.md"
+    }
+  },
+  "python": {
+    "license": "PSF-2.0",
+    "license_tier": "open",
+    "license_raw": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "repo_url": "https://github.com/python/cpython",
+    "route": "reviewed",
+    "matched": "Python (CPython reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "q2-feature-classifier": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "biotools-entry",
+    "license_evidence": "https://bio.tools/q2-feature-classifier",
+    "repo_url": "https://github.com/qiime2/q2-feature-classifier",
+    "route": "registry:biotools",
+    "matched": "q2-feature-classifier",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/qiime2/q2-feature-classifier"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/qiime2/q2-feature-classifier/HEAD/LICENSE",
+      "file_license": "BSD-3-Clause",
+      "readme": "https://raw.githubusercontent.com/qiime2/q2-feature-classifier/HEAD/README.md"
+    }
+  },
+  "qiime-2": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/qiime2/qiime2/HEAD/LICENSE",
+    "repo_url": "https://github.com/qiime2/qiime2",
+    "route": "reviewed",
+    "matched": "QIIME 2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "qiime2": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/qiime2/qiime2/HEAD/LICENSE",
+    "repo_url": "https://github.com/qiime2/qiime2",
+    "route": "reviewed",
+    "matched": "QIIME 2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "r": {
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-only OR GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://www.r-project.org/Licenses/",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "R (GNU R, reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "samtools": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/samtools/samtools/HEAD/LICENSE",
+    "repo_url": "https://github.com/samtools/samtools",
+    "route": "reviewed",
+    "matched": "Samtools",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "scikit-learn": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
+    "route": "reviewed",
+    "matched": "scikit-learn",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "scipy": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/scipy/scipy/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/scipy/scipy",
+    "route": "reviewed",
+    "matched": "SciPy",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "sepp": {
+    "license": "GPL-3.0-or-later",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0-or-later",
+    "license_detection": "bioconda-package",
+    "license_evidence": "https://anaconda.org/bioconda/sepp",
+    "repo_url": "https://github.com/smirarab/sepp",
+    "route": "registry:bioconda",
+    "matched": "sepp",
+    "identity": {
+      "rule": "domain-corroborated",
+      "corroboration": [
+        {
+          "kind": "domain",
+          "value": "corroborated",
+          "score": 0.433013,
+          "overlap": [
+            "enabled",
+            "phylogenetic",
+            "placement"
+          ]
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/smirarab/sepp/HEAD/LICENSE",
+      "file_license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/smirarab/sepp/HEAD/README.md"
+    }
+  },
+  "singularity": {
+    "license": "BSD-3-Clause AND BSD-3-Clause-LBNL",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause AND BSD-3-Clause-LBNL",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sylabs/singularity/HEAD/LICENSE.md",
+    "repo_url": "https://github.com/sylabs/singularity",
+    "route": "reviewed",
+    "matched": "Singularity (SingularityCE / Apptainer)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "snakemake": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/snakemake/snakemake/HEAD/LICENSE.md",
+    "repo_url": "https://github.com/snakemake/snakemake",
+    "route": "reviewed",
+    "matched": "Snakemake",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "spades": {
+    "license": "GPL-2.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/ablab/spades/HEAD/LICENSE",
+    "repo_url": "https://github.com/ablab/spades",
+    "route": "reviewed",
+    "matched": "SPAdes",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "swarm": {
+    "license": "AGPL-3.0-or-later",
+    "license_tier": "open",
+    "license_raw": "AGPL-3.0-or-later",
+    "license_detection": "bioconda-package",
+    "license_evidence": "https://anaconda.org/bioconda/swarm",
+    "repo_url": "https://github.com/torognes/swarm",
+    "route": "registry:bioconda",
+    "matched": "swarm",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/torognes/swarm"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/torognes/swarm/HEAD/LICENSE",
+      "file_license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/torognes/swarm/HEAD/README.md"
+    }
+  },
+  "tidyverse": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/tidyverse/HEAD/DESCRIPTION",
+    "repo_url": "https://github.com/tidyverse/tidyverse",
+    "route": "reviewed",
+    "matched": "tidyverse",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "tourmaline": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "biotools-entry",
+    "license_evidence": "https://bio.tools/tourmaline",
+    "repo_url": "https://github.com/aomlomics/tourmaline",
+    "route": "registry:biotools",
+    "matched": "tourmaline",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/aomlomics/tourmaline"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/aomlomics/tourmaline/HEAD/LICENSE",
+      "file_license": "BSD-3-Clause",
+      "readme": "https://raw.githubusercontent.com/aomlomics/tourmaline/HEAD/README.md"
+    }
+  },
+  "trimmomatic": {
+    "license": "GPL-3.0",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/usadellab/Trimmomatic/HEAD/LICENSE",
+    "repo_url": "https://github.com/usadellab/Trimmomatic",
+    "route": "reviewed",
+    "matched": "Trimmomatic",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "vegan": {
+    "license": "GPL-2.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://cran.r-project.org/web/packages/vegan/index.html",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "vegan",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "vsearch": {
+    "license": "GPL-3.0-or-later OR BSD-2-Clause",
+    "license_tier": "open",
+    "license_raw": "GPL-3.0-or-later OR BSD-2-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/torognes/vsearch/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/torognes/vsearch",
+    "route": "reviewed",
+    "matched": "VSEARCH",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  }
+}

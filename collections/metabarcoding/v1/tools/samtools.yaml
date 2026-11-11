@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/rhowardstone/MHASS_evaluation
 - https://github.com/OpenGene/fastp
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/rhowardstone/MHASS_evaluation
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/samtools/samtools/HEAD/LICENSE
+repo_url: https://github.com/samtools/samtools

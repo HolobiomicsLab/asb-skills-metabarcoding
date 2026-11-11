@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/tobiasgf/lulu
 - https://github.com/marinebon/eDNA_microbes_whales
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/frederic-mahe/swarm
+entry_kind: software
+license_tier: open
+license: AGPL-3.0-or-later
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/swarm
+repo_url: https://github.com/torognes/swarm

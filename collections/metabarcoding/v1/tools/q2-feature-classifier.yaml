@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/qiime2/q2-feature-classifier
 - https://github.com/BenKaehler/q2-clawback
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/devonorourke/tidybug
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/q2-feature-classifier
+repo_url: https://github.com/qiime2/q2-feature-classifier
