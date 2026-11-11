@@ -51,8 +51,10 @@ source_repos:
 - https://github.com/marinebon/eDNA_microbes_whales
 - https://github.com/nearinj/Comparison_of_DA_microbiome_methods
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/hariszaf/pema
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/marcelm/cutadapt/HEAD/LICENSE
+repo_url: https://github.com/marcelm/cutadapt

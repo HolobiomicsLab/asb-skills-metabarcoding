@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/aubreyodom/16SBenchmarking
 - https://github.com/YongxinLiu/Liu2020ProteinCell
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/aubreyodom/16SBenchmarking
+entry_kind: software
+license_tier: open
+license: GPL-3.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/BenLangmead/bowtie2/HEAD/LICENSE
+repo_url: https://github.com/BenLangmead/bowtie2

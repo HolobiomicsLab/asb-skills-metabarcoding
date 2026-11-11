@@ -11,13 +11,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "repo_url": null,
     "used_by_skills": [
       "cross-tool-performance-comparison",
       "fastq-preprocessing-benchmarking",
       "paired-end-fastq-quality-control",
       "single-thread-runtime-profiling",
       "throughput-calculation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -32,7 +37,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-feature-table-processing",
       "asv-prevalence-filtering",
@@ -52,6 +57,11 @@
       "roc-curve-computation-differential-abundance-asvs",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -62,11 +72,11 @@
       "10.1038/s41598-024-77864-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
+    "license_tier": "restricted",
     "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/mauroibz/alpha-diversities",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-metric-computation",
       "asv-count-parameterization",
@@ -84,6 +94,11 @@
       "singleton-doubleton-abundance-modeling",
       "synthetic-microbiome-abundance-generation",
       "synthetic-microbiome-feature-table-processing"
+    ],
+    "entry_kind": "vendor_product",
+    "license_evidence": "https://www.anaconda.com/legal/terms/terms-of-service",
+    "source_paper_repos": [
+      "https://github.com/mauroibz/alpha-diversities"
     ]
   },
   {
@@ -94,11 +109,11 @@
       "10.1038/s41467-020-17041-7"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+    "license_tier": "open",
+    "license": "Artistic-2.0",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/FrederickHuangLin/ANCOMBC",
     "used_by_skills": [
       "compositional-data-differential-abundance-analysis",
       "compositional-data-preprocessing",
@@ -124,6 +139,12 @@
       "residual-distribution-boxplot-visualization",
       "structural-zero-masking",
       "weighted-least-squares-variance-approximation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/ANCOMBC",
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+      "https://github.com/FrederickHuangLin/ANCOMBC"
     ]
   },
   {
@@ -138,7 +159,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-Code-Archive",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "batch-pipeline-execution-across-datasets",
@@ -156,6 +177,12 @@
       "rarefying-read-count-tables",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-Code-Archive",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -171,7 +198,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "compositional-data-differential-abundance-analysis",
@@ -190,6 +217,13 @@
       "r-package-workflow-execution",
       "rarefaction-and-prevalence-filtering-preprocessing",
       "sample-group-label-randomization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+      "https://github.com/FrederickHuangLin/ANCOM-Code-Archive",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -204,12 +238,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "repo_url": null,
     "used_by_skills": [
       "16s-amplicon-otu-clustering",
       "asv-denoising",
       "microbiome-community-visualization-phyloseq",
       "paired-end-amplicon-read-workflow-scripting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -224,7 +263,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/jfmrod/mapseq",
+    "repo_url": null,
     "used_by_skills": [
       "cross-tool-speedup-ratio-computation",
       "expected-vs-recovered-abundance-comparison",
@@ -237,6 +276,11 @@
       "reference-sensitivity-benchmarking",
       "rrna-amplicon-taxonomic-classification",
       "rrna-read-taxonomic-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/jfmrod/mapseq"
     ]
   },
   {
@@ -251,7 +295,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rhowardstone/MHASS_evaluation",
+    "repo_url": null,
     "used_by_skills": [
       "16s-amplicon-error-benchmarking",
       "amplicon-benchmark-dataset-generation",
@@ -269,6 +313,11 @@
       "per-position-indel-error-rate-quantification",
       "sequencing-runtime-profiling",
       "simulated-vs-real-read-error-profile-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rhowardstone/MHASS_evaluation"
     ]
   },
   {
@@ -283,7 +332,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-otu-clustering-parameter-tuning",
       "18s-rrna-mock-community-benchmarking",
@@ -305,6 +354,11 @@
       "swarm-clustering-parameter-tuning",
       "swarm-v2-asv-inference-parameter-tuning",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -315,11 +369,11 @@
       "10.1093/bib/bbz155"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "license_tier": "open",
+    "license": "BSD-3-Clause-LBNL",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -330,6 +384,11 @@
       "microbiome-pipeline-phase-tool-mapping",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/BioInfoTools/BBMap/HEAD/license.txt",
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -344,7 +403,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-metabarcoding-pipeline-benchmarking",
       "amplicon-read-preprocessing-and-otu-clustering",
@@ -358,6 +417,11 @@
       "otu-table-salinity-gradient-trend-analysis",
       "permanova-beta-diversity-statistics",
       "phyloseq-taxonomic-composition-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -372,11 +436,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "repo_url": null,
     "used_by_skills": [
       "best-practice-software-cataloging",
       "metagenome-contig-binning",
       "metagenomic-workflow-curation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -391,7 +460,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/biobakery",
+    "repo_url": null,
     "used_by_skills": [
       "age-category-stratified-taxa-prevalence",
       "marker-gene-based-species-quantification",
@@ -400,6 +469,12 @@
       "sgb-prevalence-estimation",
       "species-level-taxonomic-profiling",
       "unidentified-species-bin-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn",
+      "https://github.com/biobakery/biobakery"
     ]
   },
   {
@@ -414,11 +489,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/Bioinformatic-tools",
+    "repo_url": null,
     "used_by_skills": [
       "arthropod-diversity-count-summarization",
       "cross-marker-taxonomic-overlap-analysis",
       "metabarcoding-family-assignment-aggregation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/Bioinformatic-tools"
     ]
   },
   {
@@ -433,7 +513,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/terrimporter/CO1Classifier",
+    "repo_url": null,
     "used_by_skills": [
       "bootstrap-support-cutoff-derivation",
       "co1-reference-sequence-assembly",
@@ -446,6 +526,11 @@
       "reference-database-validation-against-deposit",
       "taxonomic-coverage-extrapolation",
       "taxonomic-lineage-retrieval-and-formatting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/terrimporter/CO1Classifier"
     ]
   },
   {
@@ -460,9 +545,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/Bioinformatic-tools",
+    "repo_url": null,
     "used_by_skills": [
       "publication-figure-reproduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/Bioinformatic-tools"
     ]
   },
   {
@@ -480,12 +570,24 @@
       "10.1038/s41598-020-80236-x"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "NCBI-PD",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/ncbi/ncbi-cxx-toolkit-public",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/ncbi/ncbi-cxx-toolkit-public/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s",
+      "https://github.com/a-h-b/dadasnake",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/aubreyodom/16SBenchmarking",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/terrimporter/CO1Classifier",
+      "https://github.com/vsbuffalo/scythe"
+    ]
   },
   {
     "slug": "blastn",
@@ -500,7 +602,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/lulu",
+    "repo_url": null,
     "used_by_skills": [
       "16s-metabarcoding-community-composition-analysis",
       "amplicon-metabarcoding-data-processing",
@@ -527,6 +629,12 @@
       "species-level-t-test-significance-screening",
       "taxonomic-composition-data-extraction",
       "taxonomic-redundancy-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/lulu",
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -541,11 +649,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ropensci/bold",
+    "repo_url": null,
     "used_by_skills": [
       "sintax-bootstrap-confidence-classification",
       "tar-tdr-metric-computation",
       "taxonomic-classifier-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/ropensci/bold"
     ]
   },
   {
@@ -557,17 +671,23 @@
       "10.1007/s13238-020-00724-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/aubreyodom/16SBenchmarking",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/BenLangmead/bowtie2",
     "used_by_skills": [
       "host-read-depletion-alignment",
       "kegg-orthology-functional-annotation",
       "marker-gene-taxonomic-profiling",
       "metagenomic-read-quality-control",
       "reproducible-pipeline-script-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/BenLangmead/bowtie2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/aubreyodom/16SBenchmarking"
     ]
   },
   {
@@ -582,7 +702,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "repo_url": null,
     "used_by_skills": [
       "em-based-sample-composition-inference",
       "l1-distance-compositional-comparison",
@@ -590,6 +710,11 @@
       "pearson-r2-accuracy-evaluation",
       "per-read-taxonomic-assignment-aggregation",
       "taxonomic-profile-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps"
     ]
   },
   {
@@ -604,13 +729,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aubreyodom/16SBenchmarking",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-index-computation--862b62da6cb82b3b",
       "breakaway-richness-estimation",
       "deviation-from-ground-truth-quantification",
       "mock-community-benchmark-evaluation--f16da8d3b810a7b4",
       "rarefied-count-table-diversity-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aubreyodom/16SBenchmarking"
     ]
   },
   {
@@ -621,16 +751,21 @@
       "10.1093/bioinformatics/bty560"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/lh3/bwa",
     "used_by_skills": [
       "mapping-statistics-aggregation",
       "paired-end-short-read-alignment",
       "reference-genome-indexing-and-mapping",
       "samtools-alignment-qc-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/lh3/bwa/HEAD/README.md",
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -645,7 +780,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "repo_url": null,
     "used_by_skills": [
       "adapter-fasta-file-generation",
       "fastq-adapter-sequence-auto-detection",
@@ -657,6 +792,11 @@
       "paired-end-duplication-rate-evaluation",
       "qc-report-generation",
       "sequence-prefix-hashing-duplication-estimation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -667,11 +807,11 @@
       "10.1038/nature24621"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/biocore/emp",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "biom-table-parsing-and-subsetting",
       "confusion-matrix-accuracy-computation",
@@ -679,6 +819,11 @@
       "microbiome-feature-table-rarefaction",
       "random-forest-classifier-training",
       "repeated-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/caret/index.html",
+    "source_paper_repos": [
+      "https://github.com/biocore/emp"
     ]
   },
   {
@@ -693,12 +838,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/vsbuffalo/scythe",
+    "repo_url": null,
     "used_by_skills": [
       "16s-metabarcoding-community-composition-analysis",
       "phylum-relative-abundance-tabulation",
       "silva-taxonomic-classification-interpretation",
       "taxonomic-composition-data-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -713,7 +863,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "repo_url": null,
     "used_by_skills": [
       "em-based-sample-composition-inference",
       "l1-distance-compositional-comparison",
@@ -722,6 +872,11 @@
       "per-read-taxonomic-assignment-aggregation",
       "strain-resolution-estimation",
       "taxonomic-profile-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps"
     ]
   },
   {
@@ -737,7 +892,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/MetaPhlAn",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -752,6 +907,12 @@
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection",
       "species-level-genome-binning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -766,10 +927,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/torognes/swarm",
+    "repo_url": null,
     "used_by_skills": [
       "bloom-filter-hash-storage",
       "memory-footprint-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -784,8 +950,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell"
+    ]
   },
   {
     "slug": "conda",
@@ -798,11 +969,11 @@
       "10.1007/s13238-020-00724-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/biobakery/MetaPhlAn",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/conda/conda",
     "used_by_skills": [
       "16s-mock-community-benchmarking",
       "age-category-stratified-taxa-prevalence",
@@ -832,6 +1003,14 @@
       "unidentified-species-bin-quantification",
       "usgb-richness-fraction-analysis",
       "wallclock-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/a-h-b/dadasnake",
+      "https://github.com/biobakery/MetaPhlAn",
+      "https://github.com/rhowardstone/MHASS_evaluation"
     ]
   },
   {
@@ -846,7 +1025,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "batch-pipeline-execution-across-datasets",
@@ -862,6 +1041,11 @@
       "rarefying-read-count-tables",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -876,10 +1060,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "repo_url": null,
     "used_by_skills": [
       "coi-reference-database-curation",
       "least-common-ancestor-taxonomy-resolution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug"
     ]
   },
   {
@@ -894,7 +1083,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-otu-clustering-parameter-tuning",
       "18s-rrna-mock-community-benchmarking",
@@ -914,6 +1103,11 @@
       "silva-based-taxonomic-assignment",
       "swarm-v2-asv-inference-parameter-tuning",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -929,7 +1123,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/lulu",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-correlation-against-field-survey",
       "amplicon-alpha-diversity-metric-computation",
@@ -962,6 +1156,12 @@
       "richness-correspondence-regression-analysis",
       "site-level-recaptured-species-comparison",
       "taxonomic-redundancy-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema",
+      "https://github.com/tobiasgf/lulu"
     ]
   },
   {
@@ -976,7 +1176,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s",
+    "repo_url": null,
     "used_by_skills": [
       "16s-amplicon-alignment-to-reference",
       "16s-substitution-error-modeling",
@@ -988,6 +1188,11 @@
       "pacbio-ccs-read-alignment",
       "sequencing-error-rate-estimation-by-pass-number",
       "substitution-frequency-iqr-outlier-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s"
     ]
   },
   {
@@ -1002,11 +1207,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "repo_url": null,
     "used_by_skills": [
       "coi-reference-database-curation",
       "feature-table-dimension-validation",
       "least-common-ancestor-taxonomy-resolution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug"
     ]
   },
   {
@@ -1027,11 +1237,11 @@
       "10.1038/s41467-022-28034-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/marcelm/cutadapt",
     "used_by_skills": [
       "16s-rrna-subregion-amplicon-filtering",
       "adapter-sequence-mismatch-tolerant-search",
@@ -1077,6 +1287,21 @@
       "variant-calling-from-aligned-reads",
       "variant-comparison-against-truth-set",
       "vsearch-otu-clustering-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/marcelm/cutadapt/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp",
+      "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s",
+      "https://github.com/a-h-b/dadasnake",
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/marinebon/eDNA_microbes_whales",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+      "https://github.com/terrimporter/CO1Classifier",
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -1098,11 +1323,11 @@
       "10.1038/s41598-024-77864-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/lulu",
+    "license_tier": "open",
+    "license": "LGPL",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/benjjneb/dada2",
     "used_by_skills": [
       "16s-amplicon-otu-clustering",
       "16s-amplicon-taxonomic-profiling",
@@ -1235,6 +1460,23 @@
       "taxonomic-redundancy-quantification",
       "tukey-corrected-posthoc-contrast-analysis",
       "vsearch-otu-clustering-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/benjjneb/dada2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/a-h-b/dadasnake",
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/aubreyodom/16SBenchmarking",
+      "https://github.com/benjjneb/dada2",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/mauroibz/alpha-diversities",
+      "https://github.com/tobiasgf/Bioinformatic-tools",
+      "https://github.com/tobiasgf/lulu",
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -1249,7 +1491,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/a-h-b/dadasnake",
+    "repo_url": null,
     "used_by_skills": [
       "16s-mock-community-benchmarking",
       "amplicon-read-preprocessing",
@@ -1276,6 +1518,11 @@
       "snakemake-pipeline-configuration",
       "snakemake-workflow-execution--1976dbb314b3445b",
       "wallclock-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/a-h-b/dadasnake"
     ]
   },
   {
@@ -1290,8 +1537,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell"
+    ]
   },
   {
     "slug": "dbotu3",
@@ -1305,10 +1557,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/lulu",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-alpha-diversity-metric-computation",
       "post-clustering-otu-table-curation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/lulu"
     ]
   },
   {
@@ -1322,11 +1579,11 @@
       "10.1038/s41598-024-77864-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/biocore/deblur",
     "used_by_skills": [
       "16s-genus-level-taxonomic-profiling",
       "16s-region-wise-sample-grouping",
@@ -1388,6 +1645,15 @@
       "taxonomic-assignment-genus-collapsing",
       "vsearch-global-alignment-sequence-matching",
       "vsearch-otu-clustering-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/biocore/deblur/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/biocore/emp",
+      "https://github.com/cuttlefishh/deblur",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/mauroibz/alpha-diversities",
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification"
     ]
   },
   {
@@ -1399,11 +1665,11 @@
       "10.1038/s41467-022-28034-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+    "license_tier": "open",
+    "license": "LGPL-3.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "batch-pipeline-execution-across-datasets",
@@ -1430,6 +1696,12 @@
       "residual-distribution-boxplot-visualization",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -1444,7 +1716,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -1456,6 +1728,11 @@
       "pangenome-annotation-uniref",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -1467,11 +1744,11 @@
       "10.1093/gigascience/giac066"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/moby/moby",
     "used_by_skills": [
       "18s-rrna-mock-community-benchmarking",
       "amplicon-read-preprocessing-and-otu-clustering",
@@ -1490,6 +1767,12 @@
       "snakemake-workflow-execution--239e0b7c85d6b9d6",
       "swarm-v2-asv-inference-parameter-tuning",
       "workflow-runtime-profiling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/moby/moby/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -1501,11 +1784,11 @@
       "10.1038/s41467-022-28034-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tidyverse/dplyr",
     "used_by_skills": [
       "16s-rrna-feature-table-processing",
       "clr-transformed-abundance-evaluation",
@@ -1544,6 +1827,12 @@
       "spearman-correlation-analysis",
       "structural-zero-masking",
       "weighted-least-squares-variance-approximation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/dplyr/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -1558,7 +1847,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/EasyAmplicon",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-index-computation--f6994fce2e215d51",
       "amplicon-feature-table-rarefaction",
@@ -1590,6 +1879,11 @@
       "usearch-otutab-statistics-verification",
       "vsearch-global-alignment-otu-mapping",
       "vsearch-global-alignment-parameterization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/EasyAmplicon"
     ]
   },
   {
@@ -1604,7 +1898,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/EasyMicrobiome",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-feature-table-rarefaction",
       "amplicon-read-alignment-to-reference-otus",
@@ -1619,6 +1913,12 @@
       "sintax-taxonomic-annotation",
       "usearch-otutab-statistics-verification",
       "vsearch-global-alignment-otu-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/EasyAmplicon",
+      "https://github.com/YongxinLiu/EasyMicrobiome"
     ]
   },
   {
@@ -1633,7 +1933,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/terrimporter/CO1Classifier",
+    "repo_url": null,
     "used_by_skills": [
       "co1-reference-sequence-assembly",
       "entrez-search-term-construction",
@@ -1644,6 +1944,11 @@
       "reference-database-validation-against-deposit",
       "taxonomic-coverage-extrapolation",
       "taxonomic-lineage-retrieval-and-formatting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/terrimporter/CO1Classifier"
     ]
   },
   {
@@ -1658,7 +1963,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/metabarpark/Reference-databases",
+    "repo_url": null,
     "used_by_skills": [
       "bold-c-oi-sequence-retrieval-replace",
       "coi-reference-database-formatting",
@@ -1672,6 +1977,11 @@
       "sequence-similarity-based-classification",
       "silico-pcr-primer-scanning",
       "taxonomy-table-integration-with-read-counts"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/metabarpark/Reference-databases"
     ]
   },
   {
@@ -1686,7 +1996,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/metabarpark/Reference-databases",
+    "repo_url": null,
     "used_by_skills": [
       "coi-reference-database-formatting",
       "ecotaxonomic-assignment-table-processing",
@@ -1702,6 +2012,11 @@
       "sequence-similarity-threshold-clustering",
       "silico-pcr-primer-scanning",
       "taxonomy-table-integration-with-read-counts"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/metabarpark/Reference-databases"
     ]
   },
   {
@@ -1714,11 +2029,11 @@
       "10.1038/s41467-022-28034-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "batch-pipeline-execution-across-datasets",
@@ -1745,6 +2060,13 @@
       "residual-distribution-boxplot-visualization",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/edgeR.html",
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -1759,11 +2081,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "repo_url": null,
     "used_by_skills": [
       "co-occurrence-network-edge-weight-summation",
       "ecological-network-connectivity-analysis",
       "network-metrics-verification-against-reported-values"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -1778,10 +2105,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "repo_url": null,
     "used_by_skills": [
       "cog-functional-annotation-profiling",
       "metagenomic-abundance-profile-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps"
     ]
   },
   {
@@ -1792,10 +2124,10 @@
       "10.1093/bioinformatics/bty560"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
     "repo_url": "https://github.com/OpenGene/fastp",
     "used_by_skills": [
       "adapter-fasta-file-generation",
@@ -1832,6 +2164,11 @@
       "throughput-calculation",
       "variant-calling-from-aligned-reads",
       "variant-comparison-against-truth-set"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/OpenGene/fastp/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -1846,11 +2183,11 @@
       "10.1093/bib/bbz155"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/s-andrews/FastQC",
     "used_by_skills": [
       "16s-genus-level-taxonomic-profiling",
       "16s-rrna-otu-clustering-parameter-tuning",
@@ -1897,6 +2234,16 @@
       "swarm-v2-asv-inference-parameter-tuning",
       "taxonomic-assignment-genus-collapsing",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/s-andrews/FastQC/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification",
+      "https://github.com/s-andrews/FastQC"
     ]
   },
   {
@@ -1907,14 +2254,19 @@
       "10.1038/npjbiofilms.2016.4"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/namphuon/phylo",
+    "license_tier": "open",
+    "license": "GPL",
+    "license_detection": "repository-licence-file",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/morgannprice/fasttree",
     "used_by_skills": [
       "16s-rrna-taxonomic-annotation",
       "fasttree-ml-tree-inference"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/morgannprice/fasttree/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/namphuon/phylo"
     ]
   },
   {
@@ -1929,13 +2281,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/Bioinformatic-tools",
+    "repo_url": null,
     "used_by_skills": [
       "arthropod-species-occurrence-lookup",
       "biodiversity-database-cross-referencing",
       "concordance-statistic-reproduction",
       "danish-fauna-geographic-concordance-analysis",
       "taxonomic-name-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/Bioinformatic-tools"
     ]
   },
   {
@@ -1950,10 +2307,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BenKaehler/q2-clawback",
+    "repo_url": null,
     "used_by_skills": [
       "qiita-sample-retrieval",
       "taxonomic-class-weight-generation-from-training-folds"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback"
     ]
   },
   {
@@ -1969,11 +2331,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/torognes/swarm",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-clustering-benchmarking",
       "bloom-filter-hash-storage",
       "memory-footprint-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/jfmrod/mapseq",
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -1988,9 +2356,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BenKaehler/q2-clawback",
+    "repo_url": null,
     "used_by_skills": [
       "taxonomic-class-weight-generation-from-training-folds"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback"
     ]
   },
   {
@@ -2004,11 +2377,11 @@
       "10.1002/imo2.42"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tidyverse/ggplot2",
     "used_by_skills": [
       "16s-amplicon-otu-clustering",
       "16s-rrna-feature-table-processing",
@@ -2032,6 +2405,14 @@
       "r-phyloseq-vegan-microbiome-workflow",
       "r-scripted-ordinate-visualization",
       "roc-curve-computation-differential-abundance-asvs"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/ggplot2/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/EasyAmplicon",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification"
     ]
   },
   {
@@ -2042,11 +2423,11 @@
       "10.1093/bioinformatics/btaf656"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/rhowardstone/MHASS_evaluation",
+    "license_tier": "open",
+    "license": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/git/git",
     "used_by_skills": [
       "16s-amplicon-error-benchmarking",
       "amplicon-benchmark-dataset-generation",
@@ -2060,6 +2441,11 @@
       "pearson-correlation-computation",
       "sequencing-runtime-profiling",
       "technical-replicate-variability-emulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/git/git/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/rhowardstone/MHASS_evaluation"
     ]
   },
   {
@@ -2074,9 +2460,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "repo_url": null,
     "used_by_skills": [
       "biodiversity-count-verification"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -2091,7 +2482,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/jfmrod/mapseq",
+    "repo_url": null,
     "used_by_skills": [
       "cross-tool-speedup-ratio-computation",
       "expected-vs-recovered-abundance-comparison",
@@ -2104,6 +2495,11 @@
       "reference-sensitivity-benchmarking",
       "rrna-amplicon-taxonomic-classification",
       "rrna-read-taxonomic-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/jfmrod/mapseq"
     ]
   },
   {
@@ -2118,7 +2514,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification",
+    "repo_url": null,
     "used_by_skills": [
       "16s-genus-level-taxonomic-profiling",
       "16s-region-wise-sample-grouping",
@@ -2138,6 +2534,11 @@
       "roc-curve-classifier-benchmarking",
       "sputum-microbiome-culture-concordance-check",
       "taxonomic-assignment-genus-collapsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification"
     ]
   },
   {
@@ -2152,12 +2553,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-count-table-rarefaction",
       "microbiome-library-size-normalization",
       "read-depth-threshold-filtering-16s",
       "tsv-metadata-table-handling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -2173,7 +2579,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -2189,6 +2595,12 @@
       "reference-based-taxonomic-profiling",
       "reproducible-pipeline-script-execution",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -2203,13 +2615,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/vsbuffalo/scythe",
+    "repo_url": null,
     "used_by_skills": [
       "aquaculture-microbial-biogeography",
       "beta-diversity-geographic-correlation",
       "isolation-by-distance-interpretation",
       "mantel-test-statistics-extraction",
       "structured-results-record-encoding"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -2224,7 +2641,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -2235,6 +2652,11 @@
       "microbiome-pipeline-phase-tool-mapping",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -2245,16 +2667,21 @@
       "10.1038/s41467-019-14105-1"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/igraph/igraph",
     "used_by_skills": [
       "co-occurrence-network-edge-weight-summation",
       "ecological-network-connectivity-analysis",
       "network-metrics-verification-against-reported-values",
       "subnetwork-hub-taxa-identification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/igraph/index.html",
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -2269,13 +2696,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-read-quality-filtering",
       "asv-denoising-count-summary",
       "microbiome-sequence-count-tabulation",
       "reported-results-reproduction-from-publication",
       "taxonomic-assignment-genus-collapsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification"
     ]
   },
   {
@@ -2290,7 +2722,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/scikit-learn-contrib/imbalanced-learn",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-naive-bayes-classifier-training",
       "class-weighted-species-level-error-rate-comparison",
@@ -2308,6 +2740,12 @@
       "taxonomic-classification-benchmarking",
       "taxonomy-stratum-merging-via-confidence-weighted-voting",
       "weight-divergence-linear-regression"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback",
+      "https://github.com/scikit-learn-contrib/imbalanced-learn"
     ]
   },
   {
@@ -2322,7 +2760,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/a-h-b/dadasnake",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-read-preprocessing",
       "dada2-asv-inference",
@@ -2330,6 +2768,11 @@
       "its-region-extraction-with-itsx",
       "its-region-taxonomic-classification",
       "itsx-fungal-amplicon-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/a-h-b/dadasnake"
     ]
   },
   {
@@ -2344,13 +2787,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "repo_url": null,
     "used_by_skills": [
       "cross-tool-performance-comparison",
       "fastq-preprocessing-benchmarking",
       "paired-end-fastq-quality-control",
       "single-thread-runtime-profiling",
       "throughput-calculation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -2365,13 +2813,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aomlomics/tourmaline",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-group-significance-comparison",
       "alpha-rarefaction-saturation-assessment",
       "microbial-community-richness-analysis",
       "qiime2-qzv-visualization-parsing",
       "size-fraction-metadata-stratification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aomlomics/tourmaline"
     ]
   },
   {
@@ -2382,11 +2835,11 @@
       "10.1038/s41598-024-77864-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/mauroibz/alpha-diversities",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/jupyter/notebook",
     "used_by_skills": [
       "alpha-diversity-metric-computation",
       "cross-project-cohort-subsetting-by-metadata",
@@ -2395,6 +2848,11 @@
       "qiime2-alpha-diversity-table-handling",
       "qiime2-diversity-module-execution",
       "shannon-observed-features-berger-parker-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/jupyter/notebook/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/mauroibz/alpha-diversities"
     ]
   },
   {
@@ -2409,13 +2867,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
+    "repo_url": null,
     "used_by_skills": [
       "host-read-depletion-alignment",
       "kegg-orthology-functional-annotation",
       "marker-gene-taxonomic-profiling",
       "metagenomic-read-quality-control",
       "reproducible-pipeline-script-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell"
     ]
   },
   {
@@ -2427,11 +2890,11 @@
       "10.1038/s41598-023-40799-x"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/DerrickWood/kraken2",
     "used_by_skills": [
       "16s-amplicon-taxonomic-profiling",
       "alpha-diversity-deviation-analysis",
@@ -2465,6 +2928,12 @@
       "taxonomic-profile-benchmarking",
       "taxonomic-profiler-benchmark-visualization",
       "taxonomy-rank-prefix-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/DerrickWood/kraken2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps",
+      "https://github.com/aubreyodom/16SBenchmarking"
     ]
   },
   {
@@ -2479,7 +2948,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "repo_url": null,
     "used_by_skills": [
       "em-based-composition-estimation",
       "long-read-metagenomic-read-mapping",
@@ -2487,6 +2956,11 @@
       "reference-database-mapping",
       "strain-resolution-estimation",
       "taxonomic-profile-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps"
     ]
   },
   {
@@ -2498,17 +2972,24 @@
       "10.1093/bib/bbz155"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/DerrickWood/kraken2",
     "used_by_skills": [
       "host-read-depletion-alignment",
       "kegg-orthology-functional-annotation",
       "marker-gene-taxonomic-profiling",
       "metagenomic-read-quality-control",
       "reproducible-pipeline-script-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/DerrickWood/kraken2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/DerrickWood/kraken2",
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -2523,7 +3004,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "repo_url": null,
     "used_by_skills": [
       "em-based-sample-composition-inference",
       "l1-distance-compositional-comparison",
@@ -2531,6 +3012,11 @@
       "pearson-r2-accuracy-evaluation",
       "per-read-taxonomic-assignment-aggregation",
       "taxonomic-profile-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps"
     ]
   },
   {
@@ -2545,7 +3031,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "batch-pipeline-execution-across-datasets",
@@ -2563,6 +3049,11 @@
       "rarefying-read-count-tables",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -2577,7 +3068,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "batch-pipeline-execution-across-datasets",
@@ -2593,6 +3084,11 @@
       "rarefying-read-count-tables",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -2607,7 +3103,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aubreyodom/16SBenchmarking",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-metric-comparison",
       "estimated-marginal-means-computation",
@@ -2615,6 +3111,11 @@
       "linear-mixed-effects-modeling-of-microbiome-abundances",
       "mock-community-profiler-performance-statistics",
       "tukey-corrected-posthoc-contrast-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aubreyodom/16SBenchmarking"
     ]
   },
   {
@@ -2629,7 +3130,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-metabarcoding-pipeline-benchmarking",
       "amplicon-read-preprocessing-and-otu-clustering",
@@ -2637,6 +3138,11 @@
       "otu-table-salinity-gradient-trend-analysis",
       "permanova-beta-diversity-statistics",
       "phyloseq-taxonomic-composition-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -2651,13 +3157,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aubreyodom/16SBenchmarking",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-metric-comparison",
       "estimated-marginal-means-computation",
       "linear-mixed-effects-model-fitting",
       "mock-community-profiler-performance-statistics",
       "tukey-corrected-posthoc-contrast-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aubreyodom/16SBenchmarking"
     ]
   },
   {
@@ -2669,10 +3180,10 @@
       "10.1016/j.csbj.2023.01.034"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "LGPL-3.0-only",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/tobiasgf/lulu",
     "used_by_skills": [
       "alpha-diversity-correlation-against-field-survey",
@@ -2714,6 +3225,12 @@
       "site-level-recaptured-species-comparison",
       "snakemake-workflow-execution--a90a8fe3f7320b41",
       "taxonomic-redundancy-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/LULU",
+    "source_paper_repos": [
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/tobiasgf/lulu"
     ]
   },
   {
@@ -2728,7 +3245,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "batch-pipeline-execution-across-datasets",
       "compositional-data-analysis",
@@ -2736,6 +3253,11 @@
       "prevalence-filtering-16s-count-tables",
       "rarefying-read-count-tables",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -2750,7 +3272,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/jfmrod/mapseq",
+    "repo_url": null,
     "used_by_skills": [
       "between-run-correlation-analysis",
       "classification-confidence-scoring",
@@ -2775,6 +3297,11 @@
       "rrna-amplicon-taxonomic-classification",
       "rrna-kmer-counting-with-preclustering",
       "rrna-read-taxonomic-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/jfmrod/mapseq"
     ]
   },
   {
@@ -2789,12 +3316,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/MetaPhlAn",
+    "repo_url": null,
     "used_by_skills": [
       "genome-quality-filtering-checkm",
       "mash-genome-dereplication",
       "metagenomic-marker-database-construction",
       "species-level-genome-binning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn"
     ]
   },
   {
@@ -2809,7 +3341,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marbl/MashMap",
+    "repo_url": null,
     "used_by_skills": [
       "alignment-identity-distribution-analysis",
       "alignment-identity-estimation",
@@ -2840,6 +3372,12 @@
       "strain-resolution-estimation",
       "taxonomic-profile-benchmarking",
       "winnowed-minhash-approximate-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps",
+      "https://github.com/marbl/MashMap"
     ]
   },
   {
@@ -2854,7 +3392,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -2865,6 +3403,11 @@
       "microbiome-pipeline-phase-tool-mapping",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -2880,7 +3423,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -2891,6 +3434,12 @@
       "microbiome-pipeline-phase-tool-mapping",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -2907,7 +3456,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -2929,6 +3478,13 @@
       "shotgun-metagenomics-annotation-tool-selection",
       "strain-resolution-estimation",
       "taxonomic-profile-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps",
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -2943,13 +3499,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/terrimporter/CO1Classifier",
+    "repo_url": null,
     "used_by_skills": [
       "coi-metabarcoding-primer-alignment",
       "coi-primer-anchored-sequence-trimming",
       "illumina-read-length-fragment-simulation",
       "pcr-primer-mismatch-tolerance-handling",
       "reference-database-fasta-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/terrimporter/CO1Classifier"
     ]
   },
   {
@@ -2964,7 +3525,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aitgon/vtam_benchmark",
+    "repo_url": null,
     "used_by_skills": [
       "asv-denoising-and-filtering",
       "metabarcoding-filter-parameterization",
@@ -2975,6 +3536,11 @@
       "sensitivity-precision-evaluation",
       "singularity-containerized-benchmarking",
       "snakemake-workflow-execution--a90a8fe3f7320b41"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aitgon/vtam_benchmark"
     ]
   },
   {
@@ -2989,7 +3555,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -3000,6 +3566,11 @@
       "microbiome-pipeline-phase-tool-mapping",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -3014,8 +3585,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell"
+    ]
   },
   {
     "slug": "metagenomeseq",
@@ -3030,7 +3606,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering",
       "batch-pipeline-execution-across-datasets",
@@ -3057,6 +3633,12 @@
       "residual-distribution-boxplot-visualization",
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -3071,7 +3653,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/DiltheyLab/MetaMaps",
+    "repo_url": null,
     "used_by_skills": [
       "alignment-identity-distribution-analysis",
       "alignment-identity-estimation",
@@ -3108,6 +3690,11 @@
       "strain-resolution-estimation",
       "taxonomic-profile-benchmarking",
       "winnowed-minhash-approximate-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/DiltheyLab/MetaMaps"
     ]
   },
   {
@@ -3122,7 +3709,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/MetaPhlAn",
+    "repo_url": null,
     "used_by_skills": [
       "abundance-rmse-quantification",
       "age-category-stratified-taxa-prevalence",
@@ -3159,6 +3746,11 @@
       "unidentified-species-bin-quantification",
       "usgb-marker-partial-spearman-correlation",
       "usgb-richness-fraction-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn"
     ]
   },
   {
@@ -3173,7 +3765,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/MetaPhlAn",
+    "repo_url": null,
     "used_by_skills": [
       "abundance-rmse-quantification",
       "benchmark-metrics-aggregation",
@@ -3194,6 +3786,11 @@
       "unclassified-reads-estimation",
       "usgb-marker-partial-spearman-correlation",
       "usgb-richness-fraction-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn"
     ]
   },
   {
@@ -3209,7 +3806,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -3225,6 +3822,12 @@
       "reference-based-taxonomic-profiling",
       "reproducible-pipeline-script-execution",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -3239,7 +3842,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compbiomed.github.io/metascope-docs",
+    "repo_url": null,
     "used_by_skills": [
       "16s-amplicon-taxonomic-profiling",
       "blast-output-parsing",
@@ -3250,6 +3853,12 @@
       "taxonomic-lineage-propagation",
       "taxonomic-misassignment-root-cause-analysis",
       "taxonomy-rank-prefix-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aubreyodom/16SBenchmarking",
+      "https://github.com/compbiomed.github.io/metascope-docs"
     ]
   },
   {
@@ -3264,8 +3873,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell"
+    ]
   },
   {
     "slug": "mhass",
@@ -3279,7 +3893,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rhowardstone/MHASS",
+    "repo_url": null,
     "used_by_skills": [
       "16s-amplicon-error-benchmarking",
       "amplicon-benchmark-dataset-generation",
@@ -3307,6 +3921,12 @@
       "sequencing-runtime-profiling",
       "simulated-vs-real-read-error-profile-comparison",
       "technical-replicate-variability-emulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rhowardstone/MHASS",
+      "https://github.com/rhowardstone/MHASS_evaluation"
     ]
   },
   {
@@ -3321,12 +3941,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "coi-amplicon-asv-inference",
       "coi-taxonomy-assignment-against-midori",
       "last-common-ancestor-taxonomy-assignment",
       "mock-community-species-recovery-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -3341,8 +3966,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
+    ]
   },
   {
     "slug": "mothur",
@@ -3358,11 +3988,11 @@
       "10.1093/bib/bbz155"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "GPL-3.0-or-later",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/mothur/mothur",
     "used_by_skills": [
       "16s-amplicon-otu-clustering",
       "16s-amplicon-taxonomic-classification",
@@ -3403,6 +4033,17 @@
       "species-level-classification-failure-rate-analysis",
       "wallclock-runtime-benchmarking",
       "wang-bayesian-classifier-confidence-threshold-sweep"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/mothur",
+    "source_paper_repos": [
+      "https://github.com/a-h-b/dadasnake",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/aubreyodom/16SBenchmarking",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/jfmrod/mapseq",
+      "https://github.com/namphuon/phylo"
     ]
   },
   {
@@ -3417,9 +4058,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aomlomics/tourmaline",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-qc-workflow-configuration"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aomlomics/tourmaline"
     ]
   },
   {
@@ -3434,13 +4080,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/Bioinformatic-tools",
+    "repo_url": null,
     "used_by_skills": [
       "arthropod-species-occurrence-lookup",
       "biodiversity-database-cross-referencing",
       "concordance-statistic-reproduction",
       "danish-fauna-geographic-concordance-analysis",
       "taxonomic-name-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/Bioinformatic-tools"
     ]
   },
   {
@@ -3455,8 +4106,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aitgon/vtam_benchmark",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aitgon/vtam_benchmark"
+    ]
   },
   {
     "slug": "networkx",
@@ -3466,14 +4122,19 @@
       "10.1038/s41467-019-14105-1"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/networkx/networkx",
     "used_by_skills": [
       "empirical-p-value-density-estimation",
       "time-series-co-occurrence-significance-thresholding"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/networkx/networkx/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -3484,11 +4145,11 @@
       "10.1038/s41467-020-17041-7"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+    "license_tier": "open",
+    "license": "LGPL-3.0-or-later",
+    "license_detection": "cran-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/astamm/nloptr",
     "used_by_skills": [
       "compositional-data-differential-abundance-analysis",
       "compositional-data-preprocessing",
@@ -3514,6 +4175,11 @@
       "residual-distribution-boxplot-visualization",
       "structural-zero-masking",
       "weighted-least-squares-variance-approximation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/package=nloptr",
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive"
     ]
   },
   {
@@ -3524,17 +4190,22 @@
       "10.1038/s41467-019-14105-1"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/numpy/numpy",
     "used_by_skills": [
       "edna-timeseries-data-processing",
       "empirical-p-value-density-estimation",
       "multilocus-ensemble-index-computation",
       "relative-abundance-aggregation-across-loci",
       "time-series-co-occurrence-significance-thresholding"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/numpy/numpy/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -3549,7 +4220,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/metabarpark/Reference-databases",
+    "repo_url": null,
     "used_by_skills": [
       "ecotaxonomic-assignment-table-processing",
       "edna-amplicon-read-processing",
@@ -3559,6 +4230,11 @@
       "motu-single-read-filtering",
       "obitools-command-line-workflow-execution",
       "obitools-sequence-dereplication"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/metabarpark/Reference-databases"
     ]
   },
   {
@@ -3575,7 +4251,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-otu-clustering-parameter-tuning",
       "18s-rrna-mock-community-benchmarking",
@@ -3618,6 +4294,13 @@
       "swarm-v2-asv-inference-parameter-tuning",
       "taxonomy-table-integration-with-read-counts",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/metabarpark/Reference-databases"
     ]
   },
   {
@@ -3632,7 +4315,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aitgon/vtam_benchmark",
+    "repo_url": null,
     "used_by_skills": [
       "asv-denoising-and-filtering",
       "metabarcoding-filter-parameterization",
@@ -3643,6 +4326,11 @@
       "sensitivity-precision-evaluation",
       "singularity-containerized-benchmarking",
       "snakemake-workflow-execution--a90a8fe3f7320b41"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aitgon/vtam_benchmark"
     ]
   },
   {
@@ -3657,7 +4345,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/metabarpark/Reference-databases",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-sequence-chimera-detection",
       "chimera-filtered-fasta-output-handling",
@@ -3668,6 +4356,11 @@
       "metabarcoding-pipeline-intermediate-file-handling",
       "obitools-sequence-dereplication",
       "vsearch-uchime-denovo-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/metabarpark/Reference-databases"
     ]
   },
   {
@@ -3682,13 +4375,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/MetaPhlAn",
+    "repo_url": null,
     "used_by_skills": [
       "abundance-rmse-quantification",
       "benchmark-metrics-aggregation",
       "bray-curtis-dissimilarity-computation--64ed82cb8e375b29",
       "precision-recall-f1-evaluation",
       "species-level-taxonomic-profiling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn"
     ]
   },
   {
@@ -3703,7 +4401,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s",
+    "repo_url": null,
     "used_by_skills": [
       "16s-amplicon-alignment-to-reference",
       "16s-substitution-error-modeling",
@@ -3722,6 +4420,11 @@
       "substitution-frequency-iqr-outlier-filtering",
       "substitution-frequency-profiling",
       "usearch-reference-alignment-species-assignment"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s"
     ]
   },
   {
@@ -3734,11 +4437,11 @@
       "10.1038/s41467-019-14105-1"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/aomlomics/tourmaline",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pandas-dev/pandas",
     "used_by_skills": [
       "alpha-diversity-richness-estimation",
       "amplicon-sequence-environment-specificity-analysis",
@@ -3762,6 +4465,13 @@
       "repeated-cross-validation-model-evaluation",
       "shannon-entropy-computation",
       "taxonomic-nestedness-nodf-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/biocore/emp",
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -3772,11 +4482,11 @@
       "10.1093/gigascience/giaa022"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/neufeld/pandaseq",
     "used_by_skills": [
       "16s-rrna-otu-clustering-parameter-tuning",
       "18s-rrna-mock-community-benchmarking",
@@ -3799,6 +4509,11 @@
       "swarm-clustering-parameter-tuning",
       "swarm-v2-asv-inference-parameter-tuning",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/pandaseq",
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -3813,13 +4528,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "consensus-asv-tally-across-datasets",
       "cross-tool-jaccard-distance-computation",
       "microbiome-differential-abundance-results-aggregation",
       "pcoa-ordination-of-tool-agreement",
       "r-scripted-ordinate-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -3834,7 +4554,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/namphuon/phylo",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-reference-alignment-construction",
       "16s-rrna-taxonomic-annotation",
@@ -3846,6 +4566,11 @@
       "phylogenetic-placement-of-16s-amplicon-reads",
       "phylogenetic-sequence-placement",
       "reference-tree-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/namphuon/phylo"
     ]
   },
   {
@@ -3860,7 +4585,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aubreyodom/16SBenchmarking",
+    "repo_url": null,
     "used_by_skills": [
       "16s-amplicon-taxonomic-profiling",
       "alpha-diversity-deviation-analysis",
@@ -3887,6 +4612,11 @@
       "taxonomic-misassignment-root-cause-analysis",
       "taxonomic-profiler-benchmark-visualization",
       "taxonomy-rank-prefix-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aubreyodom/16SBenchmarking"
     ]
   },
   {
@@ -3901,8 +4631,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
+    ]
   },
   {
     "slug": "pema",
@@ -3916,7 +4651,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-metabarcoding-pipeline-benchmarking",
       "16s-rrna-otu-clustering-parameter-tuning",
@@ -3949,6 +4684,11 @@
       "swarm-clustering-parameter-tuning",
       "swarm-v2-asv-inference-parameter-tuning",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -3959,11 +4699,11 @@
       "10.1038/s41598-018-22505-4"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/terrimporter/CO1Classifier",
+    "license_tier": "open",
+    "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/Perl/perl5",
     "used_by_skills": [
       "classifier-database-version-benchmarking",
       "co1-reference-sequence-assembly",
@@ -3979,6 +4719,11 @@
       "taxonomic-coverage-extrapolation",
       "taxonomic-lineage-retrieval-and-formatting",
       "taxonomic-training-set-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://dev.perl.org/licenses/",
+    "source_paper_repos": [
+      "https://github.com/terrimporter/CO1Classifier"
     ]
   },
   {
@@ -3993,12 +4738,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/Bioinformatic-tools",
+    "repo_url": null,
     "used_by_skills": [
       "arthropod-edna-community-analysis",
       "community-composition-heatmap-visualization",
       "hierarchical-average-linkage-clustering",
       "raup-crick-dissimilarity-computation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/Bioinformatic-tools"
     ]
   },
   {
@@ -4017,7 +4767,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-region-wise-sample-grouping",
       "16s-rrna-metabarcoding-pipeline-benchmarking",
@@ -4042,6 +4792,15 @@
       "r-phyloseq-analysis",
       "r-phyloseq-vegan-microbiome-workflow",
       "taxonomic-rank-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification"
     ]
   },
   {
@@ -4056,13 +4815,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biocore/emp",
+    "repo_url": null,
     "used_by_skills": [
       "16s-copy-number-normalization",
       "abundance-weighted-community-metric-computation",
       "density-distribution-visualization",
       "environment-ontology-stratification",
       "picrust-functional-prediction-from-amplicon-data"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biocore/emp"
     ]
   },
   {
@@ -4073,16 +4837,22 @@
       "10.1007/s13238-020-00724-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
     "repo_url": "https://github.com/picrust/picrust2",
     "used_by_skills": [
       "16s-rdna-functional-profiling",
       "kegg-pathway-abundance-estimation",
       "otu-asv-table-import",
       "picrust2-metagenome-prediction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/picrust2",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/picrust/picrust2"
     ]
   },
   {
@@ -4093,11 +4863,11 @@
       "10.1038/npjbiofilms.2016.4"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/namphuon/phylo",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/matsen/pplacer",
     "used_by_skills": [
       "16s-otu-compactness-analysis",
       "16s-rrna-taxonomic-annotation",
@@ -4108,6 +4878,11 @@
       "phylogenetic-placement-of-16s-amplicon-reads",
       "phylogenetic-sequence-placement",
       "reference-tree-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/pplacer",
+    "source_paper_repos": [
+      "https://github.com/namphuon/phylo"
     ]
   },
   {
@@ -4118,17 +4893,22 @@
       "10.1093/bib/bbz155"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/hyattpd/Prodigal",
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
       "metagenomic-workflow-curation",
       "microbiome-pipeline-phase-tool-mapping",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/hyattpd/Prodigal/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -4140,11 +4920,11 @@
       "10.1093/bib/bbz155"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tseemann/prokka",
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -4155,6 +4935,12 @@
       "microbiome-pipeline-phase-tool-mapping",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/prokka",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -4170,11 +4956,11 @@
       "10.1038/s41467-019-14105-1"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/aitgon/vtam",
+    "license_tier": "open",
+    "license": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/python/cpython",
     "used_by_skills": [
       "16s-amplicon-error-benchmarking",
       "16s-copy-number-normalization",
@@ -4314,6 +5100,18 @@
       "vsearch-global-alignment-sequence-matching",
       "vtam-command-line-filtering",
       "vtam-pipeline-reimplementation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp",
+      "https://github.com/aitgon/vtam",
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/biocore/emp",
+      "https://github.com/marinebon/eDNA_microbes_whales",
+      "https://github.com/rhowardstone/MHASS",
+      "https://github.com/rhowardstone/MHASS_evaluation"
     ]
   },
   {
@@ -4328,7 +5126,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BenKaehler/q2-clawback",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-naive-bayes-classifier-training",
       "amplicon-read-count-aggregation",
@@ -4356,6 +5154,11 @@
       "taxonomic-distance-computation",
       "taxonomy-stratum-merging-via-confidence-weighted-voting",
       "weight-divergence-linear-regression"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback"
     ]
   },
   {
@@ -4367,11 +5170,11 @@
       "10.1038/s41467-019-12669-6"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/qiime2/q2-feature-classifier",
     "used_by_skills": [
       "amplicon-naive-bayes-classifier-training",
       "amplicon-read-count-aggregation",
@@ -4397,6 +5200,13 @@
       "taxonomic-classifier-benchmarking",
       "taxonomic-distance-computation",
       "weight-divergence-linear-regression"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/q2-feature-classifier",
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/qiime2/q2-feature-classifier"
     ]
   },
   {
@@ -4411,7 +5221,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aomlomics/tourmaline",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-beta-diversity-analysis",
       "amplicon-sequence-denoising-dada2",
@@ -4430,6 +5240,11 @@
       "snakemake-workflow-execution--239e0b7c85d6b9d6",
       "taxonomic-classification-assignment",
       "unifrac-ordination-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aomlomics/tourmaline"
     ]
   },
   {
@@ -4449,11 +5264,11 @@
       "10.1002/imo2.42"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/qiime2/qiime2",
     "used_by_skills": [
       "16s-amplicon-taxonomic-profiling",
       "16s-genus-level-taxonomic-profiling",
@@ -4581,6 +5396,20 @@
       "vsearch-otu-clustering-execution",
       "weight-divergence-linear-regression",
       "workflow-runtime-profiling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/qiime2/qiime2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback",
+      "https://github.com/YongxinLiu/EasyAmplicon",
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/aubreyodom/16SBenchmarking",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/mauroibz/alpha-diversities",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification"
     ]
   },
   {
@@ -4598,7 +5427,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/lulu",
+    "repo_url": null,
     "used_by_skills": [
       "16s-otu-compactness-analysis",
       "16s-otu-dissimilarity-metric-comparison",
@@ -4615,6 +5444,14 @@
       "reference-tree-construction",
       "representative-sequence-dissimilarity-profiling",
       "representative-vs-member-taxonomy-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biocore/emp",
+      "https://github.com/jfmrod/mapseq",
+      "https://github.com/namphuon/phylo",
+      "https://github.com/tobiasgf/lulu"
     ]
   },
   {
@@ -4629,10 +5466,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "repo_url": null,
     "used_by_skills": [
       "coi-reference-database-curation",
       "least-common-ancestor-taxonomy-resolution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug"
     ]
   },
   {
@@ -4647,7 +5489,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biocore/emp",
+    "repo_url": null,
     "used_by_skills": [
       "16s-copy-number-normalization",
       "16s-v4-read-trimming",
@@ -4664,6 +5506,11 @@
       "rarefaction-normalization-of-16s-counts",
       "sample-depth-filtering-and-rarefaction",
       "shannon-entropy-computation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biocore/emp"
     ]
   },
   {
@@ -4675,11 +5522,11 @@
       "10.1038/s41598-024-77864-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/biocore/emp",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/qiime2/qiime2",
     "used_by_skills": [
       "16s-v4-read-trimming",
       "alpha-diversity-richness-estimation",
@@ -4701,6 +5548,12 @@
       "singleton-doubleton-abundance-modeling",
       "synthetic-microbiome-abundance-generation",
       "synthetic-microbiome-feature-table-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/qiime2/qiime2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/biocore/emp",
+      "https://github.com/mauroibz/alpha-diversities"
     ]
   },
   {
@@ -4715,12 +5568,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "repo_url": null,
     "used_by_skills": [
       "feature-table-low-abundance-filtering",
       "library-specific-artifact-count-scaling",
       "mock-community-abundance-filtering",
       "unexpected-sequence-variant-removal"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug"
     ]
   },
   {
@@ -4739,11 +5597,11 @@
       "10.1038/s41598-017-17150-2"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/lulu",
+    "license_tier": "open",
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "16s-region-wise-sample-grouping",
       "alpha-diversity-correlation-against-field-survey",
@@ -4847,6 +5705,21 @@
       "unexpected-sequence-variant-removal",
       "vegan-community-ecology-analysis",
       "weighted-least-squares-variance-approximation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://www.r-project.org/Licenses/",
+    "source_paper_repos": [
+      "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive",
+      "https://github.com/FrederickHuangLin/ANCOMBC",
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/biocore/emp",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/github.com/metabarpark",
+      "https://github.com/marinebon/eDNA_microbes_whales",
+      "https://github.com/metabarpark/Reference-databases",
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification",
+      "https://github.com/tobiasgf/Bioinformatic-tools",
+      "https://github.com/tobiasgf/lulu"
     ]
   },
   {
@@ -4861,10 +5734,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biocore/emp",
+    "repo_url": null,
     "used_by_skills": [
       "random-forest-classifier-training",
       "repeated-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biocore/emp"
     ]
   },
   {
@@ -4879,11 +5757,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/namphuon/phylo",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-taxonomic-annotation",
       "phylogenetic-sequence-placement",
       "reference-tree-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/namphuon/phylo"
     ]
   },
   {
@@ -4901,7 +5784,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s",
+    "repo_url": null,
     "used_by_skills": [
       "blast-top-hit-search-criteria",
       "bootstrap-support-cutoff-derivation",
@@ -4922,6 +5805,14 @@
       "taxonomic-assignment-accuracy-evaluation",
       "taxonomic-sequence-classification",
       "taxonomic-training-set-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s",
+      "https://github.com/jfmrod/mapseq",
+      "https://github.com/namphuon/phylo",
+      "https://github.com/terrimporter/CO1Classifier"
     ]
   },
   {
@@ -4936,7 +5827,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "coi-amplicon-asv-inference",
       "coi-taxonomy-assignment-against-midori",
@@ -4945,6 +5836,11 @@
       "marker-gene-taxonomy-assignment-configuration",
       "mock-community-species-recovery-evaluation",
       "swarm-clustering-parameter-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -4959,7 +5855,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biocore/redbiom",
+    "repo_url": null,
     "used_by_skills": [
       "16s-copy-number-normalization",
       "16s-v4-read-trimming",
@@ -4987,6 +5883,12 @@
       "reference-database-preprocessing",
       "species-level-error-rate-evaluation",
       "stratified-fold-partitioning-of-reference-sequences"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback",
+      "https://github.com/biocore/redbiom"
     ]
   },
   {
@@ -5001,12 +5903,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-feature-table-processing",
       "clr-transformed-abundance-evaluation",
       "differential-abundance-testing-microbiome",
       "roc-curve-computation-differential-abundance-asvs"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -5021,9 +5928,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "asv-prevalence-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -5038,7 +5950,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-count-table-rarefaction",
       "asv-prevalence-filtering",
@@ -5054,6 +5966,11 @@
       "sample-group-label-randomization",
       "significant-feature-tabulation-per-tool",
       "tsv-metadata-table-handling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -5068,8 +5985,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell"
+    ]
   },
   {
     "slug": "samtools",
@@ -5080,16 +6002,22 @@
       "10.1093/bioinformatics/bty560"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/rhowardstone/MHASS_evaluation",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/samtools/samtools",
     "used_by_skills": [
       "mapping-statistics-aggregation",
       "paired-end-short-read-alignment",
       "reference-genome-indexing-and-mapping",
       "samtools-alignment-qc-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/samtools/samtools/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp",
+      "https://github.com/rhowardstone/MHASS_evaluation"
     ]
   },
   {
@@ -5100,11 +6028,11 @@
       "10.1038/s41467-019-12669-6"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/BenKaehler/q2-clawback",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
     "used_by_skills": [
       "amplicon-naive-bayes-classifier-training",
       "amplicon-sequence-variant-fetching-via-redbiom",
@@ -5129,6 +6057,11 @@
       "taxonomic-distance-computation",
       "taxonomy-stratum-merging-via-confidence-weighted-voting",
       "weight-divergence-linear-regression"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback"
     ]
   },
   {
@@ -5139,11 +6072,11 @@
       "10.1038/s41467-019-14105-1"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scipy/scipy",
     "used_by_skills": [
       "empirical-p-value-density-estimation",
       "marine-environmental-time-series-analysis",
@@ -5151,6 +6084,11 @@
       "subnetwork-environment-correlation-analysis",
       "time-series-co-occurrence-significance-thresholding",
       "wgcna-module-richness-characterization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scipy/scipy/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -5165,12 +6103,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/vsbuffalo/scythe",
+    "repo_url": null,
     "used_by_skills": [
       "adapter-contaminant-trimming",
       "naive-bayes-contamination-classification",
       "otu-taxonomic-classification-mapping",
       "taxonomic-composition-data-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -5181,11 +6124,11 @@
       "10.1038/npjbiofilms.2016.4"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/namphuon/phylo",
+    "license_tier": "open",
+    "license": "GPL-3.0-or-later",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/smirarab/sepp",
     "used_by_skills": [
       "16s-otu-compactness-analysis",
       "16s-rrna-taxonomic-annotation",
@@ -5197,6 +6140,11 @@
       "phylogenetic-placement-of-16s-amplicon-reads",
       "phylogenetic-sequence-placement",
       "reference-tree-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/sepp",
+    "source_paper_repos": [
+      "https://github.com/namphuon/phylo"
     ]
   },
   {
@@ -5211,10 +6159,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "repo_url": null,
     "used_by_skills": [
       "coi-reference-database-curation",
       "least-common-ancestor-taxonomy-resolution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug"
     ]
   },
   {
@@ -5229,9 +6182,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BenKaehler/q2-clawback",
+    "repo_url": null,
     "used_by_skills": [
       "taxonomic-class-weight-generation-from-training-folds"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BenKaehler/q2-clawback"
     ]
   },
   {
@@ -5246,7 +6204,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+    "repo_url": null,
     "used_by_skills": [
       "16s-metabarcoding-community-composition-analysis",
       "adapter-contaminant-trimming",
@@ -5264,6 +6222,11 @@
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection",
       "taxonomic-composition-data-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview"
     ]
   },
   {
@@ -5278,11 +6241,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "18s-rrna-mock-community-benchmarking",
       "last-common-ancestor-taxonomy-assignment",
       "silva-based-taxonomic-assignment"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -5299,9 +6267,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "silva-based-taxonomic-assignment"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -5316,7 +6291,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/vsbuffalo/scythe",
+    "repo_url": null,
     "used_by_skills": [
       "16s-metabarcoding-community-composition-analysis",
       "alpha-diversity-index-interpretation",
@@ -5333,6 +6308,11 @@
       "species-level-t-test-significance-screening",
       "species-occurrence-count-extraction",
       "taxonomic-composition-data-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -5347,12 +6327,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/vsbuffalo/scythe",
+    "repo_url": null,
     "used_by_skills": [
       "16s-metabarcoding-community-composition-analysis",
       "phylum-relative-abundance-tabulation",
       "silva-taxonomic-classification-interpretation",
       "taxonomic-composition-data-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -5364,11 +6349,11 @@
       "10.1016/j.csbj.2023.01.034"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "BSD-3-Clause AND BSD-3-Clause-LBNL",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sylabs/singularity",
     "used_by_skills": [
       "bds-workflow-scripting",
       "docker-singularity-containerization",
@@ -5379,6 +6364,12 @@
       "runtime-memory-profiling",
       "singularity-containerized-benchmarking",
       "snakemake-workflow-execution--a90a8fe3f7320b41"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/sylabs/singularity/HEAD/LICENSE.md",
+    "source_paper_repos": [
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -5391,11 +6382,11 @@
       "10.1093/gigascience/giac066"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/aitgon/vtam_benchmark",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/snakemake/snakemake",
     "used_by_skills": [
       "alpha-beta-diversity-analysis",
       "amplicon-dada2-truncation-parameter-optimization",
@@ -5436,6 +6427,13 @@
       "unifrac-ordination-visualization",
       "wallclock-runtime-benchmarking",
       "workflow-runtime-profiling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/snakemake/snakemake/HEAD/LICENSE.md",
+    "source_paper_repos": [
+      "https://github.com/a-h-b/dadasnake",
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/aomlomics/tourmaline"
     ]
   },
   {
@@ -5450,7 +6448,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "repo_url": null,
     "used_by_skills": [
       "adapter-trimming-configuration",
       "cross-tool-performance-comparison",
@@ -5463,6 +6461,11 @@
       "throughput-calculation",
       "variant-calling-from-aligned-reads",
       "variant-comparison-against-truth-set"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -5477,11 +6480,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/torognes/swarm",
+    "repo_url": null,
     "used_by_skills": [
       "cpp-static-code-quality-analysis",
       "reproducible-software-evaluation",
       "software-version-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -5494,11 +6502,11 @@
       "10.1038/s41598-020-80236-x"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/ablab/spades",
     "used_by_skills": [
       "amplicon-otu-asv-method-differentiation",
       "best-practice-software-cataloging",
@@ -5509,6 +6517,13 @@
       "microbiome-pipeline-phase-tool-mapping",
       "reference-based-taxonomic-profiling",
       "shotgun-metagenomics-annotation-tool-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/ablab/spades/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -5523,7 +6538,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "repo_url": null,
     "used_by_skills": [
       "adapter-trimming-configuration",
       "fastq-quality-control-reporting",
@@ -5531,6 +6546,11 @@
       "sliding-window-quality-pruning",
       "variant-calling-from-aligned-reads",
       "variant-comparison-against-truth-set"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -5545,7 +6565,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ncbi/sra-tools",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-metric-computation",
       "chao1-richness-estimation",
@@ -5553,6 +6573,12 @@
       "non-rarefied-diversity-calculation",
       "parametric-count-distribution-sampling",
       "qiime2-alpha-diversity-table-handling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/mauroibz/alpha-diversities",
+      "https://github.com/ncbi/sra-tools"
     ]
   },
   {
@@ -5567,12 +6593,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "repo_url": null,
     "used_by_skills": [
       "benjamini-hochberg-fdr-multiple-testing-correction",
       "compositional-data-clr-transformation",
       "empirical-p-value-density-estimation",
       "time-series-co-occurrence-significance-thresholding"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -5587,7 +6618,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/MetaPhlAn",
+    "repo_url": null,
     "used_by_skills": [
       "cross-sample-strain-tracking",
       "marker-gene-based-species-quantification",
@@ -5595,6 +6626,11 @@
       "strain-level-phylogeny-reconstruction",
       "strain-sharing-transmission-analysis",
       "uncharacterized-species-strain-profiling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn"
     ]
   },
   {
@@ -5609,7 +6645,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/metabarpark/Reference-databases",
+    "repo_url": null,
     "used_by_skills": [
       "dereplicated-amplicon-sequence-processing",
       "ecological-diversity-hypothesis-testing",
@@ -5634,6 +6670,11 @@
       "shark-motu-richness-visualization",
       "species-accumulation-curve-estimation--976e8de55df18698",
       "vegan-community-ecology-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/metabarpark/Reference-databases"
     ]
   },
   {
@@ -5649,7 +6690,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-rrna-otu-clustering-parameter-tuning",
       "18s-rrna-mock-community-benchmarking",
@@ -5668,6 +6709,12 @@
       "swarm-clustering-parameter-tuning",
       "swarm-v2-asv-inference-parameter-tuning",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema",
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -5682,7 +6729,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/torognes/swarm",
+    "repo_url": null,
     "used_by_skills": [
       "amplicon-clustering-benchmarking",
       "amplicon-otu-clustering",
@@ -5700,6 +6747,11 @@
       "software-version-comparison",
       "swarm-local-threshold-clustering",
       "wall-clock-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -5711,11 +6763,11 @@
       "10.1038/s41467-019-14105-1"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/frederic-mahe/swarm",
+    "license_tier": "open",
+    "license": "AGPL-3.0-or-later",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/torognes/swarm",
     "used_by_skills": [
       "alpha-diversity-correlation-against-field-survey",
       "amplicon-alpha-diversity-metric-computation",
@@ -5743,6 +6795,14 @@
       "richness-correspondence-regression-analysis",
       "site-level-recaptured-species-comparison",
       "taxonomic-redundancy-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/swarm",
+    "source_paper_repos": [
+      "https://github.com/frederic-mahe/swarm",
+      "https://github.com/marinebon/eDNA_microbes_whales",
+      "https://github.com/tobiasgf/lulu",
+      "https://github.com/torognes/swarm"
     ]
   },
   {
@@ -5754,11 +6814,11 @@
       "10.1038/s41467-022-28034-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/devonorourke/tidybug",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tidyverse/tidyverse",
     "used_by_skills": [
       "amplicon-sequence-denoising",
       "feature-table-low-abundance-filtering",
@@ -5769,6 +6829,12 @@
       "mock-community-abundance-filtering",
       "rarefaction-based-depth-standardization",
       "unexpected-sequence-variant-removal"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/tidyverse/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods"
     ]
   },
   {
@@ -5783,7 +6849,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/Bioinformatic-tools",
+    "repo_url": null,
     "used_by_skills": [
       "coi-16s-amplicon-bioinformatics",
       "community-dominance-analysis",
@@ -5793,6 +6859,11 @@
       "metabarcoding-family-assignment-aggregation",
       "motu-read-count-summarization",
       "pcr-replicate-filtering"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/tobiasgf/Bioinformatic-tools"
     ]
   },
   {
@@ -5803,10 +6874,10 @@
       "10.1093/gigascience/giac066"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/aomlomics/tourmaline",
     "used_by_skills": [
       "alpha-beta-diversity-analysis",
@@ -5838,6 +6909,11 @@
       "taxonomic-classification-assignment",
       "unifrac-ordination-visualization",
       "workflow-runtime-profiling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/tourmaline",
+    "source_paper_repos": [
+      "https://github.com/aomlomics/tourmaline"
     ]
   },
   {
@@ -5851,11 +6927,11 @@
       "10.1093/bib/bbz155"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/usadellab/Trimmomatic",
     "used_by_skills": [
       "16s-rrna-otu-clustering-parameter-tuning",
       "18s-rrna-mock-community-benchmarking",
@@ -5910,6 +6986,14 @@
       "variant-calling-from-aligned-reads",
       "variant-comparison-against-truth-set",
       "vsearch-otu-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/usadellab/Trimmomatic/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp",
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/grimmlab/MicrobiomeBestPracticeReview",
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -5924,8 +7008,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/metabarpark/Reference-databases",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/metabarpark/Reference-databases"
+    ]
   },
   {
     "slug": "umi-tools",
@@ -5939,12 +7028,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "repo_url": null,
     "used_by_skills": [
       "execution-time-profiling",
       "fastq-preprocessing-benchmarking",
       "fastq-umi-shifting-preprocessing",
       "throughput-calculation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -5959,12 +7053,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/OpenGene/fastp",
+    "repo_url": null,
     "used_by_skills": [
       "execution-time-profiling",
       "fastq-preprocessing-benchmarking",
       "fastq-umi-shifting-preprocessing",
       "throughput-calculation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/OpenGene/fastp"
     ]
   },
   {
@@ -5979,13 +7078,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/biobakery/uniref_annotator",
+    "repo_url": null,
     "used_by_skills": [
       "genome-quality-filtering-checkm",
       "mash-genome-dereplication",
       "metagenomic-marker-database-construction",
       "pangenome-annotation-uniref",
       "species-level-genome-binning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/biobakery/MetaPhlAn",
+      "https://github.com/biobakery/uniref_annotator"
     ]
   },
   {
@@ -6000,10 +7105,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "fungal-taxonomy-assignment-against-unite",
       "its-mock-community-metabarcoding-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hariszaf/pema"
     ]
   },
   {
@@ -6023,7 +7133,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hariszaf/pema",
+    "repo_url": null,
     "used_by_skills": [
       "16s-subregion-similarity-thresholding",
       "alpha-diversity-index-computation--f6994fce2e215d51",
@@ -6053,6 +7163,16 @@
       "usearch-reference-alignment-species-assignment",
       "vsearch-global-alignment-otu-mapping",
       "vsearch-global-alignment-parameterization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/TheJacksonLaboratory/weinstock_full_length_16s",
+      "https://github.com/YongxinLiu/EasyAmplicon",
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/jfmrod/mapseq",
+      "https://github.com/namphuon/phylo"
     ]
   },
   {
@@ -6071,11 +7191,11 @@
       "10.1038/s41467-022-28034-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/Bioinformatic-tools",
+    "license_tier": "open",
+    "license": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "16s-region-wise-sample-grouping",
       "alpha-diversity-group-comparison",
@@ -6135,6 +7255,19 @@
       "species-accumulation-curve-estimation--976e8de55df18698",
       "species-accumulation-curve-estimation--bf5c05566b535cc3",
       "vegan-community-ecology-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/vegan/index.html",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/a-h-b/dadasnake",
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/aubreyodom/16SBenchmarking",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/metabarpark/Reference-databases",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+      "https://github.com/ruben-aladid/-Hypervariable-regions-of-16S-rRNA-with-the-highest-resolving-power-for-taxonomic-identification",
+      "https://github.com/tobiasgf/Bioinformatic-tools"
     ]
   },
   {
@@ -6149,10 +7282,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/torognes/vsearch",
+    "repo_url": null,
     "used_by_skills": [
       "sintax-bootstrap-confidence-classification",
       "taxonomic-classifier-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/torognes/vsearch"
     ]
   },
   {
@@ -6175,11 +7314,11 @@
       "10.1002/imo2.42"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/tobiasgf/lulu",
+    "license_tier": "open",
+    "license": "GPL-3.0-or-later OR BSD-2-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/torognes/vsearch",
     "used_by_skills": [
       "16s-rrna-otu-clustering-parameter-tuning",
       "18s-rrna-mock-community-benchmarking",
@@ -6271,6 +7410,25 @@
       "vsearch-global-alignment-sequence-matching",
       "vsearch-otu-clustering",
       "vsearch-otu-clustering-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/torognes/vsearch/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/EasyAmplicon",
+      "https://github.com/YongxinLiu/Liu2020ProteinCell",
+      "https://github.com/aitgon/vtam",
+      "https://github.com/aitgon/vtam_benchmark",
+      "https://github.com/aomlomics/tourmaline",
+      "https://github.com/biocore/emp",
+      "https://github.com/devonorourke/tidybug",
+      "https://github.com/hariszaf/pema",
+      "https://github.com/jfmrod/mapseq",
+      "https://github.com/marinebon/eDNA_microbes_whales",
+      "https://github.com/metabarpark/Reference-databases",
+      "https://github.com/nearinj/Comparison_of_DA_microbiome_methods",
+      "https://github.com/tobiasgf/lulu",
+      "https://github.com/torognes/swarm",
+      "https://github.com/torognes/vsearch"
     ]
   },
   {
@@ -6285,7 +7443,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/aitgon/vtam",
+    "repo_url": null,
     "used_by_skills": [
       "asv-chimera-detection",
       "asv-denoising-and-filtering",
@@ -6321,6 +7479,12 @@
       "technical-replicate-occurrence-filtering",
       "vtam-command-line-filtering",
       "vtam-pipeline-reimplementation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/aitgon/vtam",
+      "https://github.com/aitgon/vtam_benchmark"
     ]
   },
   {
@@ -6335,12 +7499,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "repo_url": null,
     "used_by_skills": [
       "dynamic-tree-cut-module-detection",
       "gene-coexpression-network-inference",
       "soft-threshold-scale-free-topology-fitting",
       "topological-overlap-matrix-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -6355,13 +7524,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/marinebon/eDNA_microbes_whales",
+    "repo_url": null,
     "used_by_skills": [
       "marine-environmental-time-series-analysis",
       "reported-statistic-reproduction-verification",
       "seasonal-subnetwork-annotation",
       "subnetwork-environment-correlation-analysis",
       "wgcna-module-richness-characterization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/marinebon/eDNA_microbes_whales"
     ]
   },
   {
@@ -6376,7 +7550,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/vsbuffalo/scythe",
+    "repo_url": null,
     "used_by_skills": [
       "aquaculture-microbial-biogeography",
       "beta-diversity-geographic-correlation",
@@ -6386,6 +7560,11 @@
       "otu-taxonomic-classification-mapping",
       "sem-and-pvalue-tabular-reporting",
       "species-level-t-test-significance-screening"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -6400,13 +7579,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/vsbuffalo/scythe",
+    "repo_url": null,
     "used_by_skills": [
       "aquaculture-microbial-biogeography",
       "beta-diversity-geographic-correlation",
       "isolation-by-distance-interpretation",
       "mantel-test-statistics-extraction",
       "structured-results-record-encoding"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/vsbuffalo/scythe"
     ]
   },
   {
@@ -6421,7 +7605,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YongxinLiu/Liu2020ProteinCell",
+    "repo_url": null,
     "used_by_skills": [
       "alpha-diversity-group-comparison",
       "beta-diversity-ordination-pcoa",
@@ -6433,6 +7617,11 @@
       "paired-end-read-merging--ab17ce572e203e05",
       "reproducible-pipeline-script-execution",
       "sequence-quality-filtering"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YongxinLiu/Liu2020ProteinCell"
     ]
   }
 ]

@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/compbiomed.github.io/metascope-docs
 - https://github.com/aubreyodom/16SBenchmarking
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/compbiomed.github.io/metascope-docs
+license_evidence: null
+repo_url: null
