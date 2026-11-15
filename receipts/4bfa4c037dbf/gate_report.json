@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-14T21:15:17.938603+00:00",
+  "generated_at": "2026-11-15T16:42:51.999861+00:00",
   "collection_dir": "collections/metabarcoding/v1",
   "corpus_path": "collections/metabarcoding/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "255b77cd084cc5ef7e669775f077b459ab84b853b0acbc0ff672ddd6db03b80c",
+      "sha256": "48079a5640399d8e24051457c567088c07021f422bf2e647795fc92acc034ed2",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -67,8 +67,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2545,
-          "sha256": "8b48c8f74c36e4e08461afb3fb5d544c8ed0d4e0576354574b5ce2339d548396"
+          "bytes": 2698,
+          "sha256": "1863d54323f0ea678c0fc924ff47906e733405698aa2a29eeaf633d51ee6618c"
         },
         {
           "path": "CITATION.cff",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/report_issue.py",
-          "bytes": 44558,
-          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+          "bytes": 44518,
+          "sha256": "fc5f56dc586aa6bb28d4930ce4170204633cdcc0f70ade2221b3c1db79ae5d4d"
         },
         {
           "path": "bin/search_skills.py",
@@ -7350,8 +7350,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 4304,
-          "sha256": "c650050a09cbfe900542252f1f2912c6a62f7fa377fdda8af1cebd8ef9ff0424"
+          "bytes": 4296,
+          "sha256": "f94786029eb97ac13dc7826719d2a079bec37f6af7af32e61f7a966c89423efa"
         },
         {
           "path": "skills_index.json",
@@ -8397,8 +8397,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 4741,
-          "sha256": "9bce096aa8a03644dc1fe89f936fefc97d47ff85336b6e23b2ca34e50fd06039"
+          "bytes": 4733,
+          "sha256": "6816a847ff4523760f31755a79597e6322774a80aacd7811ffa75dc27eed6f61"
         },
         {
           "path": "workflows/amplicon-asv-taxonomy-diversity",
@@ -8831,5 +8831,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "b51c814ffecd0ab9f4227d3bfe6028e290b66b213d566e4c067719a87aec0327"
+  "receipt_sha256": "699ae6b2b2aeb162ca0b545d90180d18b1b15a2b802d42f1feb5101c794b61ab"
 }
